@@ -7,6 +7,8 @@ Attribute VB_GlobalNameSpace = False
 Attribute VB_Creatable = False
 Attribute VB_PredeclaredId = False
 Attribute VB_Exposed = False
+Option Explicit
+
 'Copyright (c) 2013 Peter F. Ennis
 'This library is free software; you can redistribute it and/or
 'modify it under the terms of the GNU Lesser General Public
@@ -20,7 +22,6 @@ Attribute VB_Exposed = False
 'License along with this library; if not, visit
 'http://www.gnu.org/licenses/lgpl-3.0.txt
 
-Option Explicit
 
 '=======================================================================
 ' Author:   Peter F. Ennis
@@ -206,6 +207,7 @@ Private Function aeDocumentTheExcelCode(Optional varDebug As Variant) As Boolean
 End Function
 
 Private Sub ImportModules()
+
     Dim wkbTarget As Excel.Workbook
     Dim objFSO As Scripting.FileSystemObject
     Dim objFile As Scripting.File
@@ -263,6 +265,7 @@ Private Sub ImportModules()
     Next objFile
 
     MsgBox "Import is ready"
+
 End Sub
 
 Private Function FolderWithVBAProjectFiles() As String
@@ -307,6 +310,7 @@ Private Function FolderWithVBAProjectFiles() As String
 End Function
 
 Private Function DeleteVBAModulesAndUserForms()
+
     Dim VBProj As VBIDE.VBProject
     Dim VBComp As VBIDE.VBComponent
 
@@ -319,7 +323,6 @@ Private Function DeleteVBAModulesAndUserForms()
             VBProj.VBComponents.Remove VBComp
         End If
     Next VBComp
+
 End Function
-
-
 
