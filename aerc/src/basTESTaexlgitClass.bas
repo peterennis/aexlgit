@@ -16,11 +16,17 @@ Option Explicit
 '
 
 Public Function MYXLPROJECT_TEST()
-    aexlgitClassTest
-    'aexlgitClassTest ("debug")
+    'aexlgitClassTest
+    aexlgitClassTest "debug"
 End Function
 
 Private Function aexlgitClassTest(Optional Debugit As Variant) As Boolean
+
+    ' Use a call stack and global error handler
+    'If gcfHandleErrors Then On Error GoTo PROC_ERR
+    'PushCallStack "aexlgitClassTest"
+
+    On Error GoTo PROC_ERR
 
     Dim oXlObjects As aexlgitClass
     Set oXlObjects = New aexlgitClass
@@ -47,5 +53,20 @@ Test1:
     End If
     Debug.Print "^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^"
     Debug.Print
+
+PROC_EXIT:
+    'PopCallStack
+    Exit Function
+
+PROC_ERR:
+    If Err = 1004 Then ' VBA Project Not Trusted - "Programmatic access to the Visual Basic Project is not trusted..."
+        MsgBox "VBA Project Not Trusted", vbCritical, "aexlgitClassTest"
+        Stop
+        'Resume PROC_EXIT
+    Else
+        MsgBox "Erl=" & Erl & " Error " & Err.Number & " (" & Err.Description & ") in procedure aexlgitClassTest of Module basTESTaexlgitClass"
+        'GlobalErrHandler
+        Resume PROC_EXIT
+    End If
 
 End Function

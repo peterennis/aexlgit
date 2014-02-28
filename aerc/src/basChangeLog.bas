@@ -1,6 +1,8 @@
 Attribute VB_Name = "basChangeLog"
 Option Explicit
 
+'20140228 - v005 - Bump
+    ' VBA project not trusted - set trusted location and developer macros
 '20130920 - v004 - Add comment on Sheet1 and ThisWorkbook
 '20130711 - v003 - Code moved to aexlgitClass
 '20130711 - v002 - Reorganizing, add old xla comment history

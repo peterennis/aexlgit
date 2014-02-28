@@ -31,8 +31,8 @@ Option Explicit
 
 Private Declare Sub Sleep Lib "kernel32" (ByVal lngMilliSeconds As Long)
 
-Private Const aexlgitVERSION As String = "0.0.4"
-Private Const aexlgitVERSION_DATE As String = "September 20, 2013"
+Private Const aexlgitVERSION As String = "0.0.5"
+Private Const aexlgitVERSION_DATE As String = "February 28, 2014"
 Private Const THE_DRIVE As String = "C"
 Private Const gcfHandleErrors As Boolean = True
 
@@ -64,8 +64,8 @@ Private Sub Class_Initialize()
     aexlgitSourceFolder = "default"
     aexlgitImportFolder = "default"
     aexlgitUseImportFolder = False
-    aexlgitType.SourceFolder = "C:\ae\aegit\aerc\srx"
-    aexlgitType.ImportFolder = "C:\ae\aegit\aerc\imx"
+    aexlgitType.SourceFolder = "C:\ae\aexlgit\aerc\src"
+    '''x aexlgitType.ImportFolder = "C:\ae\aexlgit\aerc\imp"
     aexlgitType.UseImportFolder = False
 
     Debug.Print "Class_Initialize"
@@ -106,6 +106,7 @@ Property Let UseImportFolder(ByVal blnUseImportFolder As Boolean)
 End Property
 
 Property Get DocumentTheExcelCode(Optional DebugTheCode As Variant) As Boolean
+    'MsgBox "DocumentTheExcelCode"
     If IsMissing(DebugTheCode) Then
         Debug.Print "Get DocumentTheDatabase"
         Debug.Print , "DebugTheCode IS missing so no parameter is passed to aeDocumentTheDatabase"
