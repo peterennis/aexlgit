@@ -202,9 +202,46 @@ Private Function aeDocumentTheExcelCode(Optional varDebug As Variant) As Boolean
 
     Next cmpComponent
 
+    OutputListOfExcelProperties
+
     aeDocumentTheExcelCode = True
 
 End Function
+
+Public Sub OutputListOfExcelProperties()
+' Ref: http://stackoverflow.com/questions/17406585/vba-set-custom-document-property
+' Workbook.BuiltinDocumentProperties Property
+' Ref: http://msdn.microsoft.com/en-us/library/bb220896.aspx
+
+    Dim wb As Workbook
+    Set wb = Application.ThisWorkbook
+
+    Dim docProp As DocumentProperty
+    Dim propExists As Boolean
+    Dim strExportPathFileName As String
+    Dim fle As Integer
+
+    fle = FreeFile()
+    strExportPathFileName = FolderWithVBAProjectFiles & "\OutputListOfExcelProperties.txt"
+    Open strExportPathFileName For Output As #fle
+
+    ' Ref: http://stackoverflow.com/questions/16642362/how-to-get-the-following-code-to-continue-on-error
+    For Each docProp In wb.CustomDocumentProperties
+        On Error Resume Next
+        Debug.Print docProp.Name & ": " & docProp.Value
+        On Error GoTo 0
+    Next
+
+    For Each docProp In ActiveWorkbook.BuiltinDocumentProperties
+        On Error Resume Next
+        Debug.Print docProp.Name & ": " & docProp.Value
+        On Error GoTo 0
+    Next
+
+    Close fle
+    Set wb = Nothing
+
+End Sub
 
 Private Sub ImportModules()
 
