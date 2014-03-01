@@ -202,16 +202,26 @@ Private Function aeDocumentTheExcelCode(Optional varDebug As Variant) As Boolean
 
     Next cmpComponent
 
-    OutputListOfExcelProperties
+    If Not IsMissing(varDebug) Then
+        OutputListOfExcelProperties "DebugIt"
+    Else
+        OutputListOfExcelProperties
+    End If
 
     aeDocumentTheExcelCode = True
 
 End Function
 
-Public Sub OutputListOfExcelProperties()
+Public Sub OutputListOfExcelProperties(Optional varDebug As Variant)
 ' Ref: http://stackoverflow.com/questions/17406585/vba-set-custom-document-property
 ' Workbook.BuiltinDocumentProperties Property
 ' Ref: http://msdn.microsoft.com/en-us/library/bb220896.aspx
+
+    ' Use a call stack and global error handler
+    'If gcfHandleErrors Then On Error GoTo PROC_ERR
+    'PushCallStack "OutputListOfExcelProperties"
+
+    On Error GoTo PROC_ERR
 
     Dim wb As Workbook
     Set wb = Application.ThisWorkbook
@@ -225,21 +235,34 @@ Public Sub OutputListOfExcelProperties()
     strExportPathFileName = FolderWithVBAProjectFiles & "\OutputListOfExcelProperties.txt"
     Open strExportPathFileName For Output As #fle
 
+    If Not IsMissing(varDebug) Then Debug.Print "OutputListOfExcelProperties"
+
     ' Ref: http://stackoverflow.com/questions/16642362/how-to-get-the-following-code-to-continue-on-error
     For Each docProp In wb.CustomDocumentProperties
-        On Error Resume Next
-        Debug.Print docProp.Name & ": " & docProp.Value
-        On Error GoTo 0
+        If Not IsMissing(varDebug) Then Debug.Print , docProp.Name & ": " & docProp.Value
+        Print #fle, docProp.Name & ": " & docProp.Value
     Next
 
     For Each docProp In ActiveWorkbook.BuiltinDocumentProperties
-        On Error Resume Next
-        Debug.Print docProp.Name & ": " & docProp.Value
-        On Error GoTo 0
+        If Not IsMissing(varDebug) Then Debug.Print , docProp.Name & ": " & docProp.Value
+        Print #fle, docProp.Name & ": " & docProp.Value
     Next
 
+PROC_EXIT:
     Close fle
     Set wb = Nothing
+    'PopCallStack
+    Exit Sub
+
+PROC_ERR:
+    If Err = -2147467259 Then     ' Method 'Value' of object ... failed
+        'MsgBox "Erl=" & Erl & " Error " & Err.Number & " (" & Err.Description & ") in procedure OutputListOfExcelProperties of Class aexlgitClass"
+        Resume Next
+    Else
+        MsgBox "Erl=" & Erl & " Error " & Err.Number & " (" & Err.Description & ") in procedure OutputListOfExcelProperties of Class aexlgitClass"
+        'GlobalErrHandler
+        Resume PROC_EXIT
+    End If
 
 End Sub
 

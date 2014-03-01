@@ -17,7 +17,7 @@ Option Explicit
 
 Public Function MYXLPROJECT_TEST()
     'aexlgitClassTest
-    aexlgitClassTest "debug"
+    aexlgitClassTest ("debug")
 End Function
 
 Private Function aexlgitClassTest(Optional Debugit As Variant) As Boolean
