@@ -1,6 +1,7 @@
 Attribute VB_Name = "basChangeLog"
 Option Explicit
 
+'20140228 - v006 - OutputListOfExcelProperties
 '20140228 - v005 - Bump
     ' VBA project not trusted - set trusted location and developer macros
 '20130920 - v004 - Add comment on Sheet1 and ThisWorkbook
