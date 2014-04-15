@@ -1,6 +1,8 @@
 Attribute VB_Name = "basChangeLog"
 Option Explicit
 
+'20140415 - v007 - Fix code for late binding
+    ' Ref: http://www.pcreview.co.uk/forums/late-binding-vbide-t991467.html
 '20140228 - v006 - OutputListOfExcelProperties
 '20140228 - v005 - Bump
     ' VBA project not trusted - set trusted location and developer macros

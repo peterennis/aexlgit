@@ -15,12 +15,13 @@ Option Explicit
 ' Run in immediate window: MYXLPROJECT_TEST
 '
 
-Public Function MYXLPROJECT_TEST()
+Public Function MYXLPROJECT_TEST() As Boolean
+    On Error GoTo 0
     'aexlgitClassTest
     aexlgitClassTest ("debug")
 End Function
 
-Private Function aexlgitClassTest(Optional Debugit As Variant) As Boolean
+Private Function aexlgitClassTest(Optional ByVal Debugit As Variant) As Boolean
 
     ' Use a call stack and global error handler
     'If gcfHandleErrors Then On Error GoTo PROC_ERR

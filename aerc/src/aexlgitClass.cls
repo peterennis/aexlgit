@@ -28,12 +28,13 @@ Option Explicit
 ' Date:     July 13, 2013
 ' Comment:  Create class for revision control
 ' History:  See comment details, basChangeLog, commit messages on github
+' Ref:      http://www.rondebruin.nl/win/s9/win002.htm
 '=======================================================================
 
 Private Declare Sub Sleep Lib "kernel32" (ByVal lngMilliSeconds As Long)
 
-Private Const aexlgitVERSION As String = "0.0.6"
-Private Const aexlgitVERSION_DATE As String = "February 28, 2014"
+Private Const aexlgitVERSION As String = "0.0.7"
+Private Const aexlgitVERSION_DATE As String = "April 15, 2014"
 Private Const THE_DRIVE As String = "C"
 Private Const gcfHandleErrors As Boolean = True
 
@@ -43,6 +44,12 @@ Private Type mySetupType
     UseImportFolder As Boolean
 End Type
 
+' Ref: http://www.pcreview.co.uk/forums/macro-save-macros-t1918984p2.html
+Private Const vbext_ct_StdModule As Long = 1
+Private Const vbext_ct_ClassModule As Long = 2
+Private Const vbext_ct_MSForm As Long = 3
+Private Const vbext_ct_Document As Long = 100
+
 Private aexlgitType As mySetupType
 Private aexlgitSourceFolder As String
 Private aexlgitImportFolder As String
@@ -51,16 +58,12 @@ Private aexlgitblnCustomSourceFolder As Boolean
 Private aexlgitstrSourceLocation As String
 Private aexlgitImportLocation As String
 
-' Ref: http://www.rondebruin.nl/win/s9/win002.htm
-' Requires reference to the VBA extensibility library. Click on Tools-References in the VBE, and
-' scroll down and tick the entry for Microsoft Visual Basic for Applications Extensibility 5.3
-' Scripting.FileSystemObject requires reference to Microsoft Scripting Runtime
-
 Private Sub Class_Initialize()
 ' Ref: http://www.cadalyst.com/cad/autocad/programming-with-class-part-1-5050
 ' Ref: http://www.bigresource.com/Tracker/Track-vb-cyJ1aJEyKj/
 ' Ref: http://stackoverflow.com/questions/1731052/is-there-a-way-to-overload-the-constructor-initialize-procedure-for-a-class-in
 
+    On Error GoTo 0
     ' provide a default value for the SourceFolder and ImportFolder properties
     aexlgitSourceFolder = "default"
     aexlgitImportFolder = "default"
@@ -78,6 +81,7 @@ Private Sub Class_Initialize()
 End Sub
 
 Private Sub Class_Terminate()
+    On Error GoTo 0
     Debug.Print
     Debug.Print "Class_Terminate"
     Debug.Print , "aexlgit VERSION: " & aexlgitVERSION
@@ -85,40 +89,56 @@ Private Sub Class_Terminate()
 End Sub
 
 Property Get SourceFolder() As String
+    On Error GoTo 0
     SourceFolder = aexlgitSourceFolder
 End Property
 
 Property Let SourceFolder(ByVal strSourceFolder As String)
+    On Error GoTo 0
     ' Ref: http://www.techrepublic.com/article/build-your-skills-using-class-modules-in-an-access-database-solution/5031814
     ' Ref: http://www.utteraccess.com/wiki/index.php/Classes
     aexlgitSourceFolder = strSourceFolder
 End Property
 
 Property Get ImportFolder() As String
+    On Error GoTo 0
     ImportFolder = aexlgitImportFolder
 End Property
 
 Property Let ImportFolder(ByVal strImportFolder As String)
+    On Error GoTo 0
     aexlgitImportFolder = strImportFolder
 End Property
 
 Property Let UseImportFolder(ByVal blnUseImportFolder As Boolean)
+    On Error GoTo 0
     aexlgitUseImportFolder = blnUseImportFolder
 End Property
 
-Property Get DocumentTheExcelCode(Optional DebugTheCode As Variant) As Boolean
+Property Get DocumentTheExcelCode(Optional ByVal varDebug As Variant) As Boolean
+
+    On Error GoTo PROC_ERR
+
     'MsgBox "DocumentTheExcelCode"
-    If IsMissing(DebugTheCode) Then
+    If IsMissing(varDebug) Then
         Debug.Print "Get DocumentTheDatabase"
-        Debug.Print , "DebugTheCode IS missing so no parameter is passed to aeDocumentTheDatabase"
+        Debug.Print , "varDebug IS missing so no parameter is passed to aeDocumentTheDatabase"
         Debug.Print , "DEBUGGING IS OFF"
         DocumentTheExcelCode = aeDocumentTheExcelCode
     Else
         Debug.Print "Get DocumentTheDatabase"
-        Debug.Print , "DebugTheCode IS NOT missing so a variant parameter is passed to aeDocumentTheDatabase"
+        Debug.Print , "varDebug IS NOT missing so a variant parameter is passed to aeDocumentTheDatabase"
         Debug.Print , "DEBUGGING TURNED ON"
-        DocumentTheExcelCode = aeDocumentTheExcelCode(DebugTheCode)
+        DocumentTheExcelCode = aeDocumentTheExcelCode(varDebug)
     End If
+
+PROC_EXIT:
+    Exit Function
+
+PROC_ERR:
+    MsgBox "Erl=" & Erl & " Error " & Err.Number & " (" & Err.Description & ") in procedure DocumentTheExcelCode of Class aexlgitClass"
+    Resume PROC_EXIT
+
 End Property
 
 Private Function aeDocumentTheExcelCode(Optional varDebug As Variant) As Boolean
@@ -128,8 +148,13 @@ Private Function aeDocumentTheExcelCode(Optional varDebug As Variant) As Boolean
     Dim strSourceWorkbook As String
     Dim strExportPath As String
     Dim strFileName As String
-    Dim cmpComponent As VBIDE.VBComponent
     Dim blnDebug As Boolean
+    
+    On Error GoTo PROC_ERR
+    
+    ''' Dim cmpComponent As VBIDE.VBComponent
+    Dim objComponent As Object
+    Set objComponent = ThisWorkbook.VBProject.vbcomponents            '''CreateObject("VBIDE.VBComponent")
 
     Debug.Print "aeDocumentTheExcelCode"
     If IsMissing(varDebug) Then
@@ -165,20 +190,23 @@ Private Function aeDocumentTheExcelCode(Optional varDebug As Variant) As Boolean
     Set wkbSource = Application.Workbooks(strSourceWorkbook)
 
     If wkbSource.VBProject.Protection = 1 Then
-    MsgBox "The VBA in this workbook is protected," & _
-        "not possible to export the code"
+    MsgBox "The VBA in this workbook is protected!" & vbCrLf & _
+        "It is not possible to export the code."
     Exit Function
     End If
 
     strExportPath = FolderWithVBAProjectFiles & "\"
 
-    For Each cmpComponent In wkbSource.VBProject.VBComponents
+    For Each objComponent In wkbSource.VBProject.vbcomponents
+    '''For Each cmpComponent In wkbSource.VBProject.VBComponents
 
         bExport = True
-        strFileName = cmpComponent.Name
+        strFileName = objComponent.Name
+        '''strFileName = cmpComponent.Name
 
         ' Concatenate the correct filename for export.
-        Select Case cmpComponent.Type
+        Select Case objComponent.Type
+        '''Select Case cmpComponent.Type
             Case vbext_ct_ClassModule
                 strFileName = strFileName & ".cls"
             Case vbext_ct_MSForm
@@ -188,19 +216,19 @@ Private Function aeDocumentTheExcelCode(Optional varDebug As Variant) As Boolean
             Case vbext_ct_Document
                 strFileName = strFileName & ".sht"
             Case Else
-                MsgBox "Type not known: " & cmpComponent.Type
+                MsgBox "Type not known: " & objComponent.Type
         End Select
 
         If bExport Then
             ' Export the component to a text file.
-            cmpComponent.Export strExportPath & strFileName
+            objComponent.Export strExportPath & strFileName
 
             ' remove it from the project if you want
-            'wkbSource.VBProject.VBComponents.Remove cmpComponent
+            'wkbSource.VBProject.VBComponents.Remove objComponent
 
         End If
 
-    Next cmpComponent
+    Next objComponent
 
     If Not IsMissing(varDebug) Then
         OutputListOfExcelProperties "DebugIt"
@@ -209,6 +237,13 @@ Private Function aeDocumentTheExcelCode(Optional varDebug As Variant) As Boolean
     End If
 
     aeDocumentTheExcelCode = True
+
+PROC_EXIT:
+    Exit Function
+
+PROC_ERR:
+    MsgBox "Erl=" & Erl & " Error " & Err.Number & " (" & Err.Description & ") in procedure aeDocumentTheExcelCode of Class aexlgitClass"
+    Resume PROC_EXIT
 
 End Function
 
@@ -268,13 +303,17 @@ End Sub
 
 Private Sub ImportModules()
 
+    On Error GoTo 0
     Dim wkbTarget As Excel.Workbook
     Dim objFSO As Scripting.FileSystemObject
     Dim objFile As Scripting.File
     Dim strTargetWorkbook As String
     Dim strImportPath As String
     Dim strFileName As String
-    Dim cmpComponents As VBIDE.VBComponents
+    
+    '''Dim cmpComponents As VBIDE.VBComponents
+    Dim objComponent As Object
+    Set objComponent = CreateObject("VBIDE.VBComponent")
 
     If ActiveWorkbook.Name = ThisWorkbook.Name Then
         MsgBox "Select another destination workbook" & _
@@ -310,7 +349,8 @@ Private Sub ImportModules()
     ' Delete all modules/Userforms from the ActiveWorkbook
     Call DeleteVBAModulesAndUserForms
 
-    Set cmpComponents = wkbTarget.VBProject.VBComponents
+    Set objComponent = wkbTarget.VBProject.vbcomponents
+    '''Set cmpComponents = wkbTarget.VBProject.VBComponents
 
     ' Import all the code modules in the specified path
     ' to the ActiveWorkbook.
@@ -319,7 +359,8 @@ Private Sub ImportModules()
         If (objFSO.GetExtensionName(objFile.Name) = "cls") Or _
             (objFSO.GetExtensionName(objFile.Name) = "frm") Or _
             (objFSO.GetExtensionName(objFile.Name) = "bas") Then
-            cmpComponents.Import objFile.Path
+            objComponent.Import objFile.Path
+            '''cmpComponents.Import objFile.Path
         End If
     
     Next objFile
@@ -330,6 +371,7 @@ End Sub
 
 Private Function FolderWithVBAProjectFiles() As String
 
+    On Error GoTo 0
     Dim WshShell As Object
     Dim FSO As Object
     Dim SpecialPath As String
@@ -371,18 +413,24 @@ End Function
 
 Private Function DeleteVBAModulesAndUserForms()
 
-    Dim VBProj As VBIDE.VBProject
-    Dim VBComp As VBIDE.VBComponent
+    On Error GoTo 0
+    '''Dim VBProj As VBIDE.VBProject
+    Dim objProject As Object
+    Set objProject = CreateObject("VBIDE.VBProject")
 
-    Set VBProj = ActiveWorkbook.VBProject
+    '''Dim VBComp As VBIDE.VBComponent
+    Dim objComponent As Object
+    Set objComponent = CreateObject("VBIDE.VBComponent")
 
-    For Each VBComp In VBProj.VBComponents
-        If VBComp.Type = vbext_ct_Document Then
+    Set objProject = ActiveWorkbook.VBProject
+
+    For Each objComponent In objProject.vbcomponents
+        If objComponent.Type = vbext_ct_Document Then
             ' ThisWorkbook or Worksheet module we do nothing
         Else
-            VBProj.VBComponents.Remove VBComp
+            objProject.vbcomponents.Remove objComponent
         End If
-    Next VBComp
+    Next objComponent
 
 End Function
 
