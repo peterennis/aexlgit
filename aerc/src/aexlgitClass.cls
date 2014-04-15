@@ -35,8 +35,6 @@ Private Declare Sub Sleep Lib "kernel32" (ByVal lngMilliSeconds As Long)
 
 Private Const aexlgitVERSION As String = "0.0.7"
 Private Const aexlgitVERSION_DATE As String = "April 15, 2014"
-Private Const THE_DRIVE As String = "C"
-Private Const gcfHandleErrors As Boolean = True
 
 Private Type mySetupType
     SourceFolder As String
@@ -52,11 +50,8 @@ Private Const vbext_ct_Document As Long = 100
 
 Private aexlgitType As mySetupType
 Private aexlgitSourceFolder As String
-Private aexlgitImportFolder As String
-Private aexlgitUseImportFolder As Boolean
-Private aexlgitblnCustomSourceFolder As Boolean
-Private aexlgitstrSourceLocation As String
-Private aexlgitImportLocation As String
+''' Private aexlgitblnCustomSourceFolder As Boolean
+''' Private aexlgitstrSourceLocation As String
 
 Private Sub Class_Initialize()
 ' Ref: http://www.cadalyst.com/cad/autocad/programming-with-class-part-1-5050
@@ -66,18 +61,11 @@ Private Sub Class_Initialize()
     On Error GoTo 0
     ' provide a default value for the SourceFolder and ImportFolder properties
     aexlgitSourceFolder = "default"
-    aexlgitImportFolder = "default"
-    aexlgitUseImportFolder = False
     aexlgitType.SourceFolder = "C:\ae\aexlgit\aerc\src"
-    '''x aexlgitType.ImportFolder = "C:\ae\aexlgit\aerc\imp"
-    aexlgitType.UseImportFolder = False
 
     Debug.Print "Class_Initialize"
     Debug.Print , "Default for aegitSourceFolder = " & aexlgitSourceFolder
-    Debug.Print , "Default for aegitImportFolder = " & aexlgitImportFolder
     Debug.Print , "Default for aegitType.SourceFolder = " & aexlgitType.SourceFolder
-    Debug.Print , "Default for aegitType.ImportFolder = " & aexlgitType.ImportFolder
-    Debug.Print , "Default for aegitType.UseImportFolder = " & aexlgitType.UseImportFolder
 End Sub
 
 Private Sub Class_Terminate()
@@ -88,34 +76,19 @@ Private Sub Class_Terminate()
     Debug.Print , "aexlgit VERSION_DATE: " & aexlgitVERSION_DATE
 End Sub
 
-Property Get SourceFolder() As String
+Public Property Get SourceFolder() As String
     On Error GoTo 0
     SourceFolder = aexlgitSourceFolder
 End Property
 
-Property Let SourceFolder(ByVal strSourceFolder As String)
+Public Property Let SourceFolder(ByVal strSourceFolder As String)
     On Error GoTo 0
     ' Ref: http://www.techrepublic.com/article/build-your-skills-using-class-modules-in-an-access-database-solution/5031814
     ' Ref: http://www.utteraccess.com/wiki/index.php/Classes
     aexlgitSourceFolder = strSourceFolder
 End Property
 
-Property Get ImportFolder() As String
-    On Error GoTo 0
-    ImportFolder = aexlgitImportFolder
-End Property
-
-Property Let ImportFolder(ByVal strImportFolder As String)
-    On Error GoTo 0
-    aexlgitImportFolder = strImportFolder
-End Property
-
-Property Let UseImportFolder(ByVal blnUseImportFolder As Boolean)
-    On Error GoTo 0
-    aexlgitUseImportFolder = blnUseImportFolder
-End Property
-
-Property Get DocumentTheExcelCode(Optional ByVal varDebug As Variant) As Boolean
+Public Property Get DocumentTheExcelCode(Optional ByVal varDebug As Variant) As Boolean
 
     On Error GoTo PROC_ERR
 
@@ -133,7 +106,7 @@ Property Get DocumentTheExcelCode(Optional ByVal varDebug As Variant) As Boolean
     End If
 
 PROC_EXIT:
-    Exit Function
+    Exit Property
 
 PROC_ERR:
     MsgBox "Erl=" & Erl & " Error " & Err.Number & " (" & Err.Description & ") in procedure DocumentTheExcelCode of Class aexlgitClass"
@@ -141,7 +114,7 @@ PROC_ERR:
 
 End Property
 
-Private Function aeDocumentTheExcelCode(Optional varDebug As Variant) As Boolean
+Private Function aeDocumentTheExcelCode(Optional ByVal varDebug As Variant) As Boolean
 
     Dim bExport As Boolean
     Dim wkbSource As Excel.Workbook
@@ -152,9 +125,8 @@ Private Function aeDocumentTheExcelCode(Optional varDebug As Variant) As Boolean
     
     On Error GoTo PROC_ERR
     
-    ''' Dim cmpComponent As VBIDE.VBComponent
     Dim objComponent As Object
-    Set objComponent = ThisWorkbook.VBProject.vbcomponents            '''CreateObject("VBIDE.VBComponent")
+    Set objComponent = ThisWorkbook.VBProject.VBComponents
 
     Debug.Print "aeDocumentTheExcelCode"
     If IsMissing(varDebug) Then
@@ -185,7 +157,7 @@ Private Function aeDocumentTheExcelCode(Optional varDebug As Variant) As Boolean
         Kill FolderWithVBAProjectFiles & "\*.*"
     On Error GoTo 0
 
-    ' NOTE: This workbook must be open in Excel.
+    ' NOTE: This workbook must be open in Excel
     strSourceWorkbook = ActiveWorkbook.Name
     Set wkbSource = Application.Workbooks(strSourceWorkbook)
 
@@ -197,16 +169,13 @@ Private Function aeDocumentTheExcelCode(Optional varDebug As Variant) As Boolean
 
     strExportPath = FolderWithVBAProjectFiles & "\"
 
-    For Each objComponent In wkbSource.VBProject.vbcomponents
-    '''For Each cmpComponent In wkbSource.VBProject.VBComponents
+    For Each objComponent In wkbSource.VBProject.VBComponents
 
         bExport = True
         strFileName = objComponent.Name
-        '''strFileName = cmpComponent.Name
 
         ' Concatenate the correct filename for export.
         Select Case objComponent.Type
-        '''Select Case cmpComponent.Type
             Case vbext_ct_ClassModule
                 strFileName = strFileName & ".cls"
             Case vbext_ct_MSForm
@@ -247,22 +216,17 @@ PROC_ERR:
 
 End Function
 
-Public Sub OutputListOfExcelProperties(Optional varDebug As Variant)
+Public Sub OutputListOfExcelProperties(Optional ByVal varDebug As Variant)
 ' Ref: http://stackoverflow.com/questions/17406585/vba-set-custom-document-property
 ' Workbook.BuiltinDocumentProperties Property
 ' Ref: http://msdn.microsoft.com/en-us/library/bb220896.aspx
 
-    ' Use a call stack and global error handler
-    'If gcfHandleErrors Then On Error GoTo PROC_ERR
-    'PushCallStack "OutputListOfExcelProperties"
-
     On Error GoTo PROC_ERR
 
-    Dim wb As Workbook
-    Set wb = Application.ThisWorkbook
+    Dim wbk As Workbook
+    Set wbk = Application.ThisWorkbook
 
     Dim docProp As DocumentProperty
-    Dim propExists As Boolean
     Dim strExportPathFileName As String
     Dim fle As Integer
 
@@ -273,7 +237,7 @@ Public Sub OutputListOfExcelProperties(Optional varDebug As Variant)
     If Not IsMissing(varDebug) Then Debug.Print "OutputListOfExcelProperties"
 
     ' Ref: http://stackoverflow.com/questions/16642362/how-to-get-the-following-code-to-continue-on-error
-    For Each docProp In wb.CustomDocumentProperties
+    For Each docProp In wbk.CustomDocumentProperties
         If Not IsMissing(varDebug) Then Debug.Print , docProp.Name & ": " & docProp.Value
         Print #fle, docProp.Name & ": " & docProp.Value
     Next
@@ -285,8 +249,7 @@ Public Sub OutputListOfExcelProperties(Optional varDebug As Variant)
 
 PROC_EXIT:
     Close fle
-    Set wb = Nothing
-    'PopCallStack
+    Set wbk = Nothing
     Exit Sub
 
 PROC_ERR:
@@ -309,9 +272,7 @@ Private Sub ImportModules()
     Dim objFile As Scripting.File
     Dim strTargetWorkbook As String
     Dim strImportPath As String
-    Dim strFileName As String
-    
-    '''Dim cmpComponents As VBIDE.VBComponents
+
     Dim objComponent As Object
     Set objComponent = CreateObject("VBIDE.VBComponent")
 
@@ -327,13 +288,13 @@ Private Sub ImportModules()
         Exit Sub
     End If
 
-    ' NOTE: This workbook must be open in Excel.
+    ' NOTE: This workbook must be open in Excel
     strTargetWorkbook = ActiveWorkbook.Name
     Set wkbTarget = Application.Workbooks(strTargetWorkbook)
 
     If wkbTarget.VBProject.Protection = 1 Then
-    MsgBox "The VBA in this workbook is protected," & _
-        "not possible to Import the code"
+    MsgBox "The VBA in this workbook is protected!" & vbCrLf & _
+        "It is not possible to Import the code."
     Exit Sub
     End If
 
@@ -349,8 +310,7 @@ Private Sub ImportModules()
     ' Delete all modules/Userforms from the ActiveWorkbook
     Call DeleteVBAModulesAndUserForms
 
-    Set objComponent = wkbTarget.VBProject.vbcomponents
-    '''Set cmpComponents = wkbTarget.VBProject.VBComponents
+    Set objComponent = wkbTarget.VBProject.VBComponents
 
     ' Import all the code modules in the specified path
     ' to the ActiveWorkbook.
@@ -360,12 +320,11 @@ Private Sub ImportModules()
             (objFSO.GetExtensionName(objFile.Name) = "frm") Or _
             (objFSO.GetExtensionName(objFile.Name) = "bas") Then
             objComponent.Import objFile.Path
-            '''cmpComponents.Import objFile.Path
         End If
     
     Next objFile
 
-    MsgBox "Import is ready"
+    MsgBox "Import is finished."
 
 End Sub
 
@@ -387,7 +346,7 @@ Private Function FolderWithVBAProjectFiles() As String
     
     ElseIf IsNull(FOLDER_WITH_VBA_PROJECT_FILES) Then
 
-        If Right(SpecialPath, 1) <> "\" Then
+        If Right$(SpecialPath, 1) <> "\" Then
             SpecialPath = SpecialPath & "\"
         End If
 
@@ -411,24 +370,22 @@ Private Function FolderWithVBAProjectFiles() As String
 
 End Function
 
-Private Function DeleteVBAModulesAndUserForms()
+Private Function DeleteVBAModulesAndUserForms() As Boolean
 
     On Error GoTo 0
-    '''Dim VBProj As VBIDE.VBProject
     Dim objProject As Object
     Set objProject = CreateObject("VBIDE.VBProject")
 
-    '''Dim VBComp As VBIDE.VBComponent
     Dim objComponent As Object
     Set objComponent = CreateObject("VBIDE.VBComponent")
 
     Set objProject = ActiveWorkbook.VBProject
 
-    For Each objComponent In objProject.vbcomponents
+    For Each objComponent In objProject.VBComponents
         If objComponent.Type = vbext_ct_Document Then
             ' ThisWorkbook or Worksheet module we do nothing
         Else
-            objProject.vbcomponents.Remove objComponent
+            objProject.VBComponents.Remove objComponent
         End If
     Next objComponent
 

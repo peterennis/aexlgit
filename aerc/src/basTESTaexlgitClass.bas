@@ -4,7 +4,6 @@ Option Explicit
 ' Default Usage:
 ' The following folders are used if no custom configuration is provided:
 ' aexlgitType.SourceFolder = "C:\ae\aegit\aerc\srx\"
-' aexlgitType.ImportFolder = "C:\ae\aegit\aerc\imx\"
 ' Run in immediate window:                  MYXLPROJECT_TEST
 ' Show debug output in immediate window:    Uncomment aexlClassTest ("debug")
 '
@@ -22,10 +21,6 @@ Public Function MYXLPROJECT_TEST() As Boolean
 End Function
 
 Private Function aexlgitClassTest(Optional ByVal Debugit As Variant) As Boolean
-
-    ' Use a call stack and global error handler
-    'If gcfHandleErrors Then On Error GoTo PROC_ERR
-    'PushCallStack "aexlgitClassTest"
 
     On Error GoTo PROC_ERR
 
@@ -56,7 +51,6 @@ Test1:
     Debug.Print
 
 PROC_EXIT:
-    'PopCallStack
     Exit Function
 
 PROC_ERR:
@@ -66,7 +60,6 @@ PROC_ERR:
         'Resume PROC_EXIT
     Else
         MsgBox "Erl=" & Erl & " Error " & Err.Number & " (" & Err.Description & ") in procedure aexlgitClassTest of Module basTESTaexlgitClass"
-        'GlobalErrHandler
         Resume PROC_EXIT
     End If
 
