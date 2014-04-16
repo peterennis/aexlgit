@@ -39,7 +39,6 @@ Private Const aexlgitVERSION_DATE As String = "April 15, 2014"
 Private Type mySetupType
     SourceFolder As String
     ImportFolder As String
-    UseImportFolder As Boolean
 End Type
 
 ' Ref: http://www.pcreview.co.uk/forums/macro-save-macros-t1918984p2.html
@@ -336,7 +335,7 @@ Private Function FolderWithVBAProjectFiles() As String
     Dim SpecialPath As String
 
     Set WshShell = CreateObject("WScript.Shell")
-    Set FSO = CreateObject("scripting.filesystemobject")
+    Set FSO = CreateObject("Scripting.FileSystemObject")
 
     SpecialPath = WshShell.SpecialFolders("MyDocuments")
 

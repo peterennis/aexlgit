@@ -17,10 +17,10 @@ Option Explicit
 Public Function MYXLPROJECT_TEST() As Boolean
     On Error GoTo 0
     'aexlgitClassTest
-    aexlgitClassTest ("debug")
+    aexlgitClassTest varDebug:="DebugIt"
 End Function
 
-Private Function aexlgitClassTest(Optional ByVal Debugit As Variant) As Boolean
+Private Function aexlgitClassTest(Optional ByVal varDebug As Variant) As Boolean
 
     On Error GoTo PROC_ERR
 
@@ -39,12 +39,12 @@ Test1:
     Debug.Print "vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv"
     Debug.Print "1. aexlgitClassTest => DocumentTheExcelCode"
     Debug.Print "aexlgitClassTest"
-    If IsMissing(Debugit) Then
-        Debug.Print , "Debugit IS missing so no parameter is passed to DocumentTheExcelCode"
+    If IsMissing(varDebug) Then
+        Debug.Print , "varDebug IS missing so no parameter is passed to DocumentTheExcelCode"
         Debug.Print , "DEBUGGING IS OFF"
         bln1 = oXlObjects.DocumentTheExcelCode()
     Else
-        Debug.Print , "Debugit IS NOT missing so blnDebug is set to True"
+        Debug.Print , "varDebug IS NOT missing so blnDebug is set to True"
         bln1 = oXlObjects.DocumentTheExcelCode("WithDebugging")
     End If
     Debug.Print "^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^"
