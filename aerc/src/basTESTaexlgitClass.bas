@@ -1,26 +1,31 @@
 Attribute VB_Name = "basTESTaexlgitClass"
 Option Explicit
+Option Compare Text
+Option Private Module
 
 ' Default Usage:
 ' The following folders are used if no custom configuration is provided:
-' aexlgitType.SourceFolder = "C:\ae\aegit\aerc\srx\"
+' aexlgitType.SourceFolder = "C:\ae\aexlgit\aerc\src\"
 ' Run in immediate window:                  MYXLPROJECT_TEST
-' Show debug output in immediate window:    Uncomment aexlClassTest ("debug")
+' Show debug output in immediate window:    Uncomment aexlgitClassTest varDebug:="DebugIt"
 '
 ' Custom Usage:
-' Public Const FOLDER_WITH_VBA_PROJECT_FILES = "Z:\The\Source\Folder\srx.MYPROJECT"
+' Public Const FOLDER_FOR_VBA_PROJECT_FILES = "Z:\The\Source\Folder\srx.MYPROJECT\"
 ' For custom configuration of the output source folder in aexlClassTest use:
-' oDbObjects.SourceFolder = FOLDER_WITH_VBA_PROJECT_FILES
+' oDbObjects.SourceFolder = FOLDER_FOR_VBA_PROJECT_FILES
 ' Run in immediate window: MYXLPROJECT_TEST
 '
 
 Public Function MYXLPROJECT_TEST() As Boolean
     On Error GoTo 0
     'aexlgitClassTest
-    aexlgitClassTest varDebug:="DebugIt"
+    aexlgitClassTest varDebug:="Debugit"
 End Function
 
-Private Function aexlgitClassTest(Optional ByVal varDebug As Variant) As Boolean
+Public Function aexlgitClassTest(Optional ByVal varDebug As Variant, _
+                                    Optional ByVal varSrcFldr As Variant, _
+                                    Optional ByVal varXmlFldr As Variant, _
+                                    Optional ByVal varXmlData As Variant) As Boolean
 
     On Error GoTo PROC_ERR
 
@@ -29,7 +34,8 @@ Private Function aexlgitClassTest(Optional ByVal varDebug As Variant) As Boolean
 
     Dim bln1 As Boolean
 
-    'oXlObjects.SourceFolder = FOLDER_WITH_VBA_PROJECT_FILES
+    If Not IsMissing(varSrcFldr) Then oXlObjects.SourceFolder = varSrcFldr      ' THE_SOURCE_FOLDER
+    '''If Not IsMissing(varXmlFldr) Then oXlObjects.XMLFolder = varXmlFldr         ' THE_XML_FOLDER
 
 Test1:
     '=============
@@ -64,3 +70,6 @@ PROC_ERR:
     End If
 
 End Function
+
+
+

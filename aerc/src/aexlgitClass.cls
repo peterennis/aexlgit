@@ -8,6 +8,7 @@ Attribute VB_Creatable = False
 Attribute VB_PredeclaredId = False
 Attribute VB_Exposed = False
 Option Explicit
+Option Compare Text
 
 'Copyright (c) 2013 Peter F. Ennis
 'This library is free software; you can redistribute it and/or
@@ -33,7 +34,7 @@ Option Explicit
 
 Private Declare Sub Sleep Lib "kernel32" (ByVal lngMilliSeconds As Long)
 
-Private Const aexlgitVERSION As String = "0.0.7"
+Private Const aexlgitVERSION As String = "0.0.8"
 Private Const aexlgitVERSION_DATE As String = "April 15, 2014"
 
 Private Type mySetupType
@@ -58,9 +59,14 @@ Private Sub Class_Initialize()
 ' Ref: http://stackoverflow.com/questions/1731052/is-there-a-way-to-overload-the-constructor-initialize-procedure-for-a-class-in
 
     On Error GoTo 0
-    ' provide a default value for the SourceFolder and ImportFolder properties
+    'MsgBox Application.VBE.ActiveVBProject.Name
+    'MsgBox Application.Caption
+    If Application.VBE.ActiveVBProject.Name = "aexlgit" Then
+        Application.Caption = Application.VBE.ActiveVBProject.Name & " " & aexlgitVERSION
+    End If
+    ' Provide a default value for the SourceFolder and ImportFolder properties
     aexlgitSourceFolder = "default"
-    aexlgitType.SourceFolder = "C:\ae\aexlgit\aerc\src"
+    aexlgitType.SourceFolder = "C:\ae\aexlgit\aerc\src\"
 
     Debug.Print "Class_Initialize"
     Debug.Print , "Default for aegitSourceFolder = " & aexlgitSourceFolder
@@ -142,8 +148,6 @@ Private Function aeDocumentTheExcelCode(Optional ByVal varDebug As Variant) As B
     ' VBAProjectFiles in the Documents folder.
     ' The code below creates this folder if it does not exist
     ' or deletes all files in the folder if it exists.
-    ' The Const FOLDER_WITH_VBA_PROJECT_FILES hardcodes an
-    ' alternative location.
     If FolderWithVBAProjectFiles = "Error" Then
         MsgBox "Export Folder does not exist"
         Exit Function
@@ -189,7 +193,9 @@ Private Function aeDocumentTheExcelCode(Optional ByVal varDebug As Variant) As B
 
         If bExport Then
             ' Export the component to a text file.
-            objComponent.Export strExportPath & strFileName
+            If Left$(strFileName, 3) <> "zzz" Then
+                objComponent.Export strExportPath & strFileName
+            End If
 
             ' remove it from the project if you want
             'wkbSource.VBProject.VBComponents.Remove objComponent
@@ -343,7 +349,7 @@ Private Function FolderWithVBAProjectFiles() As String
     
         FolderWithVBAProjectFiles = aexlgitType.SourceFolder
     
-    ElseIf IsNull(FOLDER_WITH_VBA_PROJECT_FILES) Then
+    ElseIf IsNull(aexlgitSourceFolder) Then
 
         If Right$(SpecialPath, 1) <> "\" Then
             SpecialPath = SpecialPath & "\"
@@ -389,4 +395,5 @@ Private Function DeleteVBAModulesAndUserForms() As Boolean
     Next objComponent
 
 End Function
+
 

@@ -1,8 +1,13 @@
 Attribute VB_Name = "basChangeLog"
 Option Explicit
+Option Compare Text
+Option Private Module
 
-Private Const MODULE_IS_NOT_EMPTY As Boolean = True
+Public Const MODULE_NOT_EMPTY_DUMMY As String = vbNullString
 
+
+'20140415 - v008 - Ignore zzz* object names
+    ' Test with THE_SOURCE_FOLDER
 '20140415 - v007 - Fix code for late binding
     ' Ref: http://www.pcreview.co.uk/forums/late-binding-vbide-t991467.html
     ' Remove import folder references, clean up code
@@ -27,4 +32,6 @@ Private Const MODULE_IS_NOT_EMPTY As Boolean = True
     ' from "aeXLW Library v012.xla" (20090727)
 '20130709 - v000 - Startup version based on example from Ron de Bruin
     ' Ref: http://www.rondebruin.nl/win/s9/win002.htm
+
+
 
