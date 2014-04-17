@@ -5,8 +5,28 @@ Option Private Module
 
 Public Const MODULE_NOT_EMPTY_DUMMY As String = vbNullString
 
-
+'=============================================================================================================================
+' Tasks:
+' %007 -
+' %006 -
+' %005 -
+' %004 -
+' %003 -
+' %002 -
+' %001 -
+' Issues:
+' #007 -
+' #006 -
+' #005 -
+' #004 -
+' #003 -
+' #002 -
+' #001 - xla fix in v009 kills workbook properties output
+'=============================================================================================================================
+'
+'
 '20140416 - v009 - Add code to deal with xla file
+    ' Add simple tasks and issues tracker to change log
 '20140415 - v008 - Ignore zzz* object names
     ' Test with THE_SOURCE_FOLDER
 '20140415 - v007 - Fix code for late binding
