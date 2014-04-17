@@ -34,8 +34,8 @@ Option Compare Text
 
 Private Declare Sub Sleep Lib "kernel32" (ByVal lngMilliSeconds As Long)
 
-Private Const aexlgitVERSION As String = "0.0.8"
-Private Const aexlgitVERSION_DATE As String = "April 15, 2014"
+Private Const aexlgitVERSION As String = "0.0.9"
+Private Const aexlgitVERSION_DATE As String = "April 16, 2014"
 
 Private Type mySetupType
     SourceFolder As String
@@ -119,17 +119,37 @@ PROC_ERR:
 
 End Property
 
+Private Function ThisIsAnAddIn(ByVal strAddIn As String, _
+                                Optional ByVal varDebug As Variant) As Boolean
+    Dim rw As Byte
+    Dim varAddIn As Variant
+    ThisIsAnAddIn = False
+    rw = 1
+    For Each varAddIn In Application.AddIns
+        If Not IsMissing(varDebug) Then Debug.Print varAddIn.Name, varAddIn.Installed
+        If varAddIn.Name = strAddIn Then
+            ThisIsAnAddIn = True
+            Exit Function
+        Else
+            rw = rw + 1
+        End If
+    Next
+End Function
+
 Private Function aeDocumentTheExcelCode(Optional ByVal varDebug As Variant) As Boolean
 
     Dim bExport As Boolean
-    Dim wkbSource As Excel.Workbook
+    Dim wkbSource As Object
+    Set wkbSource = ThisWorkbook
+
     Dim strSourceWorkbook As String
     Dim strExportPath As String
     Dim strFileName As String
     Dim blnDebug As Boolean
-    
+
+    'MsgBox "aeDocumentTheExcelCode"
     On Error GoTo PROC_ERR
-    
+
     Dim objComponent As Object
     Set objComponent = ThisWorkbook.VBProject.VBComponents
 
@@ -158,16 +178,19 @@ Private Function aeDocumentTheExcelCode(Optional ByVal varDebug As Variant) As B
 
     On Error Resume Next
         Kill FolderWithVBAProjectFiles & "\*.*"
-    On Error GoTo 0
+    On Error GoTo PROC_ERR
 
-    ' NOTE: This workbook must be open in Excel
-    strSourceWorkbook = ActiveWorkbook.Name
-    Set wkbSource = Application.Workbooks(strSourceWorkbook)
+    If ThisIsAnAddIn("DirTree.xla", varDebug) Then
+    Else
+        ' NOTE: This workbook must be open in Excel
+        strSourceWorkbook = ActiveWorkbook.Name
+        Set wkbSource = Application.Workbooks(strSourceWorkbook)
 
-    If wkbSource.VBProject.Protection = 1 Then
-    MsgBox "The VBA in this workbook is protected!" & vbCrLf & _
-        "It is not possible to export the code."
-    Exit Function
+        If wkbSource.VBProject.Protection = 1 Then
+            MsgBox "The VBA in this workbook is protected!" & vbCrLf & _
+                    "It is not possible to export the code."
+            Exit Function
+        End If
     End If
 
     strExportPath = FolderWithVBAProjectFiles & "\"
@@ -247,10 +270,12 @@ Public Sub OutputListOfExcelProperties(Optional ByVal varDebug As Variant)
         Print #fle, docProp.Name & ": " & docProp.Value
     Next
 
-    For Each docProp In ActiveWorkbook.BuiltinDocumentProperties
-        If Not IsMissing(varDebug) Then Debug.Print , docProp.Name & ": " & docProp.Value
-        Print #fle, docProp.Name & ": " & docProp.Value
-    Next
+    If Not ThisIsAnAddIn("DirTree.xla", varDebug) Then
+        For Each docProp In ActiveWorkbook.BuiltinDocumentProperties
+            If Not IsMissing(varDebug) Then Debug.Print , docProp.Name & ": " & docProp.Value
+            Print #fle, docProp.Name & ": " & docProp.Value
+        Next
+    End If
 
 PROC_EXIT:
     Close fle

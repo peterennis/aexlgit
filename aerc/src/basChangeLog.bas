@@ -6,6 +6,7 @@ Option Private Module
 Public Const MODULE_NOT_EMPTY_DUMMY As String = vbNullString
 
 
+'20140416 - v009 - Add code to deal with xla file
 '20140415 - v008 - Ignore zzz* object names
     ' Test with THE_SOURCE_FOLDER
 '20140415 - v007 - Fix code for late binding
@@ -32,6 +33,4 @@ Public Const MODULE_NOT_EMPTY_DUMMY As String = vbNullString
     ' from "aeXLW Library v012.xla" (20090727)
 '20130709 - v000 - Startup version based on example from Ron de Bruin
     ' Ref: http://www.rondebruin.nl/win/s9/win002.htm
-
-
 

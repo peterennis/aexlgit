@@ -71,5 +71,14 @@ PROC_ERR:
 
 End Function
 
+Public Sub ListAddInFiles()
+    Dim rw As Byte
+    Dim varAddIn As Variant
+    rw = 1
+    For Each varAddIn In Application.AddIns
+        Debug.Print varAddIn.Name, varAddIn.Installed
+        rw = rw + 1
+    Next
+End Sub
 
 
