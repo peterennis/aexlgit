@@ -72,6 +72,7 @@ PROC_ERR:
 End Function
 
 Public Sub ListAddInFiles()
+    On Error GoTo 0
     Dim rw As Byte
     Dim varAddIn As Variant
     rw = 1
