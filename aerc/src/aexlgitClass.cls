@@ -23,19 +23,19 @@ Option Compare Text
 'License along with this library; if not, visit
 'http://www.gnu.org/licenses/lgpl-3.0.txt
 
-
 '=======================================================================
 ' Author:   Peter F. Ennis
 ' Date:     July 13, 2013
 ' Comment:  Create class for revision control
-' History:  See comment details, basChangeLog, commit messages on github
+' History:  See comment details, basChangeLog, commit messages on GitHub
+' GitHub:   https://github.com/peterennis/aexlgit
 ' Ref:      http://www.rondebruin.nl/win/s9/win002.htm
 '=======================================================================
 
 Private Declare Sub Sleep Lib "kernel32" (ByVal lngMilliSeconds As Long)
 
-Private Const aexlgitVERSION As String = "0.0.9"
-Private Const aexlgitVERSION_DATE As String = "April 16, 2014"
+Private Const aexlgitVERSION As String = "0.1.0"
+Private Const aexlgitVERSION_DATE As String = "November 14, 2014"
 
 Private Type mySetupType
     SourceFolder As String
@@ -298,8 +298,13 @@ Private Sub ImportModules()
 
     On Error GoTo 0
     Dim wkbTarget As Excel.Workbook
-    Dim objFSO As Scripting.FileSystemObject
-    Dim objFile As Scripting.File
+    'Dim objFSO As Scripting.FileSystemObject
+    Dim objFSO As Object
+    Set objFSO = CreateObject("Scripting.FileSystemObject")
+
+    'Dim objFile As Scripting.File
+    Dim objFile As Object
+    
     Dim strTargetWorkbook As String
     Dim strImportPath As String
 
@@ -331,7 +336,7 @@ Private Sub ImportModules()
     ' NOTE: Path where the code modules are located.
     strImportPath = FolderWithVBAProjectFiles & "\"
 
-    Set objFSO = New Scripting.FileSystemObject
+    '''Set objFSO = New Scripting.FileSystemObject
     If objFSO.GetFolder(strImportPath).Files.Count = 0 Then
        MsgBox "There are no files to import"
        Exit Sub
@@ -396,6 +401,11 @@ Private Function FolderWithVBAProjectFiles() As String
 
         FolderWithVBAProjectFiles = aexlgitSourceFolder
 
+    End If
+    
+    'MsgBox "FolderWithVBAProjectFiles=" & FolderWithVBAProjectFiles
+    If Not FSO.FolderExists(FolderWithVBAProjectFiles) Then
+        FolderWithVBAProjectFiles = "Error"
     End If
 
 End Function

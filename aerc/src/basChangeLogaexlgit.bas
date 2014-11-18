@@ -1,4 +1,4 @@
-Attribute VB_Name = "basChangeLog"
+Attribute VB_Name = "basChangeLogaexlgit"
 Option Explicit
 Option Compare Text
 Option Private Module
@@ -13,18 +13,26 @@ Public Const MODULE_NOT_EMPTY_DUMMY As String = vbNullString
 ' %004 -
 ' %003 -
 ' %002 -
-' %001 -
+' %001 - Properties should be exported. Project name changed but not shown in export
 ' Issues:
 ' #007 -
 ' #006 -
 ' #005 -
 ' #004 -
-' #003 -
-' #002 -
+' #002 - User-defined type not defined error at objFSO As Scripting.FileSystemObject
 ' #001 - xla fix in v009 kills workbook properties output
 '=============================================================================================================================
 '
 '
+'20141114 - v010 -
+    ' http://www.jpsoftwaretech.com/vba/filesystemobject-vba-examples/ for testing #002
+    ' Late vs. Early binding
+    ' http://superuser.com/questions/615463/how-to-avoid-references-in-vba-early-binding-vs-late-binding
+    ' FIXED #003
+    ' #002 - User-defined type not defined caused by missing reference
+    ' #003 - "Be careful! Parts of your document... - comes from creating a new file and importing code.
+    ' Here: http://answers.microsoft.com/en-us/office/forum/office_2013_release-excel/be-careful-parts-of-your-document-may-include/fae98705-d078-4fc5-843a-908dda5be559
+    ' Goto File in the upper left hand corner, then Options > Trust Center > Trust Center Settings > Privacy Options > then un-check the check box that says "Remove personal information from file properties on save", then hit OK.
 '20140416 - v009 - Add code to deal with xla file
     ' Add simple tasks and issues tracker to change log
 '20140415 - v008 - Ignore zzz* object names
