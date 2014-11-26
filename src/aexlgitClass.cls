@@ -180,18 +180,16 @@ Private Function aeDocumentTheExcelCode(Optional ByVal varDebug As Variant) As B
         Kill FolderWithVBAProjectFiles & "\*.*"
     On Error GoTo PROC_ERR
 
-    If ThisIsAnAddIn("DirTree.xla", varDebug) Then
-    Else
-        ' NOTE: This workbook must be open in Excel
-        strSourceWorkbook = ActiveWorkbook.Name
-        Set wkbSource = Application.Workbooks(strSourceWorkbook)
+    ' NOTE: This workbook must be open in Excel
+    strSourceWorkbook = ActiveWorkbook.Name
+    Set wkbSource = Application.Workbooks(strSourceWorkbook)
 
-        If wkbSource.VBProject.Protection = 1 Then
-            MsgBox "The VBA in this workbook is protected!" & vbCrLf & _
-                    "It is not possible to export the code."
-            Exit Function
-        End If
+    If wkbSource.VBProject.Protection = 1 Then
+        MsgBox "The VBA in this workbook is protected!" & vbCrLf & _
+                "It is not possible to export the code."
+        Exit Function
     End If
+    '''End If
 
     strExportPath = FolderWithVBAProjectFiles & "\"
 
@@ -270,12 +268,10 @@ Public Sub OutputListOfExcelProperties(Optional ByVal varDebug As Variant)
         Print #fle, docProp.Name & ": " & docProp.Value
     Next
 
-    If Not ThisIsAnAddIn("DirTree.xla", varDebug) Then
-        For Each docProp In ActiveWorkbook.BuiltinDocumentProperties
-            If Not IsMissing(varDebug) Then Debug.Print , docProp.Name & ": " & docProp.Value
-            Print #fle, docProp.Name & ": " & docProp.Value
-        Next
-    End If
+    For Each docProp In ActiveWorkbook.BuiltinDocumentProperties
+        If Not IsMissing(varDebug) Then Debug.Print , docProp.Name & ": " & docProp.Value
+        Print #fle, docProp.Name & ": " & docProp.Value
+    Next
 
 PROC_EXIT:
     Close fle
