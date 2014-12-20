@@ -28,14 +28,14 @@ Option Compare Text
 ' Date:     July 13, 2013
 ' Comment:  Create class for revision control
 ' History:  See comment details, basChangeLog, commit messages on GitHub
-' GitHub:   https://github.com/peterennis/aexlgit
+' GitHub:   https://github.com/peterennis/aexlgit/tree/ejsonvba
 ' Ref:      http://www.rondebruin.nl/win/s9/win002.htm
 '=======================================================================
 
 Private Declare Sub Sleep Lib "kernel32" (ByVal lngMilliSeconds As Long)
 
-Private Const aexlgitVERSION As String = "0.1.0"
-Private Const aexlgitVERSION_DATE As String = "November 14, 2014"
+Private Const aexlgitVERSION As String = "0.1.2"
+Private Const aexlgitVERSION_DATE As String = "December 19, 2014"
 
 Private Type mySetupType
     SourceFolder As String
@@ -66,7 +66,7 @@ Private Sub Class_Initialize()
     End If
     ' Provide a default value for the SourceFolder and ImportFolder properties
     aexlgitSourceFolder = "default"
-    aexlgitType.SourceFolder = "C:\ae\aexlgit\aerc\src\"
+    aexlgitType.SourceFolder = "C:\ae\aexlgit\src\"
 
     Debug.Print "Class_Initialize"
     Debug.Print , "Default for aegitSourceFolder = " & aexlgitSourceFolder
@@ -145,7 +145,6 @@ Private Function aeDocumentTheExcelCode(Optional ByVal varDebug As Variant) As B
     Dim strSourceWorkbook As String
     Dim strExportPath As String
     Dim strFileName As String
-    Dim blnDebug As Boolean
 
     'MsgBox "aeDocumentTheExcelCode"
     On Error GoTo PROC_ERR
@@ -155,11 +154,9 @@ Private Function aeDocumentTheExcelCode(Optional ByVal varDebug As Variant) As B
 
     Debug.Print "aeDocumentTheExcelCode"
     If IsMissing(varDebug) Then
-        blnDebug = False
         Debug.Print , "varDebug IS missing so blnDebug of aeDocumentTheExcelCode is set to False"
         Debug.Print , "DEBUGGING IS OFF"
     Else
-        blnDebug = True
         Debug.Print , "varDebug IS NOT missing so blnDebug of aeDocumentTheExcelCode is set to True"
         Debug.Print , "NOW DEBUGGING..."
     End If
@@ -426,5 +423,7 @@ Private Function DeleteVBAModulesAndUserForms() As Boolean
     Next objComponent
 
 End Function
+
+
 
 
