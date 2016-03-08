@@ -23,19 +23,19 @@ Option Compare Text
 'License along with this library; if not, visit
 'http://www.gnu.org/licenses/lgpl-3.0.txt
 
-
 '=======================================================================
 ' Author:   Peter F. Ennis
 ' Date:     July 13, 2013
 ' Comment:  Create class for revision control
-' History:  See comment details, basChangeLog, commit messages on github
+' History:  See comment details, basChangeLog, commit messages on GitHub
+' GitHub:   https://github.com/peterennis/aexlgit/tree/ejsonvba
 ' Ref:      http://www.rondebruin.nl/win/s9/win002.htm
 '=======================================================================
 
 Private Declare Sub Sleep Lib "kernel32" (ByVal lngMilliSeconds As Long)
 
-Private Const aexlgitVERSION As String = "0.0.9"
-Private Const aexlgitVERSION_DATE As String = "April 16, 2014"
+Private Const aexlgitVERSION As String = "0.1.3"
+Private Const aexlgitVERSION_DATE As String = "March 7, 2016"
 
 Private Type mySetupType
     SourceFolder As String
@@ -66,7 +66,7 @@ Private Sub Class_Initialize()
     End If
     ' Provide a default value for the SourceFolder and ImportFolder properties
     aexlgitSourceFolder = "default"
-    aexlgitType.SourceFolder = "C:\ae\aexlgit\aerc\src\"
+    aexlgitType.SourceFolder = "C:\ae\aexlgit\src\"
 
     Debug.Print "Class_Initialize"
     Debug.Print , "Default for aegitSourceFolder = " & aexlgitSourceFolder
@@ -145,7 +145,6 @@ Private Function aeDocumentTheExcelCode(Optional ByVal varDebug As Variant) As B
     Dim strSourceWorkbook As String
     Dim strExportPath As String
     Dim strFileName As String
-    Dim blnDebug As Boolean
 
     'MsgBox "aeDocumentTheExcelCode"
     On Error GoTo PROC_ERR
@@ -155,11 +154,9 @@ Private Function aeDocumentTheExcelCode(Optional ByVal varDebug As Variant) As B
 
     Debug.Print "aeDocumentTheExcelCode"
     If IsMissing(varDebug) Then
-        blnDebug = False
         Debug.Print , "varDebug IS missing so blnDebug of aeDocumentTheExcelCode is set to False"
         Debug.Print , "DEBUGGING IS OFF"
     Else
-        blnDebug = True
         Debug.Print , "varDebug IS NOT missing so blnDebug of aeDocumentTheExcelCode is set to True"
         Debug.Print , "NOW DEBUGGING..."
     End If
@@ -180,18 +177,16 @@ Private Function aeDocumentTheExcelCode(Optional ByVal varDebug As Variant) As B
         Kill FolderWithVBAProjectFiles & "\*.*"
     On Error GoTo PROC_ERR
 
-    If ThisIsAnAddIn("DirTree.xla", varDebug) Then
-    Else
-        ' NOTE: This workbook must be open in Excel
-        strSourceWorkbook = ActiveWorkbook.Name
-        Set wkbSource = Application.Workbooks(strSourceWorkbook)
+    ' NOTE: This workbook must be open in Excel
+    strSourceWorkbook = ActiveWorkbook.Name
+    Set wkbSource = Application.Workbooks(strSourceWorkbook)
 
-        If wkbSource.VBProject.Protection = 1 Then
-            MsgBox "The VBA in this workbook is protected!" & vbCrLf & _
-                    "It is not possible to export the code."
-            Exit Function
-        End If
+    If wkbSource.VBProject.Protection = 1 Then
+        MsgBox "The VBA in this workbook is protected!" & vbCrLf & _
+                "It is not possible to export the code."
+        Exit Function
     End If
+    '''End If
 
     strExportPath = FolderWithVBAProjectFiles & "\"
 
@@ -270,12 +265,10 @@ Public Sub OutputListOfExcelProperties(Optional ByVal varDebug As Variant)
         Print #fle, docProp.Name & ": " & docProp.Value
     Next
 
-    If Not ThisIsAnAddIn("DirTree.xla", varDebug) Then
-        For Each docProp In ActiveWorkbook.BuiltinDocumentProperties
-            If Not IsMissing(varDebug) Then Debug.Print , docProp.Name & ": " & docProp.Value
-            Print #fle, docProp.Name & ": " & docProp.Value
-        Next
-    End If
+    For Each docProp In ActiveWorkbook.BuiltinDocumentProperties
+        If Not IsMissing(varDebug) Then Debug.Print , docProp.Name & ": " & docProp.Value
+        Print #fle, docProp.Name & ": " & docProp.Value
+    Next
 
 PROC_EXIT:
     Close fle
@@ -298,8 +291,13 @@ Private Sub ImportModules()
 
     On Error GoTo 0
     Dim wkbTarget As Excel.Workbook
-    Dim objFSO As Scripting.FileSystemObject
-    Dim objFile As Scripting.File
+    'Dim objFSO As Scripting.FileSystemObject
+    Dim objFSO As Object
+    Set objFSO = CreateObject("Scripting.FileSystemObject")
+
+    'Dim objFile As Scripting.File
+    Dim objFile As Object
+    
     Dim strTargetWorkbook As String
     Dim strImportPath As String
 
@@ -331,7 +329,7 @@ Private Sub ImportModules()
     ' NOTE: Path where the code modules are located.
     strImportPath = FolderWithVBAProjectFiles & "\"
 
-    Set objFSO = New Scripting.FileSystemObject
+    '''Set objFSO = New Scripting.FileSystemObject
     If objFSO.GetFolder(strImportPath).Files.Count = 0 Then
        MsgBox "There are no files to import"
        Exit Sub
@@ -397,6 +395,11 @@ Private Function FolderWithVBAProjectFiles() As String
         FolderWithVBAProjectFiles = aexlgitSourceFolder
 
     End If
+    
+    'MsgBox "FolderWithVBAProjectFiles=" & FolderWithVBAProjectFiles
+    If Not FSO.FolderExists(FolderWithVBAProjectFiles) Then
+        FolderWithVBAProjectFiles = "Error"
+    End If
 
 End Function
 
@@ -420,5 +423,7 @@ Private Function DeleteVBAModulesAndUserForms() As Boolean
     Next objComponent
 
 End Function
+
+
 
 

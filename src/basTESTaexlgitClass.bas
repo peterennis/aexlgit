@@ -6,20 +6,20 @@ Option Private Module
 ' Default Usage:
 ' The following folders are used if no custom configuration is provided:
 ' aexlgitType.SourceFolder = "C:\ae\aexlgit\aerc\src\"
-' Run in immediate window:                  MYXLPROJECT_TEST
-' Show debug output in immediate window:    Uncomment aexlgitClassTest varDebug:="DebugIt"
+' Run in immediate window:                  EXPORT_THE_CODE
+' Show debug output in immediate window:    Uncomment aexlgitClassTest varDebug:="varDebug"
 '
 ' Custom Usage:
 ' Public Const FOLDER_FOR_VBA_PROJECT_FILES = "Z:\The\Source\Folder\srx.MYPROJECT\"
 ' For custom configuration of the output source folder in aexlClassTest use:
 ' oDbObjects.SourceFolder = FOLDER_FOR_VBA_PROJECT_FILES
-' Run in immediate window: MYXLPROJECT_TEST
+' Run in immediate window: EXPORT_THE_CODE
 '
 
-Public Function MYXLPROJECT_TEST() As Boolean
+Public Function EXPORT_THE_CODE() As Boolean
     On Error GoTo 0
     'aexlgitClassTest
-    aexlgitClassTest varDebug:="Debugit"
+    aexlgitClassTest varDebug:="varDebug"
 End Function
 
 Public Function aexlgitClassTest(Optional ByVal varDebug As Variant, _
@@ -70,15 +70,4 @@ PROC_ERR:
     End If
 
 End Function
-
-Public Sub ListAddInFiles()
-    Dim rw As Byte
-    Dim varAddIn As Variant
-    rw = 1
-    For Each varAddIn In Application.AddIns
-        Debug.Print varAddIn.Name, varAddIn.Installed
-        rw = rw + 1
-    Next
-End Sub
-
 

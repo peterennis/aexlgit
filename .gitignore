@@ -2,6 +2,7 @@
 ## Microsoft Excel
 ###################
 
+*.xlsx
 *.xlsm
 *.xla
 
