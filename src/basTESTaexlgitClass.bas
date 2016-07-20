@@ -16,7 +16,7 @@ Option Private Module
 ' Run in immediate window: EXPORT_THE_CODE
 '
 
-Public Function EXPORT_THE_CODE() As Boolean
+Public Function aeXL_EXPORT() As Boolean
     On Error GoTo 0
     'aexlgitClassTest
     aexlgitClassTest varDebug:="varDebug"
