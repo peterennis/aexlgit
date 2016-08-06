@@ -24,6 +24,7 @@ Public Const MODULE_NOT_EMPTY_DUMMY As String = vbNullString
 '=============================================================================================================================
 '
 '
+'20160806 - v015 - Bump
 '20141114 - v010 -
     ' http://www.jpsoftwaretech.com/vba/filesystemobject-vba-examples/ for testing #002
     ' Late vs. Early binding
