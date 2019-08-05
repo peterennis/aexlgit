@@ -5,7 +5,7 @@ Option Private Module
 
 ' Default Usage:
 ' The following folders are used if no custom configuration is provided:
-' aexlgitType.SourceFolder = "C:\ae\aexlgit\aerc\src\"
+' aexlgitType.SourceFolder = "C:\ae\adaept.com\aexlgit\aerc\src\"
 ' Run in immediate window:                  EXPORT_THE_CODE
 ' Show debug output in immediate window:    Uncomment aexlgitClassTest varDebug:="varDebug"
 '

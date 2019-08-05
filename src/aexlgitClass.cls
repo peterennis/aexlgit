@@ -32,10 +32,10 @@ Option Compare Text
 ' Ref:      http://www.rondebruin.nl/win/s9/win002.htm
 '=======================================================================
 
-Private Declare Sub Sleep Lib "kernel32" (ByVal lngMilliSeconds As Long)
+Private Declare PtrSafe Sub Sleep Lib "kernel32" (ByVal lngMilliSeconds As Long)
 
-Private Const aexlgitVERSION As String = "0.1.5"
-Private Const aexlgitVERSION_DATE As String = "August 6, 2016"
+Private Const aexlgitVERSION As String = "0.1.6"
+Private Const aexlgitVERSION_DATE As String = "August 5, 2019"
 
 Private Type mySetupType
     SourceFolder As String
@@ -66,7 +66,7 @@ Private Sub Class_Initialize()
     End If
     ' Provide a default value for the SourceFolder and ImportFolder properties
     aexlgitSourceFolder = "default"
-    aexlgitType.SourceFolder = "C:\ae\aexlgit\src\"
+    aexlgitType.SourceFolder = "C:\ae\adaept.com\aexlgit\src\"
 
     Debug.Print "Class_Initialize"
     Debug.Print , "Default for aegitSourceFolder = " & aexlgitSourceFolder

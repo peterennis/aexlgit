@@ -7,23 +7,17 @@ Public Const MODULE_NOT_EMPTY_DUMMY As String = vbNullString
 
 '=============================================================================================================================
 ' Tasks:
-' %007 -
-' %006 -
-' %005 -
-' %004 -
-' %003 -
-' %002 -
-' %001 - Properties should be exported. Project name changed but not shown in export
-' Issues:
-' #007 -
-' #006 -
-' #005 -
-' #004 -
-' #002 - User-defined type not defined error at objFSO As Scripting.FileSystemObject
-' #001 - xla fix in v009 kills workbook properties output
+' %010 -
+' %009 -
+' %008 -
+' %007 - User-defined type not defined error at objFSO As Scripting.FileSystemObject
+' %006 - xla fix in v009 kills workbook properties output
+' %004 - Properties should be exported. Project name changed but not shown in export
 '=============================================================================================================================
 '
 '
+'20190805 - v016 -
+    ' FIXED - %005 - Use PtrSafe for x64
 '20160806 - v015 - Bump
 '20141114 - v010 -
     ' http://www.jpsoftwaretech.com/vba/filesystemobject-vba-examples/ for testing #002
