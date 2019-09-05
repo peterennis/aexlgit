@@ -9,13 +9,14 @@ Public Const MODULE_NOT_EMPTY_DUMMY As String = vbNullString
 ' Tasks:
 ' %010 -
 ' %009 -
-' %008 -
 ' %007 - User-defined type not defined error at objFSO As Scripting.FileSystemObject
 ' %006 - xla fix in v009 kills workbook properties output
 ' %004 - Properties should be exported. Project name changed but not shown in export
 '=============================================================================================================================
 '
 '
+'20190905 - v017 - Bump
+    ' FIXED - %008 - Fix source aexlgit default source folder to C:\ae\adaept.com\aexlgit\src\
 '20190805 - v016 -
     ' FIXED - %005 - Use PtrSafe for x64
 '20160806 - v015 - Bump
