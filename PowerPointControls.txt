@@ -1,0 +1,1746 @@
+idMso	Exists in Office PowerPoint 2010	Type in Office PowerPoint 2010	Label in Office PowerPoint 2010	Exists in Office PowerPoint 2013	Type in Office PowerPoint 2013	Label in Office PowerPoint 2013
+_3DBevelOptionsDialog	1	button	3-D Options	1	button	3-D Options
+_3DBevelPictureTopGallery	1	gallery	Bevel	1	gallery	Bevel
+_3DRotationGallery	1	gallery	3-D Rotation	1	gallery	3-D Rotation
+_3DRotationOptionsDialog	1	button	3-D Rotation Options	1	button	3-D Rotation Options
+About	1	button	About	1	button	About
+AccessibilityChecker	1	button	Check Accessibility	1	button	Check Accessibility
+ActionInsert	1	button	Action	1	button	Action
+ActiveXButton	1	button	Command Button	1	button	Command Button
+ActiveXCheckBox	1	button	Check Box	1	button	Check Box
+ActiveXComboBox	1	button	Combo Box	1	button	Combo Box
+ActiveXImage	1	button	Image	1	button	Image
+ActiveXLabel	1	button	Label	1	button	Label
+ActiveXListBox	1	button	List Box	1	button	List Box
+ActiveXRadioButton	1	button	Option Button	1	button	Option Button
+ActiveXScrollBar	1	button	Scroll Bar	1	button	Scroll Bar
+ActiveXSpinButton	1	button	Spin Button	1	button	Spin Button
+ActiveXTextBox	1	button	Text Box	1	button	Text Box
+ActiveXToggleButton	1	button	Toggle Button	1	button	Toggle Button
+AddAnimationGallery	1	gallery	Add Animation	0
+AddAudioBookmark	1	button	Add Bookmark	0
+AddChartElementMenu	0			1	menu	Add Chart Element
+AddDataLabelShapesMenu	0			1	splitButton	Add Data Label
+AddDataLabelsShapesMenu	0			1	splitButton	Add Data Labels
+AddFavoritePen	1	button	Add Current Pen to Favorite Pens	0
+AddHorizontalGuide	0			1	button	Add Horizontal Guide
+AddInManager	1	button	Add-Ins	1	button	Add-Ins
+AddNode	1	button	Add Point	1	button	Add Point
+AddTriggerMenu	1	menu	Trigger	0
+AddTriggerOnClick	1	gallery	On Click	0
+AddTriggerOnMediaBookmark	1	gallery	On Bookmark	0
+AddVerticalGuide	0			1	button	Add Vertical Guide
+AddVideoBookmark	1	button	Add Bookmark	0
+AdditionalActions	0			1	gallery	Additional Actions
+AdvanceSlideLabel	1	labelControl	Advance Slide	1	labelControl	Advance Slide
+AdvancedFileProperties	1	button	View Document Properties	1	button	View Document Properties
+AdvertisePublishAs	1	button	Find add-ins for other file formats	1	button	Find add-ins for other file formats
+AlignCenter	1	toggleButton	Center	1	toggleButton	Center
+AlignDistributeHorizontally	1	button	Distribute Horizontally	1	button	Distribute Horizontally
+AlignDistributeVertically	1	button	Distribute Vertically	1	button	Distribute Vertically
+AlignJustify	1	toggleButton	Justify	1	toggleButton	Justify
+AlignJustifyLow	1	toggleButton	Justify Low	1	toggleButton	Justify Low
+AlignJustifyMenu	1	menu	Justify	1	menu	Justify
+AlignJustifyThai	1	toggleButton	Distribute	1	toggleButton	Distribute
+AlignJustifyWithMixedLanguages	1	toggleButton	Justify	1	toggleButton	Justify
+AlignLeft	1	toggleButton	Align Left	1	toggleButton	Align Left
+AlignRight	1	toggleButton	Align Right	1	toggleButton	Align Right
+AllowPersonallyIdentifiableInformation	0			1	control
+AlternativeText	0			1	button	Size and Position
+AnimationAddGallery	0			1	gallery	Add Animation
+AnimationAutoPreview	0			1	toggleButton	AutoPreview
+AnimationChangeGallery	1	gallery	Effect Options Animation Variant Property	1	gallery	Effect Options Animation Variant Property
+AnimationCustom	1	toggleButton	Animation Pane	1	toggleButton	Animation Pane
+AnimationCustomActionVerbDialog	0			1	button	OLE Action Verbs
+AnimationCustomAddActionVerbDialog	0			1	button	OLE Action Verbs
+AnimationCustomAddEmphasisDialog	0			1	button	More Emphasis Effects
+AnimationCustomAddEntranceDialog	0			1	button	More Entrance Effects
+AnimationCustomAddExitDialog	0			1	button	More Exit Effects
+AnimationCustomAddPathDialog	0			1	button	More Motion Paths
+AnimationCustomEmphasisDialog	0			1	button	More Emphasis Effects
+AnimationCustomEntranceDialog	0			1	button	More Entrance Effects
+AnimationCustomExitDialog	0			1	button	More Exit Effects
+AnimationCustomPathDialog	0			1	button	More Motion Paths
+AnimationDelay	1	control	Delay	1	control	Delay
+AnimationDuration	1	control	Duration	1	control	Duration
+AnimationGallery	1	gallery	Animation Styles	1	gallery	Animation Styles
+AnimationMoveEarlier	1	button	Move Earlier	1	button	Move Earlier
+AnimationMoveLater	1	button	Move Later	1	button	Move Later
+AnimationPainter	1	toggleButton	Animation Painter	1	control	Animation Painter
+AnimationPreview	1	button	Preview	1	button	Preview
+AnimationPreviewMenu	0			1	splitButton	Preview
+AnimationReorderLabel	0			1	labelControl	Reorder Animation
+AnimationStartDropdown	1	dropDown	Start	1	dropDown	Start
+AnimationTransitionGallery	1	gallery	Transition Scheme	1	gallery	Transition Styles
+AnimationTransitionSoundGallery	1	dropDown	Sound	1	dropDown	Sound
+AnimationTransitionSpeedGallery	1	dropDown	Speed	1	dropDown	Speed
+AnimationTransitionVariantGallery	1	gallery	Effect Options	1	gallery	Effect Options
+AnimationTriggerAddMenu	0			1	menu	Trigger
+AnimationTriggerAddOnClick	0			1	gallery	On Click of
+AnimationTriggerAddOnMediaBookmark	0			1	gallery	On Bookmark
+ApplicationOptionsDialog	1	button	Options	1	button	Options
+ArrowStyleGallery	1	gallery	Arrows	1	gallery	Arrows
+ArrowsMore	1	button	More Arrows	1	button	More Arrows
+ArtisticEffectsDialog	1	button	Artistic Effects Options	1	button	Artistic Effects Options
+AudioBookmarkAdd	0			1	button	Add Bookmark
+AudioBookmarkRemove	0			1	button	Remove Bookmark
+AudioFadeInTime	0			1	control	Fade In
+AudioFadeOutTime	0			1	control	Fade Out
+AudioInsert	0			1	button	Audio on My PC
+AudioStartGallery	0			1	dropDown	Start
+AudioToolsTrim	1	button	Trim Audio	1	button	Trim Audio
+AudioVolumeGallery	1	gallery	Volume	1	gallery	Volume
+AutoCorrect	1	button	AutoCorrect Options	1	button	AutoCorrect Options
+AutoPreviewAnimations	1	toggleButton	AutoPreview	0
+BackgroundRemovalClose	0			1	button	Discard All Changes
+BarcodeInsert	1	button	Barcode	1	button	Barcode
+BaselineLower	1	button	Lower Baseline	1	button	Lower Baseline
+BaselineRaise	1	button	Raise Baseline	1	button	Raise Baseline
+BevelShapeGallery	1	gallery	Bevel	1	gallery	Bevel
+BevelTextGallery	1	gallery	Bevel	1	gallery	Bevel
+BlackAndWhiteAutomatic	1	toggleButton	B & W Automatic	1	toggleButton	B & W Automatic
+BlackAndWhiteBlack	1	toggleButton	B & W	1	toggleButton	B & W
+BlackAndWhiteBlackWithGrayscaleFill	1	toggleButton	B & W Black with Grayscale Fill	1	toggleButton	B & W Black with Grayscale Fill
+BlackAndWhiteBlackWithWhiteFill	1	toggleButton	B & W Black with White Fill	1	toggleButton	B & W Black with White Fill
+BlackAndWhiteDontShow	1	toggleButton	B & W Don't Show	1	toggleButton	B & W Don't Show
+BlackAndWhiteGrayWithWhiteFill	1	toggleButton	B & W Gray with White Fill	1	toggleButton	B & W Gray with White Fill
+BlackAndWhiteGrayscale	1	toggleButton	B & W Grayscale	1	toggleButton	B & W Grayscale
+BlackAndWhiteInverseGrayscale	1	toggleButton	B & W Inverse Grayscale	1	toggleButton	B & W Inverse Grayscale
+BlackAndWhiteLightGrayscale	1	toggleButton	B & W Light Grayscale	1	toggleButton	B & W Light Grayscale
+BlackAndWhiteWhite	1	toggleButton	B & W White	1	toggleButton	B & W White
+BlackWhiteSettingMenu	1	menu	Setting	1	menu	Setting
+Bold	1	toggleButton	Bold	1	toggleButton	Bold
+BookshelfDefine	1	button	Define	1	button	Define
+BorderBottom	1	toggleButton	Bottom Border	1	toggleButton	Bottom Border
+BorderDiagonalDown	1	toggleButton	Diagonal Down Border	1	toggleButton	Diagonal Down Border
+BorderDiagonalUp	1	toggleButton	Diagonal Up Border	1	toggleButton	Diagonal Up Border
+BorderInside	1	toggleButton	Inside Borders	1	toggleButton	Inside Borders
+BorderInsideHorizontal	1	toggleButton	Inside Horizontal Border	1	toggleButton	Inside Horizontal Border
+BorderInsideVertical	1	toggleButton	Inside Vertical Border	1	toggleButton	Inside Vertical Border
+BorderLeft	1	toggleButton	Left Border	1	toggleButton	Left Border
+BorderNone	1	toggleButton	No Border	1	toggleButton	No Border
+BorderOutside	1	toggleButton	Outside Borders	1	toggleButton	Outside Borders
+BorderRight	1	toggleButton	Right Border	1	toggleButton	Right Border
+BorderTop	1	toggleButton	Top Border	1	toggleButton	Top Border
+BordersAll	1	toggleButton	All Borders	1	toggleButton	All Borders
+BordersShadingDialog	1	button	Borders and Shading	1	button	Borders and Shading
+BrightnessLess	1	button	Less Brightness	1	button	Less Brightness
+BrightnessMore	1	button	More Brightness	1	button	More Brightness
+BroadcastEnd	0			1	button	End Online Presentation
+BroadcastFromBeginning	1	button	From Beginning	1	button	From Beginning
+BroadcastFromCurrent	1	button	From Current Slide	1	button	From Current Slide
+BroadcastNotes	0			1	button	Share Meeting Notes
+BroadcastNotesSplitButton	0			1	splitButton	Share Meeting Notes
+BroadcastResume	0			1	button	Resume Online Presentation
+BroadcastSendInvitation	1	button	Send Invitations	1	button	Send Invitations
+BroadcastSlideShow	1	button	Broadcast Slide Show	1	button	Present Online
+BroadcastSlideShowBackstage	0			1	button	Present Online
+BroadcastSlideShowGeneric	0			1	button	More Services
+BroadcastSlideShowLync	0			1	button	Microsoft Lync
+BroadcastSlideShowOfficeHosted	0			1	button	Office Presentation Service
+BuildOrderChangeGallery	1	gallery	Effect Options Build Property	1	gallery	Effect Options Build Property
+BulletsAndNumberingBulletsDialog	1	button	Bullets and Numbering	1	button	Bullets and Numbering
+BulletsAndNumberingNumberingDialog	1	button	Bullets and Numbering	1	button	Bullets and Numbering
+BulletsGallery	1	gallery	Bullets	1	gallery	Bullets
+ButtonCategoryAvailableFileTypes	1	category		0
+ButtonCategoryContactMicrosoft	1	category		0
+ButtonCategoryMicrosoftTools	1	category		0
+ButtonCategoryRecentDocuments	0			1	category	Places
+ButtonCategorySend	1	category		0
+ButtonCategorySpecialLocations	1	category		0
+ButtonCategoryWorkflow	1	category		0
+ButtonOpenBrowse	0			1	button	Browse More Files
+ButtonTaskClickToRunStatusUpdates	1	task		0
+ButtonTaskContactMicrosoft	1	task		0
+ButtonTaskDynamicServiceProvider	0			1	task
+ButtonTaskOfficeOnline	1	task		0
+ButtonTaskOfficeUpgrade	1	task		0
+ButtonTaskProductUpdates	1	task		0
+ButtonTaskRecentDocuments	0			1	task
+ButtonTaskSaveDocument	1	task		0
+ButtonTaskSaveToGroove	1	task		0
+ButtonTaskSaveToSharePoint	1	task		0
+ButtonTaskSelfSupport	1	task		0
+ButtonTaskSendByIM	1	task		0
+ButtonTaskSendUsingEmail	1	task		0
+ButtonTaskShareApplication	1	task		0
+ButtonTaskStartWorkflow	1	task		0
+ButtonTaskSystemInformation	1	task		0
+ButtonTaskWorkflowsUnavailable	1	task		0
+CDAudioPlayTrack	1	button	Play CD Audio Track	1	button	Play CD Audio Track
+CDAudioPlayTrackAutomatically	1	dropDown	Play Track	1	dropDown	Play Track
+CDAudioStartPlayingLabel	1	labelControl	Start Playing	1	labelControl	Start Playing
+CDAudioStartTime	1	control	Time	1	control	Time
+CDAudioStartTrack	1	control	Track	1	control	Track
+CDAudioStopPlayingLabel	1	labelControl	Stop Playing	1	labelControl	Stop Playing
+CDAudioStopTime	1	control	Time	1	control	Time
+CDAudioStopTrack	1	control	Track	1	control	Track
+ChangeCaseGallery	1	gallery	Change Case	1	gallery	Change Case
+ChangeCaseToggle	1	button	Toggle Case	1	button	Toggle Case
+CharacterFormattingReset	1	button	Reset Character Formatting	1	button	Reset Character Formatting
+CharacterSpacingGallery	1	gallery	Character Spacing	1	gallery	Character Spacing
+Chart3DView	1	button	3-D Rotation	1	button	3-D Rotation
+ChartAddAxis	1	button	Add Axis	1	button	Add Axis
+ChartAxes	1	menu	Axes	1	menu	Axes
+ChartAxesGallery	0			1	gallery	Axes
+ChartAxesOptionsDialog	0			1	button	More Axis Options
+ChartAxesTitlesOptionsDialog	0			1	button	More Axis Title Options
+ChartAxisTitles	1	menu	Axis Titles	1	menu	Axis Titles
+ChartAxisTitlesGallery	0			1	gallery	Axis Titles
+ChartCalloutDataLabelAdd	0			1	button	Add Data Callout
+ChartCalloutDataLabelsAdd	0			1	button	Add Data Callouts
+ChartChangeDataLabelShapeGallery	0			1	gallery	Change Data Label Shape
+ChartChangeDataLabelShapesGallery	0			1	gallery	Change Data Label Shapes
+ChartChangeType	1	button	Change Chart Type	1	button	Change Chart Type
+ChartColorsGallery	0			1	gallery	Change Colors
+ChartDataLabel	1	gallery	Data Labels	1	gallery	Data Labels
+ChartDataLabelAdd	1	button	Add Data Label	1	button	Add Data Label
+ChartDataLabelDialog	1	button	More Data Label Options	1	button	More Data Label Options
+ChartDataLabelsAdd	1	button	Add Data Labels	1	button	Add Data Labels
+ChartDataTable	1	gallery	Data Table	1	gallery	Data Table
+ChartDataTableOptionsDialog	1	button	More Data Table Options	1	button	More Data Table Options
+ChartDebugInto	1	button		0
+ChartDelete	1	button	Delete	1	button	Delete
+ChartDeleteSeries	1	button	Delete Series	1	button	Delete Series
+ChartDepthAxis	1	gallery	Depth Axis	1	gallery	Depth Axis
+ChartDepthAxisOptionsDialog	1	button	More Depth Axis Options	1	button	More Depth Axis Options
+ChartDepthAxisTitle	1	gallery	Depth Axis Title	1	gallery	Depth Axis Title
+ChartDepthAxisTitleOptionsDialog	1	button	More Depth Axis Title Options	1	button	More Depth Axis Title Options
+ChartDepthGridlines	1	gallery	Depth Gridlines	1	gallery	Depth Gridlines
+ChartDepthGridlinesOptionsDialog	1	button	More Depth Gridlines Options	1	button	More Depth Gridlines Options
+ChartDraftModeToggle	1	toggleButton	Draft	0
+ChartDrawingModeMenu	1	splitButton	Draft	0
+ChartEditDataMenu	0			1	splitButton	Edit Data
+ChartEditDataSource	1	button	Select Data	1	button	Select Data
+ChartEditText	1	button	Edit Text	1	button	Edit Text
+ChartElementSelector	1	comboBox	Chart Elements	1	comboBox	Chart Elements
+ChartErrorBars	1	gallery	Error Bars	1	gallery	Error Bars
+ChartErrorBarsOptionsDialog	1	button	More Error Bars Options	1	button	More Error Bars Options
+ChartExitEditText	1	button	Exit Edit Text	1	button	Exit Edit Text
+ChartFloor	1	gallery	Chart Floor	1	gallery	Chart Floor
+ChartFloorOptionsDialog	1	button	More Floor Options	1	button	More Floor Options
+ChartFormatAxis	1	button	Format Axis	1	button	Format Axis
+ChartFormatAxisAndSelect	1	button	Format Axis	1	button	Format Axis
+ChartFormatAxisTitle	1	button	Format Axis Title	1	button	Format Axis Title
+ChartFormatBackWall	1	button	Format Back Wall	1	button	Format Back Wall
+ChartFormatChartArea	1	button	Format Chart Area	1	button	Format Chart Area
+ChartFormatChartTitle	1	button	Format Chart Title	1	button	Format Chart Title
+ChartFormatDataLabel	1	button	Format Data Label	1	button	Format Data Label
+ChartFormatDataLabelAndSelect	1	button	Format Data Label	1	button	Format Data Label
+ChartFormatDataLabels	1	button	Format Data Labels	1	button	Format Data Labels
+ChartFormatDataLabelsAndSelect	1	button	Format Data Labels	1	button	Format Data Labels
+ChartFormatDataPoint	1	button	Format Data Point	1	button	Format Data Point
+ChartFormatDataPointAndSelect	1	button	Format Data Point	1	button	Format Data Point
+ChartFormatDataSeries	1	button	Format Data Series	1	button	Format Data Series
+ChartFormatDataSeriesAndSelect	1	button	Format Data Series	1	button	Format Data Series
+ChartFormatDataTable	1	button	Format Data Table	1	button	Format Data Table
+ChartFormatDisplayUnit	1	button	Format Display Unit	1	button	Format Display Unit
+ChartFormatDownBars	1	button	Format Down Bars	1	button	Format Down Bars
+ChartFormatDropLines	1	button	Format Drop Lines	1	button	Format Drop Lines
+ChartFormatErrorBars	1	button	Format Error Bars	1	button	Format Error Bars
+ChartFormatFloor	1	button	Format Floor	1	button	Format Floor
+ChartFormatGridlines	1	button	Format Gridlines	1	button	Format Gridlines
+ChartFormatHighLowLine	1	button	Format High-Low Lines	1	button	Format High-Low Lines
+ChartFormatLeaderLines	1	button	Format Leader Lines	1	button	Format Leader Lines
+ChartFormatLegend	1	button	Format Legend	1	button	Format Legend
+ChartFormatLegendEntry	1	button	Format Legend Entry	1	button	Format Legend Entry
+ChartFormatMajorGridlinesAndSelect	1	button	Format Major Gridlines	1	button	Format Major Gridlines
+ChartFormatMinorGridlinesAndSelect	1	button	Format Minor Gridlines	1	button	Format Minor Gridlines
+ChartFormatPlotArea	1	button	Format Plot Area	1	button	Format Plot Area
+ChartFormatSelection	1	button	Format Selection	1	button	Format Selection
+ChartFormatSeriesLine	1	button	Format Series Lines	1	button	Format Series Lines
+ChartFormatSideWall	1	button	Format Side Wall	1	button	Format Side Wall
+ChartFormatTrendline	1	button	Format Trendline	1	button	Format Trendline
+ChartFormatTrendlineAndSelect	1	button	Format Trendline	1	button	Format Trendline
+ChartFormatTrendlineLabel	1	button	Format Trendline Label	1	button	Format Trendline Label
+ChartFormatUpBars	1	button	Format Up Bars	1	button	Format Up Bars
+ChartFormatWalls	1	button	Format Walls	1	button	Format Walls
+ChartGridlineOptionsDialog	0			1	button	More Gridline Options
+ChartGridlines	1	menu	Gridlines	1	menu	Gridlines
+ChartGridlinesGallery	0			1	gallery	Gridlines
+ChartHideSketchModeAlert	1	button	Hide This Alert	0
+ChartInsert	1	button	Chart	1	button	Chart
+ChartInsertDataField	0			1	button	Insert Data Label Field
+ChartLayoutGallery	1	gallery	Quick Layout	1	gallery	Quick Layout
+ChartLegend	1	gallery	Legend	1	gallery	Legend
+ChartLegendOptionsDialogDialog	1	button	More Legend Options	1	button	More Legend Options
+ChartLines	1	gallery	Lines	1	gallery	Lines
+ChartMajorGridlinesAdd	1	button	Add Major Gridlines	1	button	Add Major Gridlines
+ChartMinorGridlinesAdd	1	button	Add Minor Gridlines	1	button	Add Minor Gridlines
+ChartNormalItem	1	toggleButton	Normal Mode	0
+ChartNormalModeForAll	1	button	Apply Normal Mode to all charts	0
+ChartPlotArea	1	gallery	Plot Area	1	gallery	Plot Area
+ChartPlotAreaOptionsDialog	1	button	More Plot Area Options	1	button	More Plot Area Options
+ChartPrimaryHorizontalAxis	1	gallery	Primary Horizontal Axis	1	gallery	Primary Horizontal Axis
+ChartPrimaryHorizontalAxisOptionsDialog	1	button	More Primary Horizontal Axis Options	1	button	More Primary Horizontal Axis Options
+ChartPrimaryHorizontalAxisTitle	1	gallery	Primary Horizontal Axis Title	1	gallery	Primary Horizontal Axis Title
+ChartPrimaryHorizontalAxisTitleOptionsDialog	1	button	More Primary Horizontal Axis Title Options	1	button	More Primary Horizontal Axis Title Options
+ChartPrimaryHorizontalGridlines	1	gallery	Primary Horizontal Gridlines	1	gallery	Primary Horizontal Gridlines
+ChartPrimaryHorizontalGridlinesOptionsDialog	1	button	More Primary Horizontal Gridlines Options	1	button	More Primary Horizontal Gridlines Options
+ChartPrimaryVerticalAxis	1	gallery	Primary Vertical Axis	1	gallery	Primary Vertical Axis
+ChartPrimaryVerticalAxisOptionsDialog	1	button	More Primary Vertical Axis Options	1	button	More Primary Vertical Axis Options
+ChartPrimaryVerticalAxisTitle	1	gallery	Primary Vertical Axis Title	1	gallery	Primary Vertical Axis Title
+ChartPrimaryVerticalAxisTitleOptionsDialog	1	button	More Primary Vertical Axis Title Options	1	button	More Primary Vertical Axis Title Options
+ChartPrimaryVerticalGridlines	1	gallery	Primary Vertical Gridlines	1	gallery	Primary Vertical Gridlines
+ChartPrimaryVerticalGridlinesOptionsDialog	1	button	More Primary Vertical Gridlines Options	1	button	More Primary Vertical Gridlines Options
+ChartRefresh	1	button	Refresh Data	1	button	Refresh Data
+ChartResetToMatchStyle	1	button	Reset to Match Style	1	button	Reset to Match Style
+ChartSaveTemplates	1	button	Save As Template	1	button	Save as Template
+ChartSecondaryHorizontalAxis	1	gallery	Secondary Horizontal Axis	1	gallery	Secondary Horizontal Axis
+ChartSecondaryHorizontalAxisOption	1	button	More Secondary Horizontal Axis Options	1	button	More Secondary Horizontal Axis Options
+ChartSecondaryHorizontalAxisTitle	1	gallery	Secondary Horizontal Axis Title	1	gallery	Secondary Horizontal Axis Title
+ChartSecondaryHorizontalAxisTitleOptionsDialog	1	button	More Secondary Horizontal Axis Title Options	1	button	More Secondary Horizontal Axis Title Options
+ChartSecondaryHorizontalGridlines	1	gallery	Secondary Horizontal Gridlines	1	gallery	Secondary Horizontal Gridlines
+ChartSecondaryHorizontalGridlinesOptionsDialog	1	button	More Secondary Horizontal Gridlines Options	1	button	More Secondary Horizontal Gridlines Options
+ChartSecondaryVerticalAxis	1	gallery	Secondary Vertical Axis	1	gallery	Secondary Vertical Axis
+ChartSecondaryVerticalAxisOptionsDialog	1	button	More Secondary Vertical Axis Options	1	button	More Secondary Vertical Axis Options
+ChartSecondaryVerticalAxisTitle	1	gallery	Secondary Vertical Axis Title	1	gallery	Secondary Vertical Axis Title
+ChartSecondaryVerticalAxisTitleOptionsDialog	1	button	More Secondary Vertical Axis Title Options	1	button	More Secondary Vertical Axis Title Options
+ChartSecondaryVerticalGridlines	1	gallery	Secondary Vertical Gridlines	1	gallery	Secondary Vertical Gridlines
+ChartSecondaryVerticalGridlinesOptionsDialog	1	button	More Secondary Vertical Gridlines Options	1	button	More Secondary Vertical Gridlines Options
+ChartSeriesTypeChange	1	button	Change Series Chart Type	1	button	Change Series Chart Type
+ChartShowData	1	button	Edit Data	1	button	Edit Data
+ChartShowDataContextualMenu	1	button	Edit Data	1	button	Edit Data in Excel 2013
+ChartShowDataGrid	0			1	button	Edit Data
+ChartSketchItem	1	toggleButton	Draft Mode	0
+ChartSketchModeForAll	1	button	Apply Draft Mode to all charts	0
+ChartSourceDataContextualMenu	1	button	Select Data	1	button	Select Data
+ChartStylesGallery	1	gallery	Quick Styles	1	gallery	Quick Styles
+ChartSwitchRowColumn	1	button	Switch Row/Column	1	button	Switch Row/Column
+ChartTitle	1	gallery	Chart Title	1	gallery	Chart Title
+ChartTitleOptionsDialog	1	button	More Title Options	1	button	More Title Options
+ChartTrendline	1	gallery	Trendline	1	gallery	Trendline
+ChartTrendlineAdd	1	button	Add Trendline	1	button	Add Trendline
+ChartTrendlineOptionsDialog	1	button	More Trendline Options	1	button	More Trendline Options
+ChartTurnOffSketchMode	1	button	Turn off Draft Mode	0
+ChartUpDownBars	1	gallery	Up/Down Bars	1	gallery	Up/Down Bars
+ChartUpDownBarsOptionsDialog	1	button	More Up/Down Bars Options	1	button	More Up/Down Bars Options
+ChartWall	1	gallery	Chart Wall	1	gallery	Chart Wall
+ChartWallOptionsDialog	1	button	More Walls Options	1	button	More Walls Options
+CheckForUpdates	1	button	Check for Updates	1	button	Check for Updates
+ChineseTranslationDialog	1	button	Convert with Options	1	button	Convert with Options
+Clear	1	button	Clear	1	button	Clear
+ClearFormatting	1	button	Clear Formatting	1	button	Clear Formatting
+ClearSlideShowMenu	1	menu	Clear	0
+ClipArtInsert	1	toggleButton	Clip Art Pane	1	toggleButton	Clip Art
+ClipArtInsertDialog	0			1	button	Online Pictures
+CloseBackgroundRemoval	1	button	Close Background Removal	0
+CloseMergeView	1	button	Close Merge View	0
+ClosePath	1	toggleButton	Close Path	1	toggleButton	Close Path
+CollapseAll	1	button	Collapse All	1	button	Collapse All
+ComAddInsDialog	1	button	COM Add-Ins	1	button	COM Add-Ins
+CombineCharacters	1	toggleButton	Yoko-Gumi	1	toggleButton	Yoko-Gumi
+CombineShapes	1	button	Combine	0
+CombineShapesGallery	0			1	gallery	Merge Shapes
+CombineShapesMenu	0			1	menu	Merge
+CommentsPane	0			1	toggleButton	Comments Pane
+CommentsPaneSplitButton	0			1	toggleButton	Comments Pane
+ContactUs	1	button	Contact Us	1	button	Contact Us
+ContextMenuActiveXControl	0			1	contextMenu
+ContextMenuAudio	0			1	contextMenu
+ContextMenuChartArea	0			1	contextMenu
+ContextMenuChartAxis	0			1	contextMenu
+ContextMenuChartAxisTitle	0			1	contextMenu
+ContextMenuChartBackWall	0			1	contextMenu
+ContextMenuChartDataLabel	0			1	contextMenu
+ContextMenuChartDataLabels	0			1	contextMenu
+ContextMenuChartDataPoint	0			1	contextMenu
+ContextMenuChartDataSeries	0			1	contextMenu
+ContextMenuChartDataTable	0			1	contextMenu
+ContextMenuChartDisplayUnit	0			1	contextMenu
+ContextMenuChartDownBars	0			1	contextMenu
+ContextMenuChartDropLines	0			1	contextMenu
+ContextMenuChartErrorBars	0			1	contextMenu
+ContextMenuChartFloor	0			1	contextMenu
+ContextMenuChartGridlines	0			1	contextMenu
+ContextMenuChartHighLowLine	0			1	contextMenu
+ContextMenuChartLeaderLines	0			1	contextMenu
+ContextMenuChartLegend	0			1	contextMenu
+ContextMenuChartLegendEntry	0			1	contextMenu
+ContextMenuChartPlotArea	0			1	contextMenu
+ContextMenuChartSeriesLine	0			1	contextMenu
+ContextMenuChartSideWall	0			1	contextMenu
+ContextMenuChartSketchMode	1	contextMenu		0
+ContextMenuChartTitle	0			1	contextMenu
+ContextMenuChartTrendline	0			1	contextMenu
+ContextMenuChartTrendlineLabel	0			1	contextMenu
+ContextMenuChartUpBars	0			1	contextMenu
+ContextMenuChartWalls	0			1	contextMenu
+ContextMenuCommentMarker	0			1	contextMenu
+ContextMenuCurve	0			1	contextMenu
+ContextMenuDrawnObject	0			1	contextMenu
+ContextMenuEndShow	0			1	contextMenu
+ContextMenuFrame	0			1	contextMenu
+ContextMenuGraphicOleClassic	0			1	contextMenu
+ContextMenuGraphicsCompatibility	0			1	contextMenu
+ContextMenuGuide	0			1	contextMenu
+ContextMenuInk	1	contextMenu		1	contextMenu
+ContextMenuLabelSection	0			1	contextMenu
+ContextMenuMotionPath	0			1	contextMenu
+ContextMenuNotesEditText	0			1	contextMenu
+ContextMenuObjectEditPoint	0			1	contextMenu
+ContextMenuObjectEditSegment	0			1	contextMenu
+ContextMenuObjectsGroup	0			1	contextMenu
+ContextMenuOfficePreviewHandlerPowerPoint	0			1	contextMenu
+ContextMenuPathPoint	0			1	contextMenu
+ContextMenuPathSegment	0			1	contextMenu
+ContextMenuPicture	0			1	contextMenu
+ContextMenuPodiumMonitorSettings	0			1	contextMenu
+ContextMenuRevision	0			1	contextMenu
+ContextMenuRightDragDrop	0			1	contextMenu
+ContextMenuShape	0			1	contextMenu
+ContextMenuShapeConnector	0			1	contextMenu
+ContextMenuShapeFreeform	0			1	contextMenu
+ContextMenuShowBrowse	0			1	contextMenu
+ContextMenuShowHyperlink	0			1	contextMenu
+ContextMenuShowPointerOptions	0			1	contextMenu
+ContextMenuSlideGap	0			1	contextMenu
+ContextMenuSlideShow	0			1	contextMenu
+ContextMenuSlideSorter	0			1	contextMenu
+ContextMenuSlideSync	0			1	contextMenu
+ContextMenuSmartArtBackground	0			1	contextMenu
+ContextMenuSmartArtContentPane	0			1	contextMenu
+ContextMenuSmartArtEdit1DShape	0			1	contextMenu
+ContextMenuSmartArtEdit1DShapeText	0			1	contextMenu
+ContextMenuSmartArtEditSmartArt	0			1	contextMenu
+ContextMenuSmartArtEditText	0			1	contextMenu
+ContextMenuSpell	0			1	contextMenu
+ContextMenuTable	0			1	contextMenu
+ContextMenuTableWhole	0			1	contextMenu
+ContextMenuTextEdit	0			1	contextMenu
+ContextMenuTextEditOutline	0			1	contextMenu
+ContextMenuThumbnail	0			1	contextMenu
+ContextMenuVideo	0			1	contextMenu
+ContrastLess	1	button	Less Contrast	1	button	Less Contrast
+ContrastMore	1	button	More Contrast	1	button	More Contrast
+ControlProperties	1	button	Properties	1	button	Properties
+ConvertPicturesToSmartArt	1	gallery	Picture Layout	0
+ConvertSmartArtMenu	1	menu	Convert	1	menu	Convert
+ConvertSmartArtToShapes	1	button	Convert to Shapes	0
+ConvertSmartArtToText	1	button	Convert to Text	0
+ConvertToSmartArt	1	gallery	Convert to SmartArt	1	gallery	Convert to SmartArt
+ConvertToSmartArtMoreSmartArtGraphicsDialog	1	button	More SmartArt Graphics	1	button	More SmartArt Graphics
+Copy	1	button	Copy	1	button	Copy
+CopySplitButton	0			1	splitButton	Copy
+CornerVertex	1	toggleButton	Corner Point	1	toggleButton	Corner Point
+CreateHandoutsInWord	1	button	Create Handouts in Microsoft Word	1	button	Create Handouts in Microsoft Word
+CurrentEraser	0			1	toggleButton	Eraser
+CustomAddAnimationEmphasisDialog	1	button	More Emphasis Effects	0
+CustomAddAnimationEntranceDialog	1	button	More Entrance Effects	0
+CustomAddAnimationExitDialog	1	button	More Exit Effects	0
+CustomAddAnimationPathDialog	1	button	More Motion Paths	0
+CustomAnimationEmphasisDialog	1	button	More Emphasis Effects	0
+CustomAnimationEntranceDialog	1	button	More Entrance Effects	0
+CustomAnimationExitDialog	1	button	More Exit Effects	0
+CustomAnimationPathDialog	1	button	More Motion Paths	0
+CustomSlideSize	0			1	button	Custom Slide Size
+Cut	1	button	Cut	1	button	Cut
+DateAndTimeInsert	1	button	Date & Time	1	button	Date & Time
+DeleteNode	1	button	Delete Point	1	button	Delete Point
+DeleteSegment	1	button	Delete Segment	1	button	Delete Segment
+DeleteSlideContextual	1	button	Delete Slide	1	button	Delete Slide
+DiagrammingOnline	0			1	toggleButton	Convert to Shapes
+DiscardCachedDocumentChanges	1	button	Discard Changes	0
+DocumentLocation	1	comboBox	Address	1	comboBox	Address
+DocumentPanelTemplate	1	button	Document Panel	1	button	Document Panel
+DrawingCanvasExpand	1	button	Expand	1	button	Expand
+DrawingCanvasFit	1	button	Fit	1	button	Fit
+DrawingCanvasResize	1	button	Resize	1	button	Resize
+DrawingCanvasScale	1	button	Scale Drawing	1	button	Scale Drawing
+DuplicateSelectedSlides	1	button	Duplicate Selected Slides	1	button	Duplicate Slide
+EditOleObjectMenu	1	menu	Object	1	menu	Object
+EffectOptionsColorsGallery	1	gallery	Effect Options Color Property	1	gallery	Effect Options Color Property
+EffectOptionsDialog	1	button	More Options	1	button (dialogBoxLauncher)	More Options
+EffectOptionsGallery	1	gallery	Effect Options Property	1	gallery	Effect Options Property
+EffectOptionsMenu	1	menu	Effect Options	1	menu	Effect Options
+EndBroadcast	1	button	End Broadcast	0
+EquationAccentGallery	1	gallery	Accent	1	gallery	Accent
+EquationAlignThisCharacter	1	button	Equation Alignment	0
+EquationBarLocation	1	button	Place Bar above/below Base	0
+EquationBorderPropertiesMenu	1	menu	Border Properties	0
+EquationCenteredAsGroupJustification	1	toggleButton	Centered as a Group	0
+EquationCenteredJustification	1	toggleButton	Centered	0
+EquationDecreaseArgumentSize	1	button	Decrease Argument Size	0
+EquationDeleteArgument	1	button	Delete Argument	0
+EquationDelimiterGallery	1	gallery	Bracket	1	gallery	Bracket
+EquationFractionGallery	1	gallery	Fraction	1	gallery	Fraction
+EquationFunctionGallery	1	gallery	Function	1	gallery	Function
+EquationGroupingCharacterLocation	1	button	Place Character above/under Base	0
+EquationIncreaseArgumentSize	1	button	Increase Argument Size	0
+EquationInsertArgumentAfter	1	button	Insert Argument After	0
+EquationInsertArgumentBefore	1	button	Insert Argument Before	0
+EquationInsertGallery	1	gallery	Equation	1	gallery	Equation
+EquationInsertNew	1	button	Insert New Equation	1	button	Insert New Equation
+EquationIntegralGallery	1	gallery	Integral	1	gallery	Integral
+EquationJustificationMenu	1	menu	Justification	0
+EquationLargeOperatorGallery	1	gallery	Large Operator	1	gallery	Large Operator
+EquationLeftJustification	1	toggleButton	Left	0
+EquationLimitGallery	1	gallery	Limit and Log	1	gallery	Limit and Log
+EquationLimitLocation	1	button	Change Limit Location	0
+EquationLinearFormat	1	button	Linear	1	button	Linear
+EquationLinearFraction	1	button	Linear Fraction	0
+EquationManualBreak	1	button	Equation Manual Break	0
+EquationMatchDelimiters	1	button	Match Brackets to Argument Height	0
+EquationMatrixDeleteColumn	1	button	Delete Column	0
+EquationMatrixDeleteMenu	1	menu	Delete	0
+EquationMatrixDeleteRow	1	button	Delete Row	0
+EquationMatrixGallery	1	gallery	Matrix	1	gallery	Matrix
+EquationMatrixInsertColumnAfter	1	button	Insert Column After	0
+EquationMatrixInsertColumnBefore	1	button	Insert Column Before	0
+EquationMatrixInsertMenu	1	menu	Insert	0
+EquationMatrixInsertRowAfter	1	button	Insert Row After	0
+EquationMatrixInsertRowBefore	1	button	Insert Row Before	0
+EquationNaryLimitLocation	1	button	Change Limit Locations	0
+EquationNoBarFraction	1	button	No-Bar Fraction	0
+EquationNormalText	1	toggleButton	Normal Text	1	toggleButton	Normal Text
+EquationOperatorGallery	1	gallery	Operator	1	gallery	Operator
+EquationOptions	1	button	Equation Options	1	button (dialogBoxLauncher)	Equation Options
+EquationOptionsGallery	0			1	gallery	Math Options
+EquationProfessional	1	button	Professional	1	button	Professional
+EquationRadicalGallery	1	gallery	Radical	1	gallery	Radical
+EquationRemoveStructure	1	button	Remove Equation Structure	0
+EquationRemoveSubscript	1	button	Remove Subscript	0
+EquationRemoveSuperscript	1	button	Remove Superscript	0
+EquationRightJustification	1	toggleButton	Right	0
+EquationScriptAlignment	1	button	Align Scripts	0
+EquationScriptGallery	1	gallery	Script	1	gallery	Script
+EquationScriptLocation	1	button	Change Scripts Location	0
+EquationShowHideBorderBLTRStrike	1	button	Add/Remove Strike from Bottom Left	0
+EquationShowHideBorderBottom	1	button	Show/Hide Bottom Edge	0
+EquationShowHideBorderHorizontalStrike	1	button	Add/Remove Horizontal Strike	0
+EquationShowHideBorderLeft	1	button	Show/Hide Left Edge	0
+EquationShowHideBorderRight	1	button	Show/Hide Right Edge	0
+EquationShowHideBorderTLBRStrike	1	button	Add/Remove Strike from Top Left	0
+EquationShowHideBorderTop	1	button	Show/Hide Top Edge	0
+EquationShowHideBorderVerticalStrike	1	button	Add/Remove Vertical Strike	0
+EquationShowHideClosingDelimiter	1	button	Show/Hide Right Character	0
+EquationShowHideLowerLimit	1	button	Show/Hide Lower Limit	0
+EquationShowHideOpeningDelimiter	1	button	Show/Hide Left Character	0
+EquationShowHidePlaceholders	1	button	Show/Hide Placeholders	0
+EquationShowHideRadicalDegree	1	button	Show/Hide Degree	0
+EquationShowHideUpperLimit	1	button	Show/Hide Upper Limit	0
+EquationSkewedFraction	1	button	Skewed Fraction	0
+EquationStackedFraction	1	button	Stacked Fraction	0
+EquationStretchDelimiters	1	button	Stretch Brackets	0
+EquationStretchNaryOperator	1	button	Stretch N-ary Operator	0
+EquationSymbolsInsertGallery	1	gallery	Equation Symbols	1	gallery	Equation Symbols
+EquationVerticalAlignmentBottom	1	button	Bottom	0
+EquationVerticalAlignmentCenter	1	button	Center	0
+EquationVerticalAlignmentMenu	1	menu	Equation Structure Vertical Alignment	0
+EquationVerticalAlignmentTop	1	button	Top	0
+ExcelSpreadsheetInsert	1	button	Excel Spreadsheet	1	button	Excel Spreadsheet
+ExchangeFolder	1	button	Exchange Folder	1	button	Exchange Folder
+ExitEditCurve	1	button	Exit Edit Point	1	button	Exit Edit Point
+ExportToVideo	1	button	Create a Video	1	button	Create a Video
+EyedropperFill	0			1	button	Eyedropper
+EyedropperFillText	0			1	button	Eyedropper
+EyedropperGlow	0			1	button	Eyedropper
+EyedropperGlowText	0			1	button	Eyedropper
+EyedropperOutline	0			1	button	Eyedropper
+EyedropperOutlineText	0			1	button	Eyedropper
+EyedropperRecolor	0			1	button	Eyedropper
+FadeDurationLabel	1	labelControl	Fade Duration	1	labelControl	Fade Duration
+FifthCorrectionAlternative	0			1	button	(No Suggestion)
+FileAddDigitalSignature	1	button	Add a Digital Signature	1	button	Add a Digital Signature
+FileCheckIn	1	button	Check In	1	button	Check In
+FileCheckOut	1	button	Check Out	1	button	Check Out
+FileCheckOutDiscard	1	button	Discard Check Out	1	button	Discard Check Out
+FileClose	1	button	Close	1	button	Close
+FileCompatibilityCheckerPowerPoint	1	button	Check Compatibility	1	button	Check Compatibility
+FileCreateDocumentWorkspace	1	toggleButton	Create Document Workspace	0
+FileDiscardCachedChanges	0			1	button	Discard Changes
+FileDocumentEncrypt	1	toggleButton	Encrypt Document	1	toggleButton	Encrypt Document
+FileDocumentInspect	1	button	Inspect Document	1	button	Inspect Document
+FileDocumentManagementInformation	1	toggleButton	Document Management Information	0
+FileEmailAsPdfEmailAttachment	1	button	E-mail as PDF Attachment	1	button	E-mail as PDF Attachment
+FileEmailAsXpsEmailAttachment	1	button	E-mail as XPS Attachment	1	button	E-mail as XPS Attachment
+FileExit	1	button	Exit	1	button	Exit
+FileInternetFax	1	button	Internet Fax	1	button	Internet Fax
+FileLinksToFiles	1	button	Edit Links to Files	1	button	Edit Links to Files
+FileMarkAsFinal	1	toggleButton	Mark as Final	1	toggleButton	Mark as Final
+FileNew	1	button	New	1	button	New
+FileNewDefault	1	button	New	1	button	New
+FileOpen	1	button	Open	1	button	Open
+FileOpenRecentFile	1	button	Open Recent File	1	button	Open Recent File
+FileOpenUsingBackstage	0			1	button	Open
+FilePackageForCD	1	button	Package Presentation for CD	1	button	Package Presentation for CD
+FilePermissionDoNotDistribute	1	toggleButton	Restricted Access	1	toggleButton	Restricted Access
+FilePermissionRestrictAs	1	button	Manage Credentials	1	button	Manage Credentials
+FilePermissionRestrictMenu	1	menu	Restrict Permission	1	menu	Restrict Permission
+FilePermissionUnrestricted	1	toggleButton	Unrestricted Access	1	toggleButton	Unrestricted Access
+FilePermissionView	1	button	View Permission	1	button	View Permission
+FilePrepareMenu	1	menu	Prepare	1	menu	Prepare
+FilePrint	1	button	Print	1	button	Print
+FilePrintCustomRange	0			1	control
+FilePrintMenu	1	splitButton	Preview and Print	1	splitButton	Preview and Print
+FilePrintPreview	1	toggleButton	Print Preview	1	toggleButton	Print Preview
+FilePrintQuick	1	button	Quick Print	1	button	Quick Print
+FileProperties	1	toggleButton	Properties	1	toggleButton	Properties
+FilePublishSlides	1	button	Publish Slides	1	button	Publish Slides
+FileSave	1	button	Save	1	button	Save
+FileSaveACopy	0			1	button	Save a Copy
+FileSaveAs	1	button	Save As	1	button	Save As
+FileSaveAsMenu	1	splitButton	Save As Other Format	1	splitButton	Save As Other Format
+FileSaveAsOtherFormats	0			1	button	Save As
+FileSaveAsPdfOrXps	1	button	Publish as PDF or XPS	1	button	Publish as PDF or XPS
+FileSaveAsPowerPoint97_2003	1	button	PowerPoint 97-2003 Presentation	1	button	PowerPoint 97-2003 Presentation
+FileSaveAsPowerPointOpenDocumentPresentation	1	button	OpenDocument Presentation	1	button	OpenDocument Presentation
+FileSaveAsPowerPointPpsx	1	button	PowerPoint Show	1	button	PowerPoint Show
+FileSaveAsPowerPointPptx	1	button	PowerPoint Presentation	1	button	PowerPoint Presentation
+FileSaveToDocumentManagementServer	1	button	Document Management Server	1	button	Document Management Server
+FileSendAsAttachment	1	button	E-mail	1	button	Email
+FileSendMenu	1	menu	Send	1	menu	Send
+FileServerTasksMenu	1	menu	Server	1	menu	Server
+FileStartWorkflow	1	button	Workflows	1	button	Workflows
+FileTypeChange	0			1	task
+FileTypes	0			1	category	File Types
+FileVersionHistory	1	button	View Version History	1	button	View Version History
+FileViewDigitalSignatures	1	toggleButton	View Signatures	1	toggleButton	View Signatures
+FileWorkflowTasks	1	button	View Workflow Tasks	1	button	View Workflow Tasks
+FindDialog	1	button	Find	1	button	Find
+FindNext	1	button	Find Next	1	button	Find Next
+FirstCorrectionAlternative	0			1	button	(No Suggestion)
+FixSynonymChangeMenu	1	menu	Synonyms	1	menu	Synonyms
+Font	1	comboBox	Font	1	comboBox	Font
+FontColorMoreColorsDialogPowerPoint	1	button	More Colors	1	button	More Colors
+FontColorPicker	1	gallery	Font Color	1	gallery	Font Color
+FontDialog	1	button	Font	1	button	Font
+FontDialogPowerPoint	1	button	Font	1	button (dialogBoxLauncher)	Font
+FontSize	1	comboBox	Font Size	1	comboBox	Font Size
+FontSizeDecrease	1	button	Decrease Font Size	1	button	Decrease Font Size
+FontSizeIncrease	1	button	Increase Font Size	1	button	Increase Font Size
+FontsReplaceFonts	1	button	Replace Fonts	1	button	Replace Fonts
+FormatPainter	1	control	Format Painter	1	control	Format Painter
+FourthCorrectionAlternative	0			1	button	(No Suggestion)
+GalPens	1	gallery	Pens	0
+GalleryAllShapesAndTextboxes	0			1	gallery	Shapes
+GetLinks	0			1	task	Get a Sharing Link
+GlowColorMoreColorsDialog	1	button	More Colors	1	button	More Colors
+GlowColorPicker	1	gallery	More Glow Colors	1	gallery	More Glow Colors
+GlowOptionsDialog	1	button	Glow Options	0
+GlowsMoreOptions	0			1	button	Glow Options
+GoToProperty	1	button	Go To	1	button	Go To
+GradientGallery	1	gallery	Gradient	1	gallery	Gradient
+GridSettings	1	button	Grid Settings	1	button	Grid Settings
+GroupARMPreview	0			1	group	Preview Edition
+GroupAboutOfficeProducts	0			1	group	Learn More about Your Microsoft Office Product
+GroupAddInsCustomToolbars	1	group	Custom Toolbars	1	group	Custom Toolbars
+GroupAddInsMenuCommands	1	group	Menu Commands	1	group	Menu Commands
+GroupAddInsToolbarCommands	1	group	Toolbar Commands	1	group	Toolbar Commands
+GroupAddLocation	0			1	group
+GroupAddins	0			1	group	Add-Ins
+GroupAlignment	1	group	Alignment	1	group	Alignment
+GroupAllAuthors	0			1	group	Currently Editing
+GroupAnimationCustom	1	group	Custom Animation	1	group	Advanced Animation
+GroupAnimationPreview	0			1	group	Preview
+GroupAnimationTiming	1	group	Timing	1	group	Timing
+GroupAnimations	1	group	Animation	1	group	Animation
+GroupArrange	1	group	Arrange	1	group	Arrange
+GroupAudioBookmark	1	group	Bookmarks	1	group	Bookmarks
+GroupAudioEditing	1	group	Editing	1	group	Editing
+GroupAudioOptions	1	group	Audio Options	1	group	Audio Options
+GroupAudioStyles	0			1	group	Audio Styles
+GroupAudioToolsAdjust	1	group	Adjust	1	group	Adjust
+GroupBackground	1	group	Background	1	group	Background
+GroupBackgroundRemoval	1	group	Background Removal	0
+GroupBackgroundRemovalClose	0			1	group	Close
+GroupBackgroundRemovalMode	1	group	Background Removal	1	group	Refine
+GroupBackstageIdentity	0			1	group	User Information
+GroupBackstageSignIn	0			1	group	Sign-in to Office
+GroupBackstageSignInDisabled	0			1	group	Sign-in has been disabled
+GroupBroadcast	0			1	group
+GroupBroadcastBroadcast	1	group	Broadcast	1	group	Present Online
+GroupBroadcastEndWarning	0			1	group	End Online Presentation
+GroupBroadcastResume	1	group	Start Slide Show	1	group	Start Slide Show
+GroupBroadcastResumeWarning	0			1	group	Online Presentation Paused
+GroupCDAudioSetup	1	group	Set Up	1	group	Set Up
+GroupCachedOfflineMergeable	0			1	group	Offline Copy
+GroupChartAnalysis	1	group	Analysis	1	group	Analysis
+GroupChartAxes	1	group	Axes	1	group	Axes
+GroupChartBackground	1	group	Background	1	group	Background
+GroupChartCurrentSelection	1	group	Current Selection	1	group	Current Selection
+GroupChartData	1	group	Data	1	group	Data
+GroupChartDrawingModes	1	group	Mode	0
+GroupChartLabels	1	group	Labels	1	group	Labels
+GroupChartLayouts	1	group	Chart Layouts	1	group	Chart Layouts
+GroupChartShapes	1	group	Insert	1	group	Insert
+GroupChartStyles	1	group	Chart Styles	1	group	Chart Styles
+GroupChartType	1	group	Type	1	group	Type
+GroupCheckIn	0			1	group	Check In
+GroupChineseTranslation	1	group	Chinese Conversion	1	group	Chinese Conversion
+GroupClickToRunUpdateStatus	0			1	group	Click to Run Update Status
+GroupClipboard	1	group	Clipboard	1	group	Clipboard
+GroupCloseBackgroundRemoval	1	group	Close	0
+GroupCloseMergeView	1	group	Close Merge View	0
+GroupCode	1	group	Code	1	group	Code
+GroupColorGrayscale	1	group	Color/Grayscale	1	group	Color/Grayscale
+GroupColorModeClose	1	group	Close	1	group	Close
+GroupColorModeSetting	1	group	Change Selected Object	1	group	Change Selected Object
+GroupComments	1	group	Comments	1	group	Comments
+GroupCompressMedia	0			1	group	Compress Media
+GroupControls	1	group	Controls	1	group	Controls
+GroupCreateHandoutsInWord	0			1	group
+GroupCreatePdfOrXpsDocument	0			1	group
+GroupCustomizeThemeOptions	0			1	group	Customize
+GroupDiagramming	1	group	Ink Art	1	group	Ink Art
+GroupDocumentProperties	0			1	group	Properties
+GroupDrawBorders	1	group	Draw Borders	1	group	Draw Borders
+GroupDrawing	1	group	Drawing	1	group	Drawing
+GroupDynamicServiceProvider	0			1	group
+GroupEditing	1	group	Editing	1	group	Editing
+GroupEquationStructures	1	group	Structures	1	group	Structures
+GroupEquationSymbols	1	group	Symbols	1	group	Symbols
+GroupEquationTools	1	group	Tools	1	group	Tools
+GroupExportToVideo	0			1	group	Export to Video
+GroupFileConvert	0			1	group	Compatibility Mode
+GroupFileSave	0			1	group
+GroupFont	1	group	Font	1	group	Font
+GroupImages	0			1	group	Images
+GroupInk	1	group	Ink	1	group	Ink
+GroupInkClose	1	group	Close	1	group	Close
+GroupInkFormat	0			1	group	Format
+GroupInkPens	1	group	Pens	1	group	Pens
+GroupInkSelect	1	group	Select	1	group	Select
+GroupInsertBarcode	1	group	Barcode	1	group	Barcode
+GroupInsertComments	0			1	group	Comments
+GroupInsertIllustrations	1	group	Illustrations	1	group	Illustrations
+GroupInsertImages	1	group	Images	0
+GroupInsertLinks	1	group	Links	1	group	Links
+GroupInsertMediaClips	1	group	Media	1	group	Media
+GroupInsertSymbols	1	group	Symbols	1	group	Symbols
+GroupInsertTables	1	group	Tables	1	group	Tables
+GroupInsertText	1	group	Text	1	group	Text
+GroupLanguage	1	group	Language	1	group	Language
+GroupMacros	1	group	Macros	1	group	Macros
+GroupMasterClose	1	group	Close	1	group	Close
+GroupMasterEdit	1	group	Edit Master	1	group	Edit Master
+GroupMasterEditTheme	1	group	Edit Theme	1	group	Edit Theme
+GroupMasterLayout	1	group	Master Layout	1	group	Master Layout
+GroupMasterSlides	1	group	Slides	1	group	Slides
+GroupMasterViews	1	group	Master Views	1	group	Master Views
+GroupMediaPreview	1	group	Preview	1	group	Preview
+GroupMerge	1	group	Merge	1	group	Merge
+GroupMergeViewClose	0			1	group	Close Merge View
+GroupModify	1	group	Modify	1	group	Modify
+GroupMonitors	1	group	Monitors	1	group	Monitors
+GroupMovieOptions	1	group	Video Options	1	group	Video Options
+GroupNewPens	1	group	Pens	0
+GroupNewWrite	1	group	Write	0
+GroupOfficeBranding	0			1	group	Office Branding
+GroupOfficeStart	0			1	group	New
+GroupOpenPlaces	0			1	taskFormGroup	Open
+GroupOptimizeCompatibility	0			1	group	Maximize Playback
+GroupPackageForCD	0			1	group
+GroupPageSetup	1	group	Page Setup	0
+GroupPageSetupHandoutMaster	1	group	Page Setup	1	group	Page Setup
+GroupPageSetupNotesMaster	1	group	Page Setup	1	group	Page Setup
+GroupParagraph	1	group	Paragraph	1	group	Paragraph
+GroupPens	0			1	group	Pens
+GroupPensWrite	0			1	group	Write
+GroupPermission	1	group	Protect	1	group	Protect
+GroupPermissions	0			1	group	Permissions
+GroupPictureSize	1	group	Size	1	group	Size
+GroupPictureStyles	1	group	Picture Styles	1	group	Picture Styles
+GroupPictureTools	1	group	Adjust	1	group	Adjust
+GroupPlaceholdersHandoutMaster	1	group	Placeholders	1	group	Placeholders
+GroupPlaceholdersNotesMaster	1	group	Placeholders	1	group	Placeholders
+GroupPlay	1	group	Play	1	group	Play
+GroupPrepareForSharing	0			1	group	Prepare for Sharing
+GroupPresentationViews	1	group	Presentation Views	1	group	Presentation Views
+GroupPreview	1	group	Preview	1	group	Preview
+GroupPreviewTransitions	1	group	Preview	1	group	Preview
+GroupPrintPreview	0			1	group	Print Preview
+GroupPrintPreviewPageSetup	1	group	Page Setup	1	group	Page Setup
+GroupPrintPreviewPreview	1	group	Preview	1	group	Preview
+GroupPrintPreviewPrint	1	group	Print	1	group	Print
+GroupPrintProtectedView	0			1	group	Protected View
+GroupPrintSettings	0			1	group	Print Settings
+GroupProofing	1	group	Proofing	1	group	Proofing
+GroupProtectedView	0			1	group	Protected View
+GroupPublishSlides	0			1	group
+GroupReadOnly	0			1	group	Read-Only Document
+GroupReadOnlyCached	0			1	group	Read-Only Document
+GroupReadOnlyCachedMergeable	0			1	group	Want to edit this document?
+GroupReadOnlyCheckOutRequired	0			1	group	Read-Only Document
+GroupReadOnlyOffline	0			1	group	Want to edit this document?
+GroupReadOnlyServer	0			1	group	Want to edit this document?
+GroupRecentDocuments	0			1	group	Recent Documents
+GroupRecentPlaces	0			1	group	Browse a Location
+GroupRecoverUnsavedFiles	0			1	group	Recover Unsaved Files
+GroupResolutions	1	group	Resolutions	1	group	Resolutions
+GroupReviewCompare	1	group	Compare	1	group	Compare
+GroupSecurityWarning	0			1	group	Security Warning
+GroupSendAsAttachment	0			1	group
+GroupSendAsInternetFax	0			1	group
+GroupSendAsLink	0			1	group
+GroupSendAsPdf	0			1	group
+GroupSendAsXps	0			1	group
+GroupSendByInstantMessage	0			1	group
+GroupShapeStyles	1	group	Shape Styles	1	group	Shape Styles
+GroupShapes	1	group	Insert Shapes	1	group	Insert Shapes
+GroupShapesChart	0			1	group	Insert Shapes
+GroupShare	0			1	taskFormGroup	Sending Features
+GroupShareWithNetwork	0			1	group	Share with Network
+GroupShareWithPeople	0			1	group	Share with People
+GroupShowHideChanges	1	group	Show/Hide	1	group	Show/Hide
+GroupSignatures	0			1	group	Finalize
+GroupSize	1	group	Size	1	group	Size
+GroupSlideShowSetup	1	group	Set Up	1	group	Set Up
+GroupSlideShowStart	1	group	Start Slide Show	1	group	Start Slide Show
+GroupSlideSize	0			1	group	Size
+GroupSlideThemes	1	group	Themes	1	group	Themes
+GroupSlides	1	group	Slides	1	group	Slides
+GroupSlides2	0			1	group	Slides
+GroupSmartArtCreateGraphic	1	group	Create Graphic	1	group	Create Graphic
+GroupSmartArtLayouts	1	group	Layouts	1	group	Layouts
+GroupSmartArtQuickStyles	1	group	SmartArt Styles	1	group	SmartArt Styles
+GroupSmartArtReset	1	group	Reset	1	group	Reset
+GroupSmartArtShapes	1	group	Shapes	1	group	Shapes
+GroupSmartArtSize	1	group	Size	1	group	Size
+GroupSoundOptions	1	group	Audio Options	1	group	Audio Options
+GroupTable	1	group	Table	1	group	Table
+GroupTableCellSize	1	group	Cell Size	1	group	Cell Size
+GroupTableRowsAndColumns	1	group	Rows & Columns	1	group	Rows & Columns
+GroupTableSize	1	group	Table Size	1	group	Table Size
+GroupTableStyleOptionsPowerPoint	1	group	Table Style Options	1	group	Table Style Options
+GroupTableStylesPowerPoint	1	group	Table Styles	1	group	Table Styles
+GroupTextStylesTable	1	group	WordArt Styles	1	group	WordArt Styles
+GroupThemeVariants	0			1	group	Variants
+GroupThumbnail	0			1	group
+GroupTransitionStyles	1	group	Timing	1	group	Timing
+GroupTransitionToThisSlide	1	group	Transition to This Slide	1	group	Transition to This Slide
+GroupUpdatesAvailable	0			1	group	Document Updates Available
+GroupUploadErrors	0			1	group	Upload Errors
+GroupVersions	0			1	group	Are There Other Versions of This Document?
+GroupVideoBookmark	1	group	Bookmarks	1	group	Bookmarks
+GroupVideoEditing	1	group	Editing	1	group	Editing
+GroupVideoOptions	1	group	Video Options	1	group	Video Options
+GroupVideoSize	1	group	Size	1	group	Size
+GroupVideoStyles	1	group	Video Styles	1	group	Video Styles
+GroupVideoToolsAdjust	1	group	Adjust	1	group	Adjust
+GroupViewDirection	1	group	Direction	1	group	Direction
+GroupViewShowHide	1	group	Show	1	group	Show
+GroupWindow	1	group	Window	1	group	Window
+GroupWordArtStyles	1	group	WordArt Styles	1	group	WordArt Styles
+GroupWorkflowStart	0			1	group
+GroupWorkflows	0			1	group	Workflow Task
+GroupWorkflowsUnavailable	0			1	group
+GroupZoom	1	group	Zoom	1	group	Zoom
+GrupPolicyWarning	0			1	group	Information Management Policy
+GuideColorGallery	0			1	gallery	Color
+GuideDelete	0			1	button	Delete
+GuidesShowHide	0			1	checkBox	Guides
+HandoutOrientation	1	gallery	Handout Orientation	1	gallery	Handout Orientation
+HangulHanjaConversionPowerPoint	1	button	Hangul Hanja Conversion	1	button	Hangul Hanja Conversion
+HeaderFooterInsert	1	button	Header & Footer	1	button	Header & Footer
+Help	1	button	Help	1	button	Help
+HideRibbon	0			1	toggleButton	Hide the Ribbon
+Highlighter	1	toggleButton	Highlighter	0
+HyperlinkCopy	1	button	Copy Hyperlink	1	button	Copy Hyperlink
+HyperlinkEdit	1	button	Edit Hyperlink	1	button	Edit Hyperlink
+HyperlinkInsert	1	button	Hyperlink	1	button	Hyperlink
+HyperlinkInsertPowerPoint	1	button	Hyperlink	1	button	Hyperlink
+HyperlinkOpen	1	button	Open Hyperlink	1	button	Open Hyperlink
+HyperlinkRemove	1	button	Remove Hyperlink	1	button	Remove Hyperlink
+ImeReconvert	1	button	Reconvert	1	button	Reconvert
+IndentDecrease	1	button	Decrease Indent	1	button	Decrease Indent
+IndentIncrease	1	button	Increase Indent	1	button	Increase Indent
+InkBallpointPen	1	toggleButton	Ballpoint Pen	1	toggleButton	Pen
+InkColorMoreColorsDialog	1	button	More Ink Colors	1	button	More Ink Colors
+InkColorPicker	0			1	gallery	Color
+InkCopyAsText	1	button	Copy Ink As Text	1	button	Copy Ink As Text
+InkEraser	1	toggleButton	Eraser	1	toggleButton	Stroke Eraser
+InkEraserMenu	1	splitButton	Eraser	1	splitButton	Eraser
+InkFeltTipPen	1	toggleButton	Felt Tip Pen	1	toggleButton	Felt Tip Pen
+InkHighlighter	1	toggleButton	Highlighter	1	toggleButton	Highlighter
+InkStopInkingReadingView	0			1	button	Stop Inking
+InkToolsClose	1	button	Close Ink Tools	1	button	Close Ink Tools
+InkToolsSelect	1	toggleButton	Select & Type	0
+InkingStart	1	button	Start Inking	1	button	Start Inking
+InsertBuildingBlocksEquationsGallery	0			1	gallery	Equation
+InsertMovieDialog	0			1	button	Video
+InsertNewComment	0			1	button	Comment
+InsertRowsColumnsMenu	1	menu	Insert Rows & Columns	0
+InsertTab	1	button	Tab	1	button	Tab
+IntersectShapes	1	button	Intersect	0
+Italic	1	toggleButton	Italic	1	toggleButton	Italic
+JotLineColor	1	gallery	Line Color	0
+KeepBackgroundRemoval	0			1	button	Keep Changes
+LabelInsert	1	button	Label	1	button	Label
+LabelSketchModeDescription	1	labelControl	Faster Rendering Mode with Reduced Effects	0
+LanguageCommands	0			1	menu	Language
+LanguagePreferences	0			1	button	Language Preferences
+LassoSelect	1	toggleButton	Lasso Select	1	toggleButton	Lasso Select
+LaunchFormatBackground	0			1	button	Format Background
+LeaveReader	1	button	Enable Editing	1	button	Enable Editing
+LineSpacingGalleryPowerPoint	1	gallery	Line Spacing	1	gallery	Line Spacing
+LineStylesDialog	1	button	More Lines	1	button	More Lines
+LineThickness	1	gallery	Thickness	1	gallery	Thickness
+LinkBreak	1	button	Break Link	1	button	Break Link
+LinkChange	1	button	Change Link	1	button	Change Link
+LinksUpdate	1	button	Update Links	1	button	Update Links
+LoadingServicesGroup	0			1	group
+MacroPlay	1	button	Macros	1	button	Macros
+MacroSecurity	1	button	Macro Security	1	button	Macro Security
+MakeSegmentCurved	1	button	Curved Segment	1	button	Curved Segment
+MakeSegmentStraight	1	button	Straight Segment	1	button	Straight Segment
+ManageServices	0			1	group	Connected Services
+MasterNotesPageOrientation	1	gallery	Notes Page Orientation	1	gallery	Notes Page Orientation
+MasterShowBody	1	checkBox	Body	1	checkBox	Body
+MasterShowDate	1	checkBox	Date	1	checkBox	Date
+MasterShowFooter	1	checkBox	Footer	1	checkBox	Footer
+MasterShowHeader	1	checkBox	Header	1	checkBox	Header
+MasterShowPageNumber	1	checkBox	Page Number	1	checkBox	Page Number
+MasterShowSlideImage	1	checkBox	Slide Image	1	checkBox	Slide Image
+MasterViewClose	1	button	Close	1	button	Close
+MdiChildSystemMenu	1	menu	Document	1	menu	Document
+Media14PlayPreview	1	button	Play	0
+MediaClipLoopUntilStopped	1	checkBox	Loop until Stopped	1	checkBox	Loop until Stopped
+MediaClipLoopUntilStoppedAudio	0			1	checkBox	Loop until Stopped
+MediaClipPlayAcrossSlides	0			1	checkBox	Play Across Slides
+MediaClipToolsHideDuringShow	1	checkBox	Hide While Not Playing	1	checkBox	Hide During Show
+MediaClipToolsHideDuringShowAudio	0			1	checkBox	Hide During Show
+MediaClipToolsHideDuringShowVideo	0			1	checkBox	Hide During Show
+MediaControlsShow	0			1	checkBox	Show Media Controls
+MediaPlayPreview	0			1	button	Play
+MediaUpgrade	1	button	Upgrade Media Object	1	button	Upgrade Media Object
+MenuChartArea	1	contextMenu		0
+MenuChartAxis	1	contextMenu		0
+MenuChartAxisTitle	1	contextMenu		0
+MenuChartBackWall	1	contextMenu		0
+MenuChartDataLabel	1	contextMenu		0
+MenuChartDataLabels	1	contextMenu		0
+MenuChartDataPoint	1	contextMenu		0
+MenuChartDataSeries	1	contextMenu		0
+MenuChartDataTable	1	contextMenu		0
+MenuChartDisplayUnit	1	contextMenu		0
+MenuChartDownBars	1	contextMenu		0
+MenuChartDropLines	1	contextMenu		0
+MenuChartErrorBars	1	contextMenu		0
+MenuChartFloor	1	contextMenu		0
+MenuChartGridlines	1	contextMenu		0
+MenuChartHiLoLine	1	contextMenu		0
+MenuChartLeaderLines	1	contextMenu		0
+MenuChartLegend	1	contextMenu		0
+MenuChartLegendEntry	1	contextMenu		0
+MenuChartPlotArea	1	contextMenu		0
+MenuChartSeriesLine	1	contextMenu		0
+MenuChartSideWall	1	contextMenu		0
+MenuChartTitle	1	contextMenu		0
+MenuChartTrendline	1	contextMenu		0
+MenuChartTrendlineLabel	1	contextMenu		0
+MenuChartUpBars	1	contextMenu		0
+MenuChartWalls	1	contextMenu		0
+MenuCommentMarker	1	contextMenu		0
+MenuCopy	1	splitButton	Copy	0
+MenuCurve	1	contextMenu		0
+MenuDrawnObject	1	contextMenu		0
+MenuEquation	1	contextMenu		0
+MenuFrame	1	contextMenu		0
+MenuGraphicOleCompat	1	contextMenu		0
+MenuGraphicsCompat	1	contextMenu		0
+MenuMotionPath	1	contextMenu		0
+MenuMotionPathPoint	1	contextMenu		0
+MenuMotionPathSegment	1	contextMenu		0
+MenuNotesEditText	1	contextMenu		0
+MenuOCX	1	contextMenu		0
+MenuOPHPPTPreview	1	contextMenu		0
+MenuObjectEditPoint	1	contextMenu		0
+MenuObjectEditSegment	1	contextMenu		0
+MenuObjectsGroup	1	contextMenu		0
+MenuPicture	1	contextMenu		0
+MenuPublish	1	menu	Publish	1	menu	Publish
+MenuRevision	1	contextMenu		0
+MenuRightDragDrop	1	contextMenu		0
+MenuSectionLabel	1	contextMenu		0
+MenuShape	1	contextMenu		0
+MenuShapeConnector	1	contextMenu		0
+MenuShapeFreeform	1	contextMenu		0
+MenuSlideGap	1	contextMenu		0
+MenuSlideShow	1	contextMenu		0
+MenuSlideShowBrowse	1	contextMenu		0
+MenuSlideShowHyperlink	1	contextMenu		0
+MenuSlideShowPointerOptions	1	contextMenu		0
+MenuSlideShowShort	1	contextMenu		0
+MenuSlideSorter	1	contextMenu		0
+MenuSlideSync	1	contextMenu		0
+MenuSmartArtBackground	1	contextMenu		0
+MenuSmartArtContentPane	1	contextMenu		0
+MenuSmartArtEdit1DShape	1	contextMenu		0
+MenuSmartArtEdit1DShapeText	1	contextMenu		0
+MenuSmartArtEditSmartArt	1	contextMenu		0
+MenuSmartArtEditText	1	contextMenu		0
+MenuSpell	1	contextMenu		0
+MenuTable	1	contextMenu		0
+MenuTableWhole	1	contextMenu		0
+MenuTextEdit	1	contextMenu		0
+MenuTextEditOutline	1	contextMenu		0
+MenuThumbnail	1	contextMenu		0
+MergeCells	1	button	Merge Cells	1	button	Merge Cells
+MergeViewClose	0			1	button	Close Merge View
+MiniTranslator	0			1	toggleButton	Mini Translator
+MinimizeRibbon	0			1	toggleButton	Collapse the Ribbon
+MoreControlsDialog	1	button	More Controls	1	button	More Controls
+MoreCorrectionAlternatives	0			1	button	More
+MoreTextureOptions	1	button	More Textures	1	button	More Textures
+MovieFromClipOrganizerInsert	1	button	Video from Organizer	1	button	Online Video
+MovieFromFileInsert	1	button	Video from File	1	button	Video on My PC
+MovieFromOnlineInsert	1	button	Video from Online Video Site	0
+MovieInsert	1	splitButton	Video	1	splitButton	Video
+MovieInsert02	0			1	menu	Video
+MoviePlay	1	button	Preview	1	button	Preview
+MoviePlayAutomatically	1	dropDown	Play Video	1	dropDown	Play Video
+MoviePlayFullScreen	1	checkBox	Play Full Screen	1	checkBox	Play Full Screen
+MovieRewindAfterPlaying	1	checkBox	Rewind after Playing	1	checkBox	Rewind after Playing
+NewInkBallpoint	1	toggleButton	Pen	0
+NewPointEraserMedium	1	toggleButton	Medium	0
+NewPointEraserSmall	1	toggleButton	Small	0
+NewSection	1	button	Add Section	0
+NewStrokeEraser	1	toggleButton	Stroke	0
+NextPane	1	button	Next Pane	1	button	Next Pane
+NoAudioStyle	0			1	toggleButton	No Style
+NumberInsert	1	button	Number	1	button	Number
+NumberingGallery	1	gallery	Numbering	1	gallery	Numbering
+ObjectAddText	1	button	Add Text	1	button	Add Text
+ObjectAlignMenu	1	menu	Align	1	menu	Align
+ObjectBorderOutlineColorMoreColorsDialog	1	button	More Outline Colors	1	button	More Outline Colors
+ObjectBringForward	1	button	Bring Forward	1	button	Bring Forward
+ObjectBringForwardMenu	0			1	splitButton	Bring Forward
+ObjectBringToFront	1	button	Bring to Front	1	button	Bring to Front
+ObjectBringToFrontMenu	1	splitButton	Bring to Front	1	splitButton	Bring to Front
+ObjectEditDialog	1	button	Object	1	button (dialogBoxLauncher)	Object
+ObjectEditPoints	1	toggleButton	Edit Points	1	toggleButton	Edit Points
+ObjectEditShapeMenu	1	menu	Edit Shape	1	menu	Edit Shape
+ObjectEditText	1	button	Edit Text	1	button	Edit Text
+ObjectEffectGlowGallery	1	gallery	Glow	1	gallery	Glow
+ObjectEffectPresetGallery	1	gallery	Preset	1	gallery	Preset
+ObjectEffectShadowGallery	1	gallery	Shadow	1	gallery	Shadow
+ObjectEffectSoftEdgesGallery	1	gallery	Soft Edges	1	gallery	Soft Edges
+ObjectFillMoreColorsDialog	1	button	More Fill Colors	1	button	More Fill Colors
+ObjectFlipHorizontal	1	button	Flip Horizontal	1	button	Flip Horizontal
+ObjectFlipVertical	1	button	Flip Vertical	1	button	Flip Vertical
+ObjectFormatDialog	1	button	Object	1	button	Format Object
+ObjectNudgeDown	1	button	Down	1	button	Down
+ObjectNudgeLeft	1	button	Left	1	button	Left
+ObjectNudgeRight	1	button	Right	1	button	Right
+ObjectNudgeUp	1	button	Up	1	button	Up
+ObjectPictureFill	1	button	Picture	1	button	Picture
+ObjectRotateFree	1	button	Free Rotate	1	button	Free Rotate
+ObjectRotateGallery	1	gallery	Rotate	1	gallery	Rotate
+ObjectRotateLeft90	1	button	Rotate Left 90°	1	button	Rotate Left 90°
+ObjectRotateRight90	1	button	Rotate Right 90°	1	button	Rotate Right 90°
+ObjectRotationOptionsDialog	1	button	More Rotation Options	1	button	More Rotation Options
+ObjectSaveAsPicture	1	button	Save as Picture	1	button	Save as Picture
+ObjectSendBackward	1	button	Send Backward	1	button	Send Backward
+ObjectSendBackwardMenu	0			1	splitButton	Send Backward
+ObjectSendToBack	1	button	Send to Back	1	button	Send to Back
+ObjectSendToBackMenu	1	splitButton	Send to Back	1	splitButton	Send to Back
+ObjectSetShapeDefaults	1	button	Set AutoShape Defaults	1	button	Set AutoShape Defaults
+ObjectSizeAndPositionDialog	1	button	Size and Position	1	button	Size and Position
+ObjectUnionShapes	1	button	Union	0
+ObjectsAlignBottomSmart	1	button	Align Bottom	1	button	Align Bottom
+ObjectsAlignCenterHorizontalSmart	1	button	Align Center	1	button	Align Center
+ObjectsAlignLeftSmart	1	button	Align Left	1	button	Align Left
+ObjectsAlignMiddleVerticalSmart	1	button	Align Middle	1	button	Align Middle
+ObjectsAlignRelativeToContainerSmart	1	toggleButton	Align to Slide	1	toggleButton	Align to Slide
+ObjectsAlignRightSmart	1	button	Align Right	1	button	Align Right
+ObjectsAlignSelectedSmart	1	toggleButton	Align Selected Objects	1	toggleButton	Align Selected Objects
+ObjectsAlignTopSmart	1	button	Align Top	1	button	Align Top
+ObjectsArrangeMenu	1	menu	Arrange	1	menu	Arrange
+ObjectsGroup	1	button	Group	1	button	Group
+ObjectsGroupMenu	1	menu	Group	1	menu	Group
+ObjectsMultiSelect	1	button	Select Multiple Objects	1	button	Select Multiple Objects
+ObjectsRegroup	1	button	Regroup	1	button	Regroup
+ObjectsSelect	1	toggleButton	Select Objects	1	toggleButton	Select Objects
+ObjectsUngroup	1	button	Ungroup	1	button	Ungroup
+OleConvert	1	button	Convert	1	button	Convert
+OleObjectctInsert	1	button	Object	1	button	Object
+OnlineDiagramming	1	toggleButton	Convert to Shapes	0
+OpenMeetingNotes	0			1	button	Open Shared Meeting Notes
+OpenPath	1	toggleButton	Open Path	1	toggleButton	Open Path
+OutlineCollapse	1	button	Collapse	1	button	Collapse
+OutlineCollapseMenu	1	splitButton	Collapse	1	splitButton	Collapse
+OutlineColorPicker	1	gallery	Picture Border	1	gallery	Picture Border
+OutlineDashesGallery	1	gallery	Dashes	1	gallery	Dashes
+OutlineDemote	1	button	Demote	1	button	Demote
+OutlineExpand	1	button	Expand	1	button	Expand
+OutlineExpandAll	1	button	Expand All	1	button	Expand All
+OutlineExpandMenu	1	splitButton	Expand	1	splitButton	Expand
+OutlineMoveDown	1	button	Move Down	1	button	Move Down
+OutlineMoveUp	1	button	Move Up	1	button	Move Up
+OutlinePromote	1	button	Promote	1	button	Promote
+OutlineShowTextFormatting	1	toggleButton	Show Text Formatting	1	toggleButton	Show Text Formatting
+OutlineThumbnailsShowHide	1	button	Show Outline	1	button	Show Outline
+OutlineWeightGallery	1	gallery	Weight	1	gallery	Weight
+OutlookTaskCreate	1	button	Create Microsoft Outlook Task	1	button	Create Microsoft Outlook Task
+PageNext	1	button	Next Page	1	button	Next Page
+PageOrientationGallery	1	menu	Orientation	1	menu	Orientation
+PageOrientationLandscape	1	toggleButton	Landscape	1	toggleButton	Landscape
+PageOrientationPortrait	1	toggleButton	Portrait	1	toggleButton	Portrait
+PagePrevious	1	button	Previous Page	1	button	Previous Page
+ParagraphDialog	1	button	Paragraph	1	button	Paragraph
+ParagraphDistributed	1	toggleButton	Distributed	1	toggleButton	Distributed
+ParagraphMoreColumnsDialog	1	button	More Columns	1	button	More Columns
+Paste	1	button	Paste	1	button	Paste
+PasteApplyStyle	1	button	Apply Style	1	button	Apply Style
+PasteAsEmbedded	1	button	Embed	1	button	Embed
+PasteAsHyperlink	1	button	Paste as Hyperlink	1	button	Paste as Hyperlink
+PasteAsPicture	1	button	Picture	1	button	Picture
+PasteBitmap	1	button	Paste as Bitmap	1	button	Paste as Bitmap
+PasteDestinationTheme	1	button	Use Destination Theme	1	button	Use Destination Theme
+PasteDuplicate	1	button	Duplicate	1	button	Duplicate
+PasteExcelChartDestinationTheme	1	button	Use Destination Theme	1	button	Use Destination Theme & Embed Workbook
+PasteExcelChartSourceFormatting	1	button	Keep Source Formatting	1	button	Keep Source Formatting & Embed Workbook
+PasteExcelTableDestinationTableStyle	1	button	Use Destination Styles	1	button	Use Destination Styles
+PasteExcelTableSourceFormatting	1	button	Keep Source Formatting	1	button	Keep Source Formatting
+PasteGIF	1	button	Paste as GIF	0
+PasteGallery	1	gallery	Paste	1	gallery	Paste
+PasteGalleryMini	1	gallery	Paste Options	1	gallery	Paste Options
+PasteGif	0			1	button	Paste as GIF
+PasteInk	1	button	Ink	1	button	Ink
+PasteJPEG	1	button	Paste as JPEG	0
+PasteJpeg	0			1	button	Paste as JPEG
+PasteLinkedExcelChartDestinationTheme	1	button	Link & Use Destination Theme	1	button	Use Destination Theme & Link Data
+PasteLinkedExcelChartSourceFormatting	1	button	Link & Keep Source Formatting	1	button	Keep Source Formatting & Link Data
+PasteMenu	1	splitButton	Paste	1	splitButton	Paste
+PastePNG	1	button	Paste as PNG	0
+PastePng	0			1	button	Paste as PNG
+PasteSourceFormatting	1	button	Keep Source Formatting	1	button	Keep Source Formatting
+PasteSpecialDialog	1	button	Paste Special	1	button	Paste Special
+PasteTextOnly	1	button	Keep Text Only	1	button	Keep Text Only
+PenAddFavorite	0			1	button	Add Current Pen to Favorite Pens
+PensGallery	0			1	gallery	Pens
+Personalization	0			1	group	Office Background
+PhotoAlbumEdit	1	button	Edit Photo Album	1	button	Photo Album
+PhotoAlbumInsert	1	button	New Photo Album	1	button	New Photo Album
+PhotoAlbumInsertMenu	1	splitButton	Photo Album	1	splitButton	Photo Album
+PickUpStyle	1	button	Pick Up Style	1	button	Pick Up Style
+PictureArtisticEffectsGallery	1	gallery	Artistic Effects	1	gallery	Artistic Effects
+PictureArtisticEffectsReset	0			1	button	Reset Artistic Effects
+PictureBackgroundRemoval	1	toggleButton	Background Removal	1	toggleButton	Remove Background
+PictureBackgroundRemovalMarkBackground	1	toggleButton	Mark to Remove	1	toggleButton	Mark Areas to Remove
+PictureBackgroundRemovalMarkDelete	1	toggleButton	Delete Marks	1	toggleButton	Delete Mark
+PictureBackgroundRemovalMarkForeground	1	toggleButton	Mark to Include	1	toggleButton	Mark Areas to Keep
+PictureBrightnessAndContrastGallery	1	gallery	Brightness & Contrast	1	gallery	Brightness & Contrast
+PictureBrightnessGallery	1	gallery	Brightness	1	gallery	Brightness
+PictureChange	1	button	Change Picture	1	button	Change Picture
+PictureColorDialog	1	button	Picture Color Options	1	button	Picture Color Options
+PictureColorMenu	1	menu	Color	1	menu	Color
+PictureColorReset	0			1	button	Reset Picture Color
+PictureColorTempertatureGallery	1	gallery	Color Tone	1	gallery	Color Tone
+PictureContrastGallery	1	gallery	Contrast	1	gallery	Contrast
+PictureCorrectionsDialog	1	button	Picture Corrections Options	1	button	Picture Corrections Options
+PictureCorrectionsMenu	1	menu	Corrections	1	menu	Corrections
+PictureCorrectionsReset	0			1	button	Reset Picture Corrections
+PictureCrop	1	toggleButton	Crop	1	toggleButton	Crop
+PictureCropAspectRatio16To10	0			1	button	16:10
+PictureCropAspectRatio16To9	0			1	button	16:09
+PictureCropAspectRatio1To1	1	button	1:1	1	button	1:01
+PictureCropAspectRatio2To3	1	button	2:3	1	button	2:03
+PictureCropAspectRatio3To2	0			1	button	3:02
+PictureCropAspectRatio3To4	0			1	button	3:04
+PictureCropAspectRatio3To5	1	button	3:5	1	button	3:05
+PictureCropAspectRatio4To3	0			1	button	4:03
+PictureCropAspectRatio4To5	1	button	4:5	1	button	4:05
+PictureCropAspectRatio4To6	1	button	4:6	0
+PictureCropAspectRatio5To3	0			1	button	5:03
+PictureCropAspectRatio5To4	0			1	button	5:04
+PictureCropAspectRatioMenu	1	menu	Aspect Ratio	1	menu	Aspect Ratio
+PictureCropTools	0			1	splitButton	Crop Tools
+PictureCropToolsMenu	1	splitButton	Crop Tools	0
+PictureEdit	1	button	Edit Picture	1	button	Edit Picture
+PictureEffectsGlowGallery	1	gallery	Glow	1	gallery	Glow
+PictureEffectsMenu	1	menu	Picture Effects	1	menu	Picture Effects
+PictureEffectsPresetGallery	1	gallery	Preset	1	gallery	Preset
+PictureEffectsShadowGallery	1	gallery	Shadow	1	gallery	Shadow
+PictureEffectsSoftEdgesGallery	1	gallery	Soft Edges	1	gallery	Soft Edges
+PictureFillCrop	0			1	button	Fill
+PictureFitCrop	0			1	button	Fit
+PictureInsertFromFile	1	button	Picture	1	button	Pictures
+PictureInsertFromFilePowerPoint	1	button	Picture	1	button	Pictures
+PictureRecolorGallery	1	gallery	Recolor	1	gallery	Recolor
+PictureRecolorMoreColorsDialog	1	button	More Colors	1	button	More Colors
+PictureReflectionGallery	1	gallery	Reflection	1	gallery	Reflection
+PictureReset	1	button	Reset Picture	1	button	Reset Picture
+PictureResetAndSize	0			1	button	Reset Picture & Size
+PictureResetColor	1	button	Reset Picture Color	0
+PictureResetCorrections	1	button	Reset Picture Corrections	0
+PictureResetEffects	1	button	Reset Picture Effects	0
+PictureResetSplitButton	0			1	splitButton	Reset Picture
+PictureRotationGallery	1	gallery	3-D Rotation	1	gallery	3-D Rotation
+PictureSaturationGallery	1	gallery	Color Saturation	1	gallery	Color Saturation
+PictureSetTransparentColor	1	toggleButton	Set Transparent Color	1	toggleButton	Set Transparent Color
+PictureShapeGallery	0			1	gallery	Change Shape
+PictureSharpenSoftenGallery	1	gallery	Sharpen & Soften	1	gallery	Sharpen & Soften
+PictureStylesGallery	1	gallery	Quick Styles	1	gallery	Quick Styles
+PicturesCompress	1	button	Compress Pictures	1	button	Compress Pictures
+PicturesConvertToSmartArt	0			1	gallery	Picture Layout
+PlaceApplication	1	place		0
+PlaceDocInfo	1	place		0
+PlaceNew	1	place		0
+PlaceOpen	1	place		0
+PlacePrint	1	place		0
+PlaceShare	1	place		0
+PlaceholderOrientation	1	menu	Placeholder Orientation	1	menu	Placeholder Orientation
+PlaceholderOrientationHorizontal	1	toggleButton	Horizontal	1	toggleButton	Horizontal
+PlaceholderOrientationVertical	1	toggleButton	Vertical	1	toggleButton	Vertical
+PlayInBackground	0			1	toggleButton	Play in Background
+PlaybackTipPlay	0			1	button	Speak
+PointEraserMedium	0			1	toggleButton	Medium Eraser
+PointEraserSmall	0			1	toggleButton	Small Eraser
+PowerPointPageSetup	1	button	Page Setup	1	gallery	Slide Size
+PowerPointParagraphDialog	1	button	Paragraph	1	button (dialogBoxLauncher)	Paragraph
+PreviewAnimationMenu	1	splitButton	Preview	0
+PrintOptionsMenu	1	menu	Options	1	menu	Options
+PrintPreviewAndPrint	0			1	button	Print Preview and Print
+PrintPreviewClose	1	button	Close Print Preview	1	button	Close Print Preview
+PrintWhat	1	dropDown	Print What	1	dropDown	Print What
+PrintWhatLabel	1	labelControl	Print What	1	labelControl	Print What
+PropertySheet	1	button	Property Sheet	1	button	Property Sheet
+PublishGroup	0			1	taskFormGroup	Publishing Features
+QuickAccessToolbarCustomization	1	button	Customize Quick Access Toolbar	1	button	Customize Quick Access Toolbar
+RecolorColorPicker	1	gallery	More Variations	1	gallery	More Variations
+RecordNarration	1	button	Start Recording from Beginning	1	button	Start Recording from Beginning
+RecordNarrationFromCurrentSlide	1	button	Start Recording from Current Slide	1	button	Start Recording from Current Slide
+RecordSlideShowMenu	1	splitButton	Record Slide Show	1	splitButton	Record Slide Show
+Redo	1	gallery	Redo	1	gallery	Redo
+RedoOrRepeat	1	button	Redo	1	button	Redo
+RefTipSelectLang	1	toggleButton	Mini Translator	0
+ReflectionGallery	1	gallery	Reflection	1	gallery	Reflection
+ReflectionOptionsDialog	1	button	Reflection Options	0
+ReflectionsMoreOptions	0			1	button	Reflection Options
+RemoveAudioBookmark	1	button	Remove Bookmark	0
+RemoveVideoBookmark	1	button	Remove Bookmark	0
+ReopenFromServer	1	button	Reopen Document	1	button	Reopen Document
+ReorderAnimationLabel	1	labelControl	Reorder Animation	0
+ReplaceDialog	1	button	Replace	1	button	Replace
+ReplaceMenu	1	splitButton	Replace	1	splitButton	Replace
+ResearchPane	1	toggleButton	Research	1	toggleButton	Research
+ReviewCompareAndMerge	1	button	Compare	1	button	Compare
+ReviewDeleteAllMarkupInPresentation	1	button	Delete All Markup in the Presentation	1	button	Delete All Markup in the Presentation
+ReviewDeleteAllMarkupOnSlide	1	button	Delete All Markup on the Current Slide	1	button	Delete All Comments and Ink on This Slide
+ReviewDeleteCommentPowerPoint	1	button	Delete	1	button	Delete
+ReviewDeleteCommentsMenuPowerPoint	1	splitButton	Delete	1	splitButton	Delete
+ReviewEditComment	1	button	Edit Comment	1	button	Edit Comment
+ReviewEndReviewPowerPoint	1	button	End Review	1	button	End Review
+ReviewNewComment	1	button	New Comment	1	button	New Comment
+ReviewNextChange	1	button	Next	1	button	Next
+ReviewNextCommentPowerPoint	1	button	Next	1	button	Next
+ReviewPresentationRevisionAccept	1	button	Accept All Changes to the Presentation	1	button	Accept All Changes to the Presentation
+ReviewPresentationRevisionReject	1	button	Reject All Changes to the Presentation	1	button	Reject All Changes to the Presentation
+ReviewPreviousChange	1	button	Previous	1	button	Previous
+ReviewPreviousCommentPowerPoint	1	button	Previous	1	button	Previous
+ReviewProtectPresentationMenu	1	menu	Protect Presentation	1	menu	Protect Presentation
+ReviewReviewingPanePowerPoint	1	button	Reviewing Pane	1	toggleButton	Reviewing Pane
+ReviewRevisionAccept	1	button	Accept Change	1	button	Accept Change
+ReviewRevisionAcceptMenu	1	splitButton	Accept	1	splitButton	Accept
+ReviewRevisionReject	1	button	Reject change	1	button	Reject Change
+ReviewRevisionRejectMenu	1	splitButton	Reject	1	splitButton	Reject
+ReviewShowAllChanges	0			1	toggleButton	Show All Changes
+ReviewShowChanges	0			1	menu	Show Changes
+ReviewShowOnlyConflicts	0			1	toggleButton	Show Only Conflicts
+ReviewShowOrHideMarkup	1	toggleButton	Show Markup	1	toggleButton	Show Markup
+ReviewSlideRevisionAccept	1	button	Accept All Changes to the Current Slide	1	button	Accept All Changes to This Slide
+ReviewSlideRevisionReject	1	button	Reject All Changes to the Current Slide	1	button	Reject All Changes to This Slide
+RibbonCustomization	0			1	button	Customize the Ribbon
+Save	0			1	category	Places
+SaveAndReview	1	button	Save and Review	1	button	Save and Review
+SaveAsDiscard	1	button	Save a Copy	0
+SaveGroup	0			1	taskFormGroup	Saving Features
+ScreenClipping	1	button	Screen Clipping	1	button	Screen Clipping
+ScreenTipMoreOptions	1	button	Choose Your Translation Language	0
+ScreenshotInsertGallery	1	gallery	Screenshot	1	gallery	Screenshot
+SecondCorrectionAlternative	0			1	button	(No Suggestion)
+SectionAdd	0			1	button	Add Section
+SectionCollapseAll	1	button	Collapse All	1	button	Collapse All
+SectionDelete	0			1	button	Remove Section & Slides
+SectionExpandAll	1	button	Expand All	1	button	Expand All
+SectionMenu	1	menu	Section	1	menu	Section
+SectionMergeWithPrevious	0			1	button	Remove Section
+SectionMoveDown	0			1	button	Move Section Down
+SectionMoveUp	0			1	button	Move Section Up
+SectionRemoveAll	1	button	Remove All Sections	1	button	Remove All Sections
+SectionRename	1	button	Rename Section	1	button	Rename Section
+SelectAll	1	button	Select All	1	button	Select All
+SelectMenu	1	menu	Select	1	menu	Select
+SelectionPane	1	toggleButton	Selection Pane	1	toggleButton	Selection Pane
+SendByInstantMessage	0			1	task
+SendUsingEmail	0			1	task	Email
+SetLanguage	1	button	Editing Language	1	button	Set Proofing Language
+ShadingColorPicker	1	gallery	Shading	1	gallery	Shading
+Shadow	1	toggleButton	Shadow	1	toggleButton	Shadow
+ShadowNudgeDownClassic	1	button	Nudge Shadow Down	1	button	Nudge Shadow Down
+ShadowNudgeLeftClassic	1	button	Nudge Shadow Left	1	button	Nudge Shadow Left
+ShadowNudgeRightClassic	1	button	Nudge Shadow Right	1	button	Nudge Shadow Right
+ShadowNudgeUpClassic	1	button	Nudge Shadow Up	1	button	Nudge Shadow Up
+ShadowOnOrOffClassic	1	button	Shadow On/Off	1	button	Shadow On/Off
+ShadowOptionsDialog	1	button	Shadow Options	1	button	Shadow Options
+ShapeArc	1	toggleButton	Arc	1	toggleButton	Arc
+ShapeChangeShapeGallery	1	gallery	Change Shape	1	gallery	Change Shape
+ShapeConnectorStyleCurved	1	toggleButton	Curved Connector	1	toggleButton	Curved Connector
+ShapeConnectorStyleElbow	1	toggleButton	Elbow Connector	1	toggleButton	Elbow Connector
+ShapeConnectorStyleMenu	1	menu	Connector Types	1	menu	Connector Types
+ShapeConnectorStyleStraight	1	toggleButton	Straight Connector	1	toggleButton	Straight Connector
+ShapeConvertToFreeform	1	button	Convert to Freeform	1	button	Convert to Freeform
+ShapeDownArrow	1	toggleButton	Down Arrow	1	toggleButton	Down Arrow
+ShapeEffectsMenu	1	menu	Shape Effects	1	menu	Shape Effects
+ShapeElbowConnector	1	toggleButton	Elbow Connector	1	toggleButton	Elbow Connector
+ShapeElbowConnectorArrow	1	toggleButton	Elbow Arrow Connector	1	toggleButton	Elbow Arrow Connector
+ShapeFillColorPicker	1	gallery	Shape Fill	1	gallery	Shape Fill
+ShapeFillMoreGradientsDialog	1	button	More Gradients	1	button	More Gradients
+ShapeFillTextureGallery	1	gallery	Texture	1	gallery	Texture
+ShapeHeight	1	control	Height	1	control	Height
+ShapeIsoscelesTriangle	1	toggleButton	Isosceles Triangle	1	toggleButton	Isosceles Triangle
+ShapeLeftBrace	1	toggleButton	Left Brace	1	toggleButton	Left Brace
+ShapeOutlineColorPicker	0			1	gallery	Picture Border
+ShapeOval	1	toggleButton	Oval	1	toggleButton	Oval
+ShapeQuickStylesHome	0			1	gallery	Quick Styles
+ShapeRectangle	1	toggleButton	Rectangle	1	toggleButton	Rectangle
+ShapeRerouteConnectors	1	toggleButton	Reroute Connectors	1	toggleButton	Reroute Connectors
+ShapeRightArrow	1	toggleButton	Right Arrow	1	toggleButton	Right Arrow
+ShapeRightBrace	1	toggleButton	Right Brace	1	toggleButton	Right Brace
+ShapeRoundedRectangle	1	toggleButton	Rounded Rectangle	1	toggleButton	Rounded Rectangle
+ShapeRoundedRectangularCallout	1	toggleButton	Rounded Rectangular Callout	1	toggleButton	Rounded Rectangular Callout
+ShapeStar	1	toggleButton	5-Point Star	1	toggleButton	5-Point Star
+ShapeStraightConnector	1	toggleButton	Straight Connector	1	toggleButton	Straight Connector
+ShapeStraightConnectorArrow	1	toggleButton	Straight Arrow Connector	1	toggleButton	Straight Arrow Connector
+ShapeStylesGallery	1	gallery	Quick Styles	1	gallery	Quick Styles
+ShapeStylesOtherThemeFillsGallery	1	gallery	Other Theme Fills	1	gallery	Other Theme Fills
+ShapeWidth	1	control	Width	1	control	Width
+ShapesCombine	0			1	button	Combine
+ShapesFragment	0			1	button	Fragment
+ShapesInsertGallery	1	gallery	Shapes	1	gallery	Shapes
+ShapesIntersect	0			1	button	Intersect
+ShapesMoreShapes	1	button	More AutoShapes	1	button	More AutoShapes
+ShapesSubtract	0			1	button	Subtract
+ShapesUnion	0			1	button	Union
+Share	0			1	category	Send
+ShareNotesWithMeeting	0			1	button	Share Notes with Meeting
+ShareWithNetwork	0			1	task	Post to Social Networks
+ShareWithPeople	0			1	task	Invite People
+ShowAllChanges	1	toggleButton	Show All Changes	0
+ShowChanges	1	menu	Show Changes	0
+ShowClipboard	1	button	Office Clipboard	1	button (dialogBoxLauncher)	Office Clipboard
+ShowCommentsMenu	0			1	splitButton	Show Comments
+ShowMediaControls	1	checkBox	Show Media Controls	0
+ShowNotes	0			1	toggleButton	Notes
+ShowOnlyConflicts	1	toggleButton	Show Only Conflicts	0
+SkyDriveUpsellGroup	0			1	group
+SlabCachedMergableReadOnly	1	slab		0
+SlabCachedOfflineReadOnly	1	slab		0
+SlabCachedReadOnly	1	slab		0
+SlabCheckin	1	slab		0
+SlabCheckoutRequiredReadOnly	1	slab		0
+SlabClickToRunUpdateStatus	1	slab		0
+SlabCompressMedia	1	slab		0
+SlabContactMicrosoft	1	buttonSlab		0
+SlabConvertDocument	1	slab		0
+SlabDisabledContent	1	slab		0
+SlabDocCoauthors	1	slab		0
+SlabDocLocation	1	slab		0
+SlabDocPermissions	1	slab		0
+SlabDocProperties	1	slab		0
+SlabDocUpdatesAvailable	1	slab		0
+SlabDocUploadError	1	slab		0
+SlabDocUploadErrorSingle	1	slab		0
+SlabDocVersions	1	slab		0
+SlabDocumentThumbnail	1	slab		0
+SlabFinalize	1	slab		0
+SlabGenericReadOnly	1	slab		0
+SlabGettingStartedMRU	1	slab		0
+SlabMaximizePlayback	1	slab		0
+SlabNoteboard	1	slab		0
+SlabOfflineReadOnly	1	slab		0
+SlabPolicyWarning	1	slab		0
+SlabPrepareForDistribution	1	slab		0
+SlabPrintPreview	1	slab		0
+SlabPrintSettings	1	slab		0
+SlabSecureReader	1	slab		0
+SlabServerReadOnly	1	slab		0
+SlabShare	1	formButtonSlab		0
+SlabWorkflows	1	slab		0
+SlideBackgroundFormatDialog	1	button	Format Background	1	button	Format Background
+SlideBackgroundHideGraphics	1	checkBox	Hide Background Graphics	1	checkBox	Hide Background Graphics
+SlideBackgroundReset	1	button	Reset Slide Background	1	button	Reset Slide Background
+SlideBackgroundStylesGallery	1	gallery	Background Styles	1	gallery	Background Styles
+SlideDelete	1	button	Delete	1	button	Delete
+SlideHide	1	toggleButton	Hide Slide	1	toggleButton	Hide Slide
+SlideLayoutGallery	1	gallery	Layout	1	gallery	Layout
+SlideMasterChartPlaceholderInsert	1	button	Chart	1	button	Chart
+SlideMasterClipArtPlaceholderInsert	1	button	Clip Art	1	button	Online Image
+SlideMasterContentPlaceholderInsert	1	button	Content	1	button	Content
+SlideMasterDiagramPlaceholderInsert	1	button	SmartArt	1	button	SmartArt
+SlideMasterInsertLayout	1	button	Insert Layout	1	button	Insert Layout
+SlideMasterInsertPlaceholderMenu	1	splitButton	Insert Placeholder	1	splitButton	Insert Placeholder
+SlideMasterMasterLayout	1	button	Slide Layout	1	button	Slide Layout
+SlideMasterMediaPlaceholderInsert	1	button	Media	1	button	Media
+SlideMasterPicturePlaceholderInsert	1	button	Picture	1	button	Picture
+SlideMasterPreserveMaster	1	toggleButton	Preserve	1	toggleButton	Preserve Master
+SlideMasterRenameMaster	1	button	Rename	1	button	Rename Master
+SlideMasterShowFooters	1	checkBox	Footers	1	checkBox	Footers
+SlideMasterShowTitle	1	checkBox	Title	1	checkBox	Title
+SlideMasterTablePlaceholderInsert	1	button	Table	1	button	Table
+SlideMasterTextPlaceholderInsert	1	button	Text	1	button	Text
+SlideMasterVerticalContentPlaceholderInsert	1	button	Content (Vertical)	1	button	Content (Vertical)
+SlideMasterVerticalTextPlaceholderInsert	1	button	Text 	1	button	Text (Vertical)
+SlideNew	1	button	New Slide	1	button	New Slide
+SlideNewGallery	1	gallery	New Slide	1	gallery	New Slide
+SlideOrientationGallery	1	gallery	Slide Orientation	0
+SlideReset	1	button	Reset	1	button	Reset Slide
+SlideShowClearAllSlidesNarrations	1	button	Clear Narrations on All Slides	1	button	Clear Narrations on All Slides
+SlideShowClearAllSlidesTimings	1	button	Clear Timings on All Slides	1	button	Clear Timings on All Slides
+SlideShowClearCurrentSlideNarration	1	button	Clear Narration on Current Slide	1	button	Clear Narration on Current Slide
+SlideShowClearCurrentSlideTiming	1	button	Clear Timing on Current Slide	1	button	Clear Timing on Current Slide
+SlideShowClearMenu	0			1	menu	Clear
+SlideShowCustom	1	button	Custom Slide Show	1	button	Custom Slide Show
+SlideShowCustomMenu	1	menu	Custom Slide Show	1	menu	Custom Slide Show
+SlideShowFromBeginning	1	button	From Beginning	1	button	From Beginning
+SlideShowFromCurrent	1	button	From Current Slide	1	button	From Current Slide
+SlideShowInAWindow	1	button	Slide Show in a Window	1	button	Slide Show in a Window
+SlideShowNextSlide	1	button	Next	1	button	Next
+SlideShowPlayNarrations	1	checkBox	Play Narrations	1	checkBox	Play Narrations
+SlideShowPreviousSlide	1	button	Previous	1	button	Previous
+SlideShowRehearseTimings	1	button	Rehearse Timings	1	button	Rehearse Timings
+SlideShowResolutionGallery	1	dropDown	Resolution	1	dropDown	Resolution
+SlideShowResumeShow	1	button	Resume Slide Show	1	button	Resume Slide Show
+SlideShowSetUpDialog	1	button	Set Up Slide Show	1	button	Set Up Slide Show
+SlideShowShowPresentationOnGallery	1	dropDown	Show On	1	dropDown	Monitor
+SlideShowUsePresenterView	1	checkBox	Use Presenter View	1	checkBox	Use Presenter View
+SlideShowUseRehearsedTimings	1	checkBox	Use Timings	1	checkBox	Use Timings
+SlideShowVolume	1	gallery	Slide Show Volume	1	gallery	Slide Show Volume
+SlideSyncMenu	0			1	menu	Check for Updates
+SlideThemesGallery	1	gallery	Themes	1	gallery	Themes
+SlideTransitionApplyToAll	1	button	Apply To All	1	button	Apply To All
+SlideTransitionAutomaticallyAfter	1	checkBox	After	1	checkBox	After
+SlideTransitionOnMouseClick	1	checkBox	On Mouse Click	1	checkBox	On Mouse Click
+SlidesFromOutline	1	button	Slides from Outline	1	button	Slides from Outline
+SlidesPerPage1Slide	1	toggleButton	1 Slide	1	toggleButton	1 Slide
+SlidesPerPage2Slides	1	toggleButton	2 Slides	1	toggleButton	2 Slides
+SlidesPerPage3Slides	1	toggleButton	3 Slides	1	toggleButton	3 Slides
+SlidesPerPage4Slides	1	toggleButton	4 Slides	1	toggleButton	4 Slides
+SlidesPerPage6Slides	1	toggleButton	6 Slides	1	toggleButton	6 Slides
+SlidesPerPage9Slides	1	toggleButton	9 Slides	1	toggleButton	9 Slides
+SlidesPerPageGallery	1	menu	Slides Per Page	1	menu	Slides Per Page
+SlidesPerPageSlideOutline	1	toggleButton	Slide Outline	1	toggleButton	Slide Outline
+SlidesReuseSlides	1	toggleButton	Reuse Slides	1	toggleButton	Reuse Slides
+SlideshowBroadcastMenu	0			1	splitButton	Present Online
+SmartArtAddAssistant	1	button	Add Assistant	1	button	Add Assistant
+SmartArtAddBullet	1	button	Add Bullet	1	button	Add Bullet
+SmartArtAddShape	1	button	Add Shape	1	button	Add Shape
+SmartArtAddShapeAbove	1	button	Add Shape Above	1	button	Add Shape Above
+SmartArtAddShapeAfter	1	button	Add Shape After	1	button	Add Shape After
+SmartArtAddShapeBefore	1	button	Add Shape Before	1	button	Add Shape Before
+SmartArtAddShapeBelow	1	button	Add Shape Below	1	button	Add Shape Below
+SmartArtAddShapeMenu	1	menu	Add Shape	1	menu	Add Shape
+SmartArtAddShapeSplitMenu	1	splitButton	Add Shape Options	1	splitButton	Add Shape Options
+SmartArtChangeColorsGallery	1	gallery	Change Colors	1	gallery	Change Colors
+SmartArtChangeLayout	1	button	Change Layout	1	button	Change Layout
+SmartArtConvedrtToText	0			1	button	Convert to Text
+SmartArtConvertToShapes	0			1	button	Convert to Shapes
+SmartArtDemote	1	button	Demote	1	button	Demote
+SmartArtEditIn2D	1	toggleButton	Edit in 2-D	1	toggleButton	Edit in 2-D
+SmartArtInsert	1	button	SmartArt	1	button	SmartArt
+SmartArtLargerShape	1	button	Larger	1	button	Larger
+SmartArtLayoutGallery	1	gallery	Change Layout	1	gallery	Change Layout
+SmartArtMoreLayoutsDialog	1	button	More Layouts	1	button	More Layouts
+SmartArtOrganizationChartBoth	1	button	Both	1	button	Both
+SmartArtOrganizationChartLeftHanging	1	button	Left Hanging	1	button	Left Hanging
+SmartArtOrganizationChartMenu	1	menu	Layout	1	menu	Layout
+SmartArtOrganizationChartRightHanging	1	button	Right Hanging	1	button	Right Hanging
+SmartArtOrganizationChartStandard	1	button	Standard	1	button	Standard
+SmartArtPromote	1	button	Promote	1	button	Promote
+SmartArtRecolorImages	1	toggleButton	Recolor Pictures in SmartArt Diagram	1	toggleButton	Recolor Pictures in SmartArt Graphic
+SmartArtReorderDown	1	button	Reorder Down	1	button	Move Down
+SmartArtReorderUp	1	button	Reorder Up	1	button	Move Up
+SmartArtResetGraphic	1	button	Reset Graphic	1	button	Reset Graphic
+SmartArtResetShape	1	button	Reset Shape	1	button	Reset Shape
+SmartArtRightToLeft	1	toggleButton	Right to Left	1	toggleButton	Right to Left
+SmartArtSmallerShape	1	button	Smaller	1	button	Smaller
+SmartArtStylesGallery	1	gallery	Quick Styles	1	gallery	Quick Styles
+SmartArtTextPane	1	toggleButton	Text Pane	1	toggleButton	Text Pane
+SmartTagOptions	0			1	button	Options
+SmoothVertex	1	toggleButton	Smooth Point	1	toggleButton	Smooth Point
+SnapToGrid	1	toggleButton	Snap to Grid	1	toggleButton	Snap to Grid
+SnapToShapes	1	toggleButton	Snap to Shape	1	toggleButton	Snap to Shape
+SoftEdgesMoreOptions	0			1	button	Soft Edges Options
+SoftEdgesOptionsDialog	1	button	Soft Edges Options	0
+SoundInsertFromClipOrganizer	1	button	Audio from Clip Organizer	1	button	Online Audio
+SoundInsertFromFile	1	button	Audio from File	1	button	Audio on My PC
+SoundInsertMenu	1	splitButton	Audio	1	splitButton	Audio
+SoundInsertMenu02	0			1	menu	Audio
+SoundMaximumFileSize	1	control	Max Sound File Size (KB)	1	control	Max Sound File Size (KB)
+SoundPlaySoundGallery	1	dropDown	Play Audio	1	dropDown	Play Audio
+SoundRecord	1	button	Record Audio	1	button	Record Audio
+Spelling	1	button	Spelling	1	button	Spelling
+SpinnerAudioFadeIn	1	control	Fade In	0
+SpinnerAudioFadeOut	1	control	Fade Out	0
+SpinnerVideoFadeIn	1	control	Fade In	0
+SpinnerVideoFadeOut	1	control	Fade Out	0
+SplitCells	1	button	Split Cells	1	button	Split Cells
+StartAudioGallery	1	dropDown	Start	0
+StartInking	1	button	Start Inking	0
+StartVideoGallery	1	dropDown	Start	0
+StraightVertex	1	toggleButton	Straight Point	1	toggleButton	Straight Point
+Strikethrough	1	toggleButton	Strikethrough	1	toggleButton	Strikethrough
+Subscript	1	toggleButton	Subscript	1	toggleButton	Subscript
+SubtractShapes	1	button	Subtract	0
+Superscript	1	toggleButton	Superscript	1	toggleButton	Superscript
+SymbolInsert	1	button	Symbol	1	button	Symbol
+TabAddIns	1	tab	Add-Ins	1	tab	Add-Ins
+TabAnimations	1	tab	Animations	1	tab	Animations
+TabAudioToolsEdit	1	tab	Edit	1	tab	Playback
+TabAudioToolsFormat	1	tab	Format	1	tab	Format
+TabBackgroundRemoval	1	tab	Background Removal	1	tab	Background Removal
+TabBlackAndWhite	1	tab	Black And White	1	tab	Black And White
+TabBroadcastPresentation	1	tab	Broadcast	1	tab	Present Online
+TabCDAudioToolsOptions	1	tab	Options	1	tab	Options
+TabChartToolsDesign	1	tab	Design	1	tab	Design
+TabChartToolsDesignNew	0			1	tab	Design
+TabChartToolsFormat	1	tab	Format	1	tab	Format
+TabChartToolsFormatNew	0			1	tab	Format
+TabChartToolsLayout	1	tab	Layout	1	tab	Layout
+TabDesign	1	tab	Design	1	tab	Design
+TabDeveloper	1	tab	Developer	1	tab	Developer
+TabDrawingToolsFormat	1	tab	Format	1	tab	Format
+TabEquationToolsDesign	1	tab	Design	1	tab	Design
+TabGrayscale	1	tab	Grayscale	1	tab	Grayscale
+TabHandoutMaster	1	tab	Handout Master	1	tab	Handout Master
+TabHelp	0			1	tab	Account
+TabHome	1	tab	Home	1	tab	Home
+TabInfo	0			1	tab	Info
+TabInkToolsPens	1	tab	Pens	1	tab	Pens
+TabInsert	1	tab	Insert	1	tab	Insert
+TabMerge	1	tab	Merge	1	tab	Merge
+TabMovieToolsOptions	1	tab	Options	1	tab	Options
+TabNotesMaster	1	tab	Notes Master	1	tab	Notes Master
+TabOfficeStart	0			1	tab	New
+TabPictureToolsFormat	1	tab	Format	1	tab	Format
+TabPrint	0			1	tab	Print Preview
+TabPrintPreview	1	tab	Print Preview	1	tab	Print Preview
+TabPublish	0			1	tab	Publish
+TabRecent	0			1	tab	Open
+TabReview	1	tab	Review	1	tab	Review
+TabSave	0			1	tab	Save As
+TabSetAudioTools	1	tabSet	Audio Tools	1	tabSet	Audio Tools
+TabSetCDAudioTools	1	tabSet	CD Audio Tools	1	tabSet	CD Audio Tools
+TabSetChartTools	1	tabSet	Chart Tools	1	tabSet	Chart Tools
+TabSetDrawingTools	1	tabSet	Drawing Tools	1	tabSet	Drawing Tools
+TabSetEquationTools	1	tabSet	Equation Tools	1	tabSet	Equation Tools
+TabSetInkTools	1	tabSet	Ink Tools	1	tabSet	Ink Tools
+TabSetMovieTools	1	tabSet	Video Tools	1	tabSet	Video Tools
+TabSetPictureTools	1	tabSet	Picture Tools	1	tabSet	Picture Tools
+TabSetSmartArtTools	1	tabSet	SmartArt Tools	1	tabSet	SmartArt Tools
+TabSetSoundTools	1	tabSet	Audio Tools	1	tabSet	Audio Tools
+TabSetTableTools	1	tabSet	Table Tools	1	tabSet	Table Tools
+TabSetVideoTools	1	tabSet	Video Tools	1	tabSet	Video Tools
+TabShare	0			1	tab	Share
+TabSlideMaster	1	tab	Slide Master	1	tab	Slide Master
+TabSlideMasterHome	1	tab	Home	1	tab	Home
+TabSlideShow	1	tab	Slide Show	1	tab	Slide Show
+TabSmartArtToolsDesign	1	tab	Design	1	tab	Design
+TabSmartArtToolsFormat	1	tab	Format	1	tab	Format
+TabSoundToolsOptions	1	tab	Options	1	tab	Options
+TabTableToolsDesign	1	tab	Design	1	tab	Design
+TabTableToolsLayout	1	tab	Layout	1	tab	Layout
+TabTransitions	1	tab	Transitions	1	tab	Transitions
+TabVideoToolsDesign	1	tab	Format	1	tab	Format
+TabVideoToolsEdit	1	tab	Edit	1	tab	Playback
+TabView	1	tab	View	1	tab	View
+TableBackgroundGallery	1	gallery	Table Background	1	gallery	Table Background
+TableBackgroundPictureFill	1	button	Picture	1	button	Picture
+TableBorderColorMoreColorsDialog	1	button	More Border Colors	1	button	More Border Colors
+TableBorderPenColorPicker	1	gallery	Pen Color	1	gallery	Pen Color
+TableBordersMenu	1	splitButton	Borders	1	splitButton	Borders
+TableCellAlignBottom	1	toggleButton	Align Bottom	1	toggleButton	Align Bottom
+TableCellAlignCenterVertically	1	toggleButton	Center Vertically	1	toggleButton	Center Vertically
+TableCellAlignTop	1	toggleButton	Align Top	1	toggleButton	Align Top
+TableCellCustomMarginsDialog	1	button	Custom Margins	1	button	Custom Margins
+TableCellMarginsGallery	1	gallery	Cell Margins	1	gallery	Cell Margins
+TableColumnSelect	1	button	Select Column	1	button	Select Column
+TableColumnWidth	1	control	Width	1	control	Width
+TableColumnsDistribute	1	button	Distribute Columns	1	button	Distribute Columns
+TableColumnsGallery	1	gallery	Columns	1	gallery	Columns
+TableDelete	1	button	Delete Table	1	button	Delete Table
+TableDeleteColumns	1	button	Delete Columns	1	button	Delete Columns
+TableDeleteRows	1	button	Delete Rows	1	button	Delete Rows
+TableDeleteRowsAndColumnsMenuWord	1	menu	Delete	1	menu	Delete
+TableDrawBorderPenStyle	1	dropDown	Pen Style	1	dropDown	Pen Style
+TableDrawBorderPenWeight	1	dropDown	Pen Weight	1	dropDown	Pen Weight
+TableDrawTable	1	toggleButton	Draw Table	1	toggleButton	Draw Table
+TableEffectsCellBevelGallery	1	gallery	Cell Bevel	1	gallery	Cell Bevel
+TableEffectsMenu	1	menu	Effects	1	menu	Effects
+TableEraser	1	toggleButton	Eraser	1	toggleButton	Eraser
+TableFillColorMoreColorsDialog	1	button	More Fill Colors	1	button	More Fill Colors
+TableHeight	1	control	Height	1	control	Height
+TableInsert	1	button	Insert Table	1	button	Insert Table
+TableInsertColumnsLeft	1	button	Insert Left	1	button	Insert Left
+TableInsertColumnsRight	1	button	Insert Right	1	button	Insert Right
+TableInsertDialog	1	button	Table	1	button	Table
+TableInsertGallery	1	gallery	Table	1	gallery	Table
+TableInsertRowsAbove	1	button	Insert Above	1	button	Insert Above
+TableInsertRowsBelow	1	button	Insert Below	1	button	Insert Below
+TableLockAspectRatio	1	checkBox	Lock Aspect Ratio	1	checkBox	Lock Aspect Ratio
+TableRowHeight	1	control	Height	1	control	Height
+TableRowSelect	1	button	Select Row	1	button	Select Row
+TableRowsDistribute	1	button	Distribute Rows	1	button	Distribute Rows
+TableSelect	1	button	Select Table	1	button	Select Table
+TableSelectMenuPowerPoint	1	menu	Select	1	menu	Select
+TableSetLeftToRight	1	toggleButton	Set Left-to-Right Table	1	toggleButton	Set Left-to-Right Table
+TableSetRightToLeft	1	toggleButton	Set Right-to-Left Table	1	toggleButton	Set Right-to-Left Table
+TableShowGridlines	1	toggleButton	View Gridlines	1	toggleButton	View Gridlines
+TableStyleBandedColumnsPowerPoint	1	checkBox	Banded Columns	1	checkBox	Banded Columns
+TableStyleBandedRowsPowerPoint	1	checkBox	Banded Rows	1	checkBox	Banded Rows
+TableStyleClearTable	1	button	Clear Table	1	button	Clear Table
+TableStyleFirstColumnPowerPoint	1	checkBox	First Column	1	checkBox	First Column
+TableStyleFirstRowPowerPoint	1	checkBox	Header Row	1	checkBox	Header Row
+TableStyleLastColumnPowerPoint	1	checkBox	Last Column	1	checkBox	Last Column
+TableStyleTotalRowPowerPoint	1	checkBox	Total Row	1	checkBox	Total Row
+TableStylesGallery	1	gallery	Table Styles	1	gallery	Table Styles
+TableTextStylesGallery	0			1	gallery	Quick Styles
+TableWidth	1	control	Width	1	control	Width
+TextAlignGallery	1	gallery	Align Text	1	gallery	Align Text
+TextAlignMoreOptionsDialog	1	button	More Options	1	button	More Options
+TextBoxInsert	1	toggleButton	Text Box	1	toggleButton	Text Box
+TextBoxInsertHorizontal	1	toggleButton	Horizontal Text Box	1	toggleButton	Horizontal Text Box
+TextBoxInsertMenu	1	splitButton	Text Box	1	splitButton	Text Box
+TextBoxInsertVertical	1	toggleButton	Vertical Text Box	1	toggleButton	Vertical Text Box
+TextDirectionGallery	1	gallery	Text Direction	1	gallery	Text Direction
+TextDirectionLeftToRight	1	toggleButton	Left-to-Right	1	toggleButton	Left-to-Right
+TextDirectionMoreOptionsDialog	1	button	More Options	1	button	More Options
+TextDirectionRightToLeft	1	toggleButton	Right-to-Left	1	toggleButton	Right-to-Left
+TextEditModeExit	1	button	Exit Edit Text	1	button	Exit Edit Text
+TextEffectGlowGallery	1	gallery	Glow	1	gallery	Glow
+TextEffectShadowGallery	1	gallery	Shadow	1	gallery	Shadow
+TextEffectTransformGallery	1	gallery	Transform	1	gallery	Transform
+TextEffects3DRotationGallery	1	gallery	3-D Rotation	1	gallery	3-D Rotation
+TextEffects3DRotationOptionsDialog	1	button	3-D Rotation Options	1	button	3-D Rotation Options
+TextEffectsBevelMore3DOptionsDialog	1	button	3-D Options	1	button	3-D Options
+TextEffectsGlowsMoreOptions	0			1	button	Glow Options
+TextEffectsMenu	1	menu	Text Effects	1	menu	Text Effects
+TextEffectsMoreGlowsDialog	1	button	Glow Options	0
+TextEffectsMoreReflectionsDialog	1	button	Reflection Options	0
+TextEffectsMoreShadowsDialog	1	button	Shadow Options	1	button	Shadow Options
+TextEffectsReflectionsMoreOptions	0			1	button	Reflection Options
+TextFillColorMoreColorsDialog	1	button	More Fill Colors	1	button	More Fill Colors
+TextFillColorPicker	1	gallery	Text Fill	1	gallery	Text Fill
+TextFillGradientGallery	1	gallery	Gradient	1	gallery	Gradient
+TextFillMoreGradientsDialog	1	button	More Gradients	1	button	More Gradients
+TextFillMoreTextures	1	button	More Textures	1	button	More Textures
+TextFillTextureGallery	1	gallery	Texture	1	gallery	Texture
+TextGlowColorMoreColorsDialog	1	button	More Colors	1	button	More Colors
+TextGlowColorPicker	1	gallery	More Glow Colors	1	gallery	More Glow Colors
+TextOutlineColorMoreColorsDialog	1	button	More Outline Colors	1	button	More Outline Colors
+TextOutlineColorPicker	1	gallery	Text Outline	1	gallery	Text Outline
+TextOutlineDashesGallery	1	gallery	Dashes	1	gallery	Dashes
+TextOutlineMoreLinesDialog	1	button	More Lines	1	button	More Lines
+TextOutlineWeightGallery	1	gallery	Weight	1	gallery	Weight
+TextPictureFill	1	button	Picture	1	button	Picture
+TextReflectionGallery	1	gallery	Reflection	1	gallery	Reflection
+TextStylesGallery	1	gallery	Quick Styles	1	gallery	Quick Styles
+ThemeBrowseForThemesPowerPoint	1	button	Browse for Themes	1	button	Browse for Themes
+ThemeColorsCreateNew	1	button	Create New Theme Colors	1	button	Customize Colors
+ThemeColorsGallery	1	gallery	Colors	1	gallery	Colors
+ThemeColorsReset	1	button	Reset Slide Theme Colors	1	button	Reset Slide Theme Colors
+ThemeEffectsGallery	1	gallery	Effects	1	gallery	Effects
+ThemeFontsCreateNew	1	button	Create New Theme Fonts	1	button	Customize Fonts
+ThemeFontsGallery	1	gallery	Fonts	1	gallery	Fonts
+ThemeSaveCurrentPowerPoint	1	button	Save Current Theme	1	button	Save Current Theme
+ThemeSearchOfficeOnlinePowerPoint	1	button	Enable Content Updates from Office Online	1	button	Enable Content Updates from Office.com
+ThemeVariantsGallery	0			1	gallery	Variants
+Thesaurus	1	button	Thesaurus	1	button	Thesaurus
+ThirdCorrectionAlternative	0			1	button	(No Suggestion)
+TogglePointerMode	0			1	toggleButton	Touch Mode
+TransitionDuration	1	control	Duration	1	control	Duration
+TransitionPreview	1	button	Preview	1	button	Preview
+TransitionSoundLoopUntilNextSound	1	toggleButton	Loop Until Next Sound	1	toggleButton	Loop Until Next Sound
+TransitionTimeAutomaticallyAfter	1	control	After	1	control	After
+Translate	1	button	Translate	1	button	Translate
+TranslateMenu	0			1	menu	Translate
+TranslateRibbonMenu	1	menu	Translate	0
+TranslateSelected	0			1	button	Translate
+TranslateToSimplifiedChinese	1	button	Simplified	1	button	Simplified
+TranslateToTraditionalChinese	1	button	Traditional	1	button	Traditional
+TranslationLanguageOptions	0			1	button	Choose Translation Language
+Underline	1	toggleButton	Underline	1	toggleButton	Underline
+Undo	1	gallery	Undo	1	gallery	Undo
+UpgradeDocument	0			1	button	Convert
+UpgradePresentation	1	button	Convert	1	button	Convert
+UsagePermissions	0			1	button	View Permission
+VideoBookmarkAdd	0			1	button	Add Bookmark
+VideoBookmarkRemove	0			1	button	Remove Bookmark
+VideoBorderGallery	0			1	gallery	Picture Border
+VideoColorDialog	0			1	button	Picture Color Options
+VideoColorMenu	0			1	menu	Color
+VideoCorrectionsDialog	0			1	button	Picture Corrections Options
+VideoCorrectionsMenu	0			1	menu	Corrections
+VideoCrop	0			1	toggleButton	Crop
+VideoDesignResetAndSize	0			1	button	Reset Design & Size
+VideoDesignResetSplitButton	0			1	splitButton	Reset Design
+VideoEffectsGallery	1	menu	Video Effects	1	menu	Video Effects
+VideoFadeInTime	0			1	control	Fade In
+VideoFadeOutTime	0			1	control	Fade Out
+VideoHeight	0			1	control	Height
+VideoInsert	0			1	button	Video on My PC
+VideoInsertFromOnline	0			1	button	Video from Web Site
+VideoPosterFrameCurrent	1	button	Use Current Frame	1	button	Current Frame
+VideoPosterFrameFromFile	1	button	Image from File	1	button	Image from File
+VideoPosterFrameGallery	1	splitButton	Set Poster Frame	1	menu	Poster Frame
+VideoPosterFrameReset	1	button	Reset	1	button	Reset
+VideoShapeGallery	0			1	gallery	Change Shape
+VideoStartGallery	0			1	dropDown	Start
+VideoStylesGallery	1	gallery	Video Styles	1	gallery	Video Styles
+VideoToolsDesignReset	1	button	Reset Design	1	button	Reset Design
+VideoToolsTrim	1	button	Trim Video	1	button	Trim Video
+VideoVolumeGallery	1	gallery	Volume	1	gallery	Volume
+VideoWidth	0			1	control	Width
+ViewBackToColorView	1	toggleButton	Back To Color View	1	toggleButton	Back To Color View
+ViewDirectionLeftToRight	1	toggleButton	Left-to-Right	1	toggleButton	Left-to-Right
+ViewDirectionMenu	1	menu	View Direction	1	menu	View Direction
+ViewDirectionRightToLeft	1	toggleButton	Right-to-Left	1	toggleButton	Right-to-Left
+ViewDisplayInColor	1	toggleButton	Color	1	toggleButton	Color
+ViewDisplayInGrayscale	1	toggleButton	Grayscale	1	toggleButton	Grayscale
+ViewDisplayInHighContrast	1	toggleButton	High Contrast	1	toggleButton	High Contrast
+ViewDisplayInPureBlackAndWhite	1	toggleButton	Black and White	1	toggleButton	Black and White
+ViewFullScreenView	1	button	Full Screen	1	button	Full Screen
+ViewGridlinesPowerPoint	1	checkBox	View Gridlines	1	checkBox	View Gridlines
+ViewGuides	1	checkBox	Guides	0
+ViewHandoutMasterView	1	toggleButton	Handout Master	1	toggleButton	Handout Master
+ViewMessageBar	1	checkBox	Message Bar	1	checkBox	Message Bar
+ViewNormalViewPowerPoint	1	toggleButton	Normal	0
+ViewNotesMasterView	1	toggleButton	Notes Master	1	toggleButton	Notes Master
+ViewNotesPageView	1	toggleButton	Notes Page	1	toggleButton	Notes Page
+ViewOutlineView	1	toggleButton	Outline	1	toggleButton	Outline
+ViewOutlineViewPowerPoint	0			1	toggleButton	Outline View
+ViewRulerPowerPoint	1	checkBox	Ruler	1	checkBox	Ruler
+ViewSlideMasterView	1	toggleButton	Slide Master	1	toggleButton	Slide Master
+ViewSlideShowReadingView	1	button	Reading View	1	button	Reading View
+ViewSlideShowView	1	button	Slide Show	1	button	Slide Show
+ViewSlideSorterView	1	toggleButton	Slide Sorter	1	toggleButton	Slide Sorter
+ViewSlideView	1	toggleButton	Slide	1	toggleButton	Slide
+ViewThumbnailViewPowerPoint	0			1	toggleButton	Normal
+ViewVisualBasicCode	1	button	View Code	1	button	View Code
+VisualBasic	1	button	Visual Basic	1	button	Visual Basic
+WebGoBack	1	button	Back	1	button	Back
+WebGoForward	1	button	Forward	1	button	Forward
+WebOptionsDialog	1	button	Web Options	1	button	Web Options
+WebPagePreview	1	button	Web Page Preview	1	button	Web Page Preview
+WindowClose	1	button	Close	1	button	Close
+WindowFitToPage	1	button	Fit to Page	1	button	Fit to Page
+WindowMinimize	1	button	Minimize	1	button	Minimize
+WindowMoreWindowsDialog	1	toggleButton	More Windows	1	toggleButton	More Windows
+WindowMoveSplit	1	button	Move Split	1	button	Move Split
+WindowNew	1	button	New Window	1	button	New Window
+WindowRestore	1	button	Restore	1	button	Restore
+WindowSwitchWindowsMenuPowerPoint	1	menu	Switch Windows	1	menu	Switch Windows
+WindowsArrangeAll	1	button	Arrange All	1	button	Arrange All
+WindowsCascade	1	button	Cascade	1	button	Cascade
+WordArtClear	1	button	Clear WordArt	1	button	Clear WordArt
+WordArtFormatDialog	1	button	Format Text Effects	1	button	Format Text Effects
+WordArtInsertGallery	1	gallery	WordArt	1	gallery	WordArt
+WordArtVerticalText	1	button	Vertical Text	1	button	Vertical Text
+Workflow	0			1	category
+WorkflowStart	0			1	task
+WorkflowsUnavailable	0			1	task
+ZoomClassic	1	gallery	Zoom	1	gallery	Zoom
+ZoomDialog	1	button	Zoom	1	button	Zoom
+ZoomFitToWindow	1	button	Fit to Window	1	button	Fit to Window
