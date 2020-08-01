@@ -15,6 +15,7 @@ Public Const MODULE_NOT_EMPTY_DUMMY As String = vbNullString
 '=============================================================================================================================
 '
 '
+'20200801 - v018 - Bump
 '20190905 - v017 - Bump
     ' FIXED - %008 - Fix source aexlgit default source folder to C:\ae\adaept.com\aexlgit\src\
 '20190805 - v016 -
